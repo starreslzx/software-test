@@ -1,0 +1,58 @@
+{
+  "Complex.js": [
+    "mutant-12b073a6e5f94f80601e7b79df8231cadf279625",
+    "mutant-c3d434533cfdd42aabd623b3b7eeec1784599a6d",
+    "mutant-dd8276ff4dc62d82c4638ffc802f71139bca4bf5",
+    "mutant-2612020ec85efa45c3e01ce6bcb669daf49efc8f",
+    "mutant-61eed2dff6cff3a09025a2fb5e5c4ab2120780ff"
+  ],
+  "countries-and-timezones": [
+    "mutant-45020db3cfa35f1bb5f9504ac1cd19676e3e36f1",
+    "mutant-36f4edabd153ee3cf9856882c57848de4136d373",
+    "mutant-83721f15f6f0601eac3e47c5ad597740ee3febed"
+  ],
+  "crawler-url-parser": [
+    "mutant-497dce451cf7e0cff7449a4efa6cd232e4355b95",
+    "mutant-894c2545f4b269820c3eb929b19bd17f995474ad",
+    "mutant-8f65af9949893091d2738fa03420ca0e5345f8b7",
+    "mutant-e99b7e5a4cb6d409b1cca3fca756ad3ce6955151"
+  ],
+  "delta": [
+    "mutant-7978ad20879c6b132458cf400ce0772d706b9f8b"
+  ],
+  "image-downloader": [
+    "mutant-db182e48c04d797286bf424bba3e1b768b20521a"
+  ],
+  "node-dirty": [
+    "mutant-47144d2dc39e283911f3b43180c3daa15e5813e5",
+    "mutant-e860c46d7ef044cc6f7fbc9355f1be2a52b1fb6c"
+  ],
+  "node-geo-point": [
+    "mutant-60699c637b9aff03015a43b25dafb8b1a6fc7c7e"
+  ],
+  "node-jsonfile": [
+    "mutant-3b7b12c36ac09b20d81b701ecda307b37234ab7a",
+    "mutant-d9833fc549bd3f21e8a380056a9a37aad6e15de9"
+  ],
+  "plural": [
+    "mutant-30f769ee44d2aa471b465525e55acbbdb48c8249",
+    "mutant-57409fb837d495d06a2f8ce194e7a47eb1f55fbd"
+  ],
+  "pull-stream": [
+    "mutant-1de6e6e01311f64a9ccc94853531156fd9e8894d",
+    "mutant-8303b1ee6abe6379f38603bb827f1f4f83b6f97d"
+  ],
+  "q": [
+    "mutant-bb4d5fbf9eefe1d793ad49aab2cc82ae3f5aaf19",
+    "mutant-e989130e6e8fa176d0156ba7ca2e355b3eef9df8"
+  ],
+  "spacl-core": [
+    "mutant-affd8444cb09cd4cd82503884099ef0ca8d63ac8",
+    "mutant-022b0655d4872be52bf596c6db8ca42a9014421b",
+    "mutant-5c543f7dd5c1b55d1a604fe6543bf6378b3679fb"
+  ],
+  "zip-a-folder": [
+    "mutant-2c633d09b132a6096aa267e1fe80021d877e8c0c",
+    "mutant-cf7ede4d37ba41c5f1e8115563ff0ae79bd0a0d8"
+  ]
+}

@@ -57,8 +57,11 @@
 │   ├── mutant_summary.csv           # 每个组、每个变异体一行
 │   └── comparison.csv               # 组级汇总指标
 ├── figures/
+├── pdf/                            # 论文及相关 PDF
 └── final_presentation/
 ```
+
+以上目录已建立；除 `data/focus30.json` 外，示例中的文件由相关成员后续生成。`gold_labels.csv` 不应在 E 组提交预测前放入公开仓库，请先在仓库外保存。PDF 文件放入 `pdf/`。
 
 每个实验目录按以下结构提交：
 
