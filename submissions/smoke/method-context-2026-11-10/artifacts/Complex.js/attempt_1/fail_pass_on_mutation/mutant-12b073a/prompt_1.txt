@@ -1,0 +1,32 @@
+Your task is to write a Jest test case that exposes a specific mutation in a JavaScript/TypeScript project.
+
+MUTATION DETAILS
+The mutation affects the following file:
+complex.js
+Here is the containing function (shown with a <PLACEHOLDER> marker):
+  var sinh = Math.sinh || function(x) {
+    <PLACEHOLDER>
+  };
+In the original code, <PLACEHOLDER> has the value:
+
+-       return Math.abs(x) < 1e-9 ? x : (Math.exp(x) - Math.exp(-x)) * 0.5;
+In the mutated code, <PLACEHOLDER> has the value:
+
++       return Math.abs(x) < 1e-9 ? x : (Math.exp(x) - Math.exp(-x)) / 0.5;
+
+
+YOUR TASK
+Write one Jest test file that:
+    1. Passes when run against the original code.
+    2. Fails when run against the mutated code.
+    3. Tests the behavior of the mutated file in a way that reliably detects the mutation.
+The test will be saved at the following path, relative to this test-generation project’s root:
+generated_tests\method-smoke\deepseek-flash\temp_0.5\withoutTests\2026-11-10_20-03\artifacts\Complex.js\attempt_1\pending_category\mutant-12b073a\testCase.test.ts
+
+ALLOWED LIBRARIES
+You may use:
+    1. Any built-in Node.js modules (e.g., fs, path, crypto, etc.).
+    
+You may not use any other third-party libraries.
+
+

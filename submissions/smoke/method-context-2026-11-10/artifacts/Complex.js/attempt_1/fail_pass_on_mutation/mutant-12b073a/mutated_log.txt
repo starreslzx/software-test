@@ -1,0 +1,9 @@
+PASS generated_tests/method-smoke/deepseek-flash/temp_0.5/withoutTests/2026-11-10_20-03/artifacts/Complex.js/attempt_1/pending_category/mutant-12b073a/testCase.test.ts
+  Complex sinh behavior
+    √ computes sinh correctly for a large positive value (3 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.251 s, estimated 3 s
+Ran all test suites within paths "D:\study\software-test\LLMutantKiller___Artifact\source-code\generated_tests\method-smoke\deepseek-flash\temp_0.5\withoutTests\2026-11-10_20-03\artifacts\Complex.js\attempt_1\pending_category\mutant-12b073a\testCase.test.ts".
