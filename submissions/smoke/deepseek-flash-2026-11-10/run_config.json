@@ -1,0 +1,23 @@
+{
+  "purpose": "single-mutant smoke test; not a formal group result",
+  "model": "deepseek-flash",
+  "provider": "DeepSeek API",
+  "thinking": {
+    "type": "disabled"
+  },
+  "temperature": 0.5,
+  "attempts": 1,
+  "timeout_seconds": 300,
+  "artifact_cache_enabled": false,
+  "network_retries": 0,
+  "with_tests": false,
+  "platform": "Windows host, Node v24.19.0, npm 11.17.0",
+  "official_container": "not used; Node 20.19.4 container build blocked by registry connectivity",
+  "artifact_commit": "ec7b46370e63035ae3229bf7a89e3737c005ab9a",
+  "subject": "zip-a-folder",
+  "subject_main_commit": "d2ea465b20dc33cf8c98c58a7acaf875c586c3e1",
+  "mutant_id": "mutant-2c633d09b132a6096aa267e1fe80021d877e8c0c",
+  "sample_file": "data/focus30.json",
+  "modification": "ChatClient adds thinking.type=disabled when DEEPSEEK_NON_THINKING=true",
+  "api_calls": 2
+}

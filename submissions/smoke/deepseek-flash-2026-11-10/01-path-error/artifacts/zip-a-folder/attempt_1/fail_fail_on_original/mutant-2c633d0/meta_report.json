@@ -1,0 +1,10 @@
+{
+  "project": "zip-a-folder",
+  "mutationShortId": "mutant-2c633d0",
+  "attempt": 1,
+  "category": "fail_fail_on_original",
+  "elapsedSeconds": 59,
+  "tokensIn": 1822,
+  "tokensOut": 311,
+  "address": "..\\docker_output\\smoke-deepseek\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-10_09-19\\artifacts\\zip-a-folder\\attempt_1\\fail_fail_on_original\\mutant-2c633d0"
+}
