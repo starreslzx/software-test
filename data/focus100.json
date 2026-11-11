@@ -1,0 +1,128 @@
+{
+  "Complex.js": [
+    "mutant-f9e9146d2ce2a7cff993f7b6594979590884ac19",
+    "mutant-f7d009c239f6c3b32a7383d2398dcdc3501470a9",
+    "mutant-b58d5f877184a21885f60dcd1dcec58091b52fb2",
+    "mutant-d85712e625cf11f81ddba1b6bb488352b899170e",
+    "mutant-8f11a4672e235e65dcc33c1eceae1f4e8c6c4090",
+    "mutant-b9e058fbdc69f2623833faf7df76b2eacf19502c",
+    "mutant-ed38344aafbb931f4d447df9f13029df9a202521",
+    "mutant-fdf297bd26d667aee1055dff628262da3b4a719f",
+    "mutant-33966027389baf6493d03a385009a2b517459212",
+    "mutant-2fa106f73f72ef1eca19baf6e33a16a170873d8d",
+    "mutant-c3d434533cfdd42aabd623b3b7eeec1784599a6d",
+    "mutant-fb78f3a7ffd046d8502f304a71bec169e51f89cb",
+    "mutant-2fa9afbf328b53e3ea107b0906e0ab606b4592e8",
+    "mutant-44bef4db9657a3a9982dbbefd79990dc14fffcf7",
+    "mutant-c8c916da5233efe837d0d664f500a451b61ba1dc",
+    "mutant-04a68d5ace3135070ea0cab6b4a7a81bcfae6553",
+    "mutant-f977050fccf87173a6112bbe79b3a855e0399330",
+    "mutant-d8fad7c5ec67ad73e2fdc94da06320c5d8d844b9",
+    "mutant-eed5f9dd25369a620d75b2662129fb19d96e2d06",
+    "mutant-374868f33aa7fc1916ced4f2e0e07a30de232dd9",
+    "mutant-da833ea5bba19cb49eb217a0215ac2cdceb6acca",
+    "mutant-15a16cdb8a94940feb1f244d7bbd43224cb58502",
+    "mutant-b2ec3fb104038ad962baad732f741db438f01b61",
+    "mutant-129bc94812ae4272de7802e351f7c35c6c0f341b"
+  ],
+  "countries-and-timezones": [
+    "mutant-36f4edabd153ee3cf9856882c57848de4136d373"
+  ],
+  "crawler-url-parser": [
+    "mutant-e99b7e5a4cb6d409b1cca3fca756ad3ce6955151",
+    "mutant-c4fa501d221c2d3f1e5480c284a852fd16341ad7",
+    "mutant-b36f4057e2c5795d2fcf8a6e0d6396221b61364c",
+    "mutant-8043845c7dd7740d6653290f1f64b670561672b5",
+    "mutant-497dce451cf7e0cff7449a4efa6cd232e4355b95",
+    "mutant-bc3e94809a1c79942ca3c118141a1b0413446600",
+    "mutant-af25bdc33a59859ee99336feead55ce73df833ce"
+  ],
+  "delta": [
+    "mutant-f48934c812007d9c6d73bda5c3443482cb13cd84",
+    "mutant-2f2fb4982fc1e93b671a4b299c23662eacb78ded",
+    "mutant-bfe4f6d11bc11943afd4b625420c564a6cc9a7c2",
+    "mutant-1b83b534a6dc753b6c799b7fa1346a3534ef32df",
+    "mutant-7cd0f61cd8b85b181cf1a8fc22458873c2411af6",
+    "mutant-f6814519b6a158321005a3c9da9a7fc1d8ccb17b",
+    "mutant-7dadc4ef9c5d2c8bc9e50470d1d3a80531321e73",
+    "mutant-66dbaca8c307b1ccdba1f9ea4e0fe999300937bd"
+  ],
+  "image-downloader": [
+    "mutant-bd610800e80aa6809a799c7f9e9a4e66dc1a4062"
+  ],
+  "node-dirty": [
+    "mutant-9a3bb962bcbabd55c813e5f18b7349b88696ce66",
+    "mutant-7491a14b9bd042b220775643ef37aa28d2c57534",
+    "mutant-0af9d8e8192be8edd2ede3a0a7279c2319e468f5",
+    "mutant-202d0e25ffe626c01abba988afeb6019d4ce0697",
+    "mutant-1ac78620319faf8bb62027fecb3d0926c0a4e27b"
+  ],
+  "node-geo-point": [
+    "mutant-fa538a2afbfbff109e716b534fae57073bb3517b",
+    "mutant-775e92b77cd1cf6cbc9db43f35d0fd02a908109d",
+    "mutant-0d10ae74247917a073eb2366908eef343f3fe40a",
+    "mutant-13ad2162adf61a130f167f0111fda29214424bb4",
+    "mutant-7631766bf832350fd5348b4babac079fbafe02fd",
+    "mutant-7f41d2f2c0cb5e790c3c0ac497dcde9d465ef0de"
+  ],
+  "node-jsonfile": [
+    "mutant-d9833fc549bd3f21e8a380056a9a37aad6e15de9"
+  ],
+  "plural": [
+    "mutant-c94c06cad6ea84fec68c7e9fbdbc47f4344d48ab",
+    "mutant-a014dbb7f5d0093cf8d4a32cbc65a3fa28b75c3b",
+    "mutant-d5bab3b44ce8f1b2c3a04a9eb19192f0b0919a66",
+    "mutant-57409fb837d495d06a2f8ce194e7a47eb1f55fbd"
+  ],
+  "pull-stream": [
+    "mutant-8303b1ee6abe6379f38603bb827f1f4f83b6f97d",
+    "mutant-79747e0566db4d5084a02333149b876178d0e347",
+    "mutant-9937593d12390e011891a29f14d96cf598c3d845",
+    "mutant-9c883ef66fdb290efc21c2c6eb17a4fbc3ee8d1d",
+    "mutant-b35effea2f2729ce704086e63a941897c4cfbd4b",
+    "mutant-bc61ada07e43139c2b15af42d058e89eb8706107",
+    "mutant-53fc8507f382e0e4408557bb5588cb3055e0f8b8",
+    "mutant-e591fdf7784bc695e4ff2d69a41a17c4f3ed3a85",
+    "mutant-786e276301e376fced879c23a29801988b7aaa3e",
+    "mutant-cfcbab65a75444fdca9bcf63199810ad1e8602e5"
+  ],
+  "q": [
+    "mutant-1f17b8d36af7fb8b30895668a93f9d86428ca718",
+    "mutant-509589970672e2bbd243fdad2c26b82603305c6c",
+    "mutant-2dbaf611ad675c43ffb359798e9b79e8cdea0933",
+    "mutant-5b2a054416e29652dc1f5454c180aeb7b4c3abe4",
+    "mutant-c4ba1f4059f18c90a945d28949ecf147ea1c313f",
+    "mutant-c12583644f6d30a9f1f83c7e8c9a46cc1bf0d9c1",
+    "mutant-7644a72ed981ebfe4cc2cc2d4870d214b2e473d1",
+    "mutant-2ed8f4e1f8ead3b69a63fa7d07c2c5bd0b4fee90",
+    "mutant-982069b6fd8bcb0e56ab0294dea7d9dae7d89c26",
+    "mutant-c420d61f3d156a5d73ecc2b2c271458c08904c4f",
+    "mutant-c854557513bf9e79e99da48570b77692dedfefb4",
+    "mutant-08a5babce7fb60ca93053814b6df4c51690eed42",
+    "mutant-c9b03495c196a2c07578b0c3408c72a6d1c4eba3",
+    "mutant-7145248de06030ec3993700d55b35a27e382f977",
+    "mutant-0a2013762fa82de8dcb597e9b1377ebff88a99c8",
+    "mutant-e0dce9c7dd37d3dc2666ae3059a8c841fbe44d86",
+    "mutant-c369491f35f28f479e0077d0d951e3c741b93b70",
+    "mutant-f52bdbdef680c9e7ce94a1017d4a9f6ca6b64364",
+    "mutant-2b53f215b468f57a550e1ac6ac4ae725f64964a8",
+    "mutant-ec2c0fdc2c7f4d1db0febeb60bc6ff01ac7038d0",
+    "mutant-f273788e5b90bc8507fad0ffb06589f6325f582e",
+    "mutant-76329a3d81a002a6cabe0130dd91702a703e8bb0",
+    "mutant-d91c51621c33124d435b51557b8a38512c64ab4a",
+    "mutant-727d8b54c2f1bf42b1643e5c0e1fbbe625d9bab4",
+    "mutant-3f05d00be8fae8bd9272994ee167dd641b69b0eb",
+    "mutant-a392fc24976b344d1020b03a5d8c465d3e1f2870",
+    "mutant-5212880abbda7ff7afcfdc8760e4d3f58ac2abe4",
+    "mutant-ab94fe2939ab6ed3694e4d8ee17ac640dd82834b",
+    "mutant-5a5398ea9310a1c4cd733cb438dab54df0624646",
+    "mutant-b68e5f920badee955568d29932c1ebffea238ef6"
+  ],
+  "spacl-core": [
+    "mutant-5c543f7dd5c1b55d1a604fe6543bf6378b3679fb",
+    "mutant-d8f9a8089d93521d84b0ca21942ff4b8d8964e39"
+  ],
+  "zip-a-folder": [
+    "mutant-c653c55cc28015bfc3adf7b02511c20c005b3edb"
+  ]
+}

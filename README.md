@@ -10,12 +10,12 @@
 | 成员 | 负责实验 | 内容 |
 |---|---|---|
 | M01 | C | 详细反馈：最多 10 次，保留对话历史，反馈具体失败类别和执行信息 |
-| M02 | A、B | A：单次生成；B：最多 10 次独立生成，每次新对话，不提供之前的失败信息 |
+| M02 | 缩减上下文消融 | 只提供变异所在函数，保留变异位置及原始、替换代码；采用 C 组的详细反馈规则 |
 | M03 | D | 简单反馈：最多 10 次，保留对话历史，只提示未达到要求，不提供具体错误类别和日志 |
 | M04 | E | 对每个变异体二选一：输出“等价”，或提交能够杀死该变异体的测试用例 |
 | M05、M06 | 论文整理与汇报 | 不要求运行正式复现实验；负责论文内容、数据汇总、图表和汇报材料 |
 
-所有实验成员统一使用 `data/focus30.json`。不得自行修改样本 ID。
+所有实验成员统一使用 `data/focus100.json`。不得自行修改样本 ID。
 
 ## 2. 实验组定义与统一规则
 
@@ -27,6 +27,10 @@
 | D | 与 A 相同的初始 Prompt | 保留对话历史，只反馈“未达到要求，请重试” | 最多 10 |
 | E | 原始代码、变异代码及必要上下文 | 输出 `EQUIVALENT` 或 `TEST`；`TEST` 必须附测试文件 | 每个样本一次判断，可按方案执行测试 |
 
+**M02 缩减上下文消融：** 在 C 组详细反馈流程下，每个变异体最多尝试 10 次，成功后停止。初始提示只提供变异所在的最内层函数及位置标记，保留原始片段和替换片段。变异位于函数外时，提供包含变异的最小完整顶层代码单元，并在结果中注明；无法可靠定位时记录原因，不回退为完整文件。与完整文件对照组保持相同样本、模型、参数、反馈规则和验证环境；生成初始提示前确认被测仓库位于原程序 `main` 分支。
+
+M02 的消融结果使用 `group=C`，并通过 `experiment_id` 和 `run_config.json` 中的 `context_mode` 区分 `function_or_top_level` 与完整文件对照的 `full_file`；汇总时按实验编号及上下文模式分别统计，不把两者合并为同一行。顶层样本须单独标记，自动杀死结果须经人工复核。
+
 统一控制：
 - 固定模型完整 ID、API 路由、temperature、超时、项目代码版本、样本文件和测试验证规则。
 - A 组直接复用 B 组每个样本的第一次生成结果，不额外调用模型。
@@ -34,7 +38,7 @@
 - C、D 组成功后停止，最多 10 次。
 - 全部实验只做一轮。API 网络重试次数单独记录，不算作新的模型生成轮次。
 - 关闭 LLMutantKiller 的结果工件缓存（`--caching false`），避免读取旧结果。该设置与 OpenRouter/模型服务端的 Prompt 缓存不是同一个功能；服务端缓存设置也必须在各组保持一致并记录。
-- 30 个样本为精选诊断样本，不是随机总体样本。A～D 的杀死率按官方标签中的非等价样本计算；等价样本单独报告。
+- 统一样本包含 100 个变异体；解读结果时须结合实际抽样方式与项目分布。A～D 的杀死率按官方标签中的非等价样本计算；等价样本单独报告。
 
 ## 3. 仓库目录
 
@@ -42,13 +46,14 @@
 .
 ├── README.md
 ├── data/
-│   ├── focus30.json                 # 全组唯一的样本过滤文件
+│   ├── focus100.json                 # 全组唯一的样本过滤文件
 │   └── sample_manifest.csv          # 样本编号、项目、完整 mutant ID
 ├── docs/
 │   └── experiment_protocol.md       # 实验操作说明
 ├── submissions/
 │   ├── M01/C/
-│   ├── M02/A_B/
+│   ├── M02/context_ablation/      # M02 缩减上下文结果
+│   ├── M02/A_B/                   # 原 A、B 组目录
 │   ├── M03/D/
 │   └── M04/E/
 ├── evaluation/
@@ -61,7 +66,7 @@
 └── final_presentation/
 ```
 
-以上目录已建立；除 `data/focus30.json` 外，示例中的文件由相关成员后续生成。`gold_labels.csv` 不应在 E 组提交预测前放入公开仓库，请先在仓库外保存。PDF 文件放入 `pdf/`。
+以上目录已建立；除 `data/focus100.json` 外，示例中的文件由相关成员后续生成。`gold_labels.csv` 不应在 E 组提交预测前放入公开仓库，请先在仓库外保存。PDF 文件放入 `pdf/`。
 
 每个实验目录按以下结构提交：
 
@@ -139,11 +144,12 @@
   "with_tests": false,
   "feedback_mode": "detailed",
   "conversation_mode": "carry_history",
+  "context_mode": "full_file",
   "artifact_cache_enabled": false,
   "provider_prompt_cache": "enabled/disabled/unknown",
   "network_retries": 3,
   "rate_limit": "adaptive",
-  "sample_file": "data/focus30.json",
+  "sample_file": "data/focus100.json",
   "sample_sha256": "填写文件SHA-256",
   "runner_commit": "填写官方仓库代码commit",
   "subject_revisions": "填写subject仓库版本或commit记录路径",
@@ -156,9 +162,10 @@
 - `model_id` 必须填写实际模型 ID，不能只写 DeepSeek。
 - `feedback_mode` 填 `none`、`detailed` 或 `simple`。
 - `conversation_mode` 填 `fresh_each_attempt` 或 `carry_history`。
+- `context_mode`：完整文件填 `full_file`；M02 缩减上下文实验填 `function_or_top_level`。
 - `artifact_cache_enabled` 对正式实验统一为 `false`。
 - `provider_prompt_cache` 单独记录；它不等于工具的 `--caching`。
-- `subject_revisions` 记录 30 个样本对应项目的代码版本；可填写版本清单文件路径。
+- `subject_revisions` 记录 100 个样本对应项目的代码版本；可填写版本清单文件路径。
 
 ## 6. 统一调用记录：calls.csv
 
@@ -260,7 +267,7 @@ group,total_samples,non_equivalent_samples,equivalent_samples,auto_killed_non_eq
 6. 简短 `analysis.md`：说明成功数、失败数、典型案例和异常情况
 
 提交前检查：
-- 30 个样本 ID 与 `data/focus30.json` 完全一致。
+- 100 个样本 ID 与 `data/focus100.json` 完全一致。
 - 没有删除失败样本；未运行/报错也要记录。
 - Token 和费用只累计实际调用，不要把 `report.json` 中累计数据重复相加。
 - 不提交 `.env`、API Key、密码、`node_modules/`、缓存或临时文件。
