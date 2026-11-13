@@ -1,0 +1,874 @@
+{
+  "pull-stream": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-786e276": {
+            "time": 13,
+            "tokensIn": 1043,
+            "tokensOut": 333,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_1\\fail_fail_on_original\\mutant-786e276"
+          },
+          "mutant-9c883ef": {
+            "time": 9,
+            "tokensIn": 819,
+            "tokensOut": 233,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_1\\fail_fail_on_original\\mutant-9c883ef"
+          },
+          "mutant-b35effe": {
+            "time": 13,
+            "tokensIn": 826,
+            "tokensOut": 228,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_1\\fail_fail_on_original\\mutant-b35effe"
+          },
+          "mutant-bc61ada": {
+            "time": 8,
+            "tokensIn": 834,
+            "tokensOut": 147,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_1\\fail_fail_on_original\\mutant-bc61ada"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-cfcbab6": {
+            "time": 14,
+            "tokensIn": 1054,
+            "tokensOut": 188,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_1\\fail_pass_on_mutation\\mutant-cfcbab6"
+          }
+        },
+        "successful": {
+          "mutant-53fc850": {
+            "time": 15,
+            "tokensIn": 764,
+            "tokensOut": 93,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_1\\successful\\mutant-53fc850"
+          },
+          "mutant-79747e0": {
+            "time": 16,
+            "tokensIn": 1055,
+            "tokensOut": 192,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_1\\successful\\mutant-79747e0"
+          },
+          "mutant-8303b1e": {
+            "time": 85,
+            "tokensIn": 776,
+            "tokensOut": 102,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_1\\successful\\mutant-8303b1e"
+          },
+          "mutant-9937593": {
+            "time": 16,
+            "tokensIn": 1055,
+            "tokensOut": 157,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_1\\successful\\mutant-9937593"
+          },
+          "mutant-e591fdf": {
+            "time": 17,
+            "tokensIn": 1037,
+            "tokensOut": 380,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_1\\successful\\mutant-e591fdf"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_fail_on_original": {
+          "mutant-cfcbab6": {
+            "time": 129,
+            "tokensIn": 27308,
+            "tokensOut": 2719,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_10\\fail_fail_on_original\\mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_pass_on_mutation": {
+          "mutant-9c883ef": {
+            "time": 25,
+            "tokensIn": 2446,
+            "tokensOut": 449,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_2\\fail_pass_on_mutation\\mutant-9c883ef"
+          },
+          "mutant-b35effe": {
+            "time": 35,
+            "tokensIn": 2488,
+            "tokensOut": 411,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_2\\fail_pass_on_mutation\\mutant-b35effe"
+          },
+          "mutant-cfcbab6": {
+            "time": 29,
+            "tokensIn": 2372,
+            "tokensOut": 355,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_2\\fail_pass_on_mutation\\mutant-cfcbab6"
+          }
+        },
+        "successful": {
+          "mutant-786e276": {
+            "time": 31,
+            "tokensIn": 2888,
+            "tokensOut": 520,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_2\\successful\\mutant-786e276"
+          },
+          "mutant-bc61ada": {
+            "time": 25,
+            "tokensIn": 2566,
+            "tokensOut": 286,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_2\\successful\\mutant-bc61ada"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_pass_on_mutation": {
+          "mutant-9c883ef": {
+            "time": 42,
+            "tokensIn": 4365,
+            "tokensOut": 665,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_3\\fail_pass_on_mutation\\mutant-9c883ef"
+          },
+          "mutant-b35effe": {
+            "time": 49,
+            "tokensIn": 4409,
+            "tokensOut": 588,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_3\\fail_pass_on_mutation\\mutant-b35effe"
+          },
+          "mutant-cfcbab6": {
+            "time": 42,
+            "tokensIn": 3933,
+            "tokensOut": 519,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_3\\fail_pass_on_mutation\\mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_pass_on_mutation": {
+          "mutant-b35effe": {
+            "time": 68,
+            "tokensIn": 6583,
+            "tokensOut": 765,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_4\\fail_pass_on_mutation\\mutant-b35effe"
+          },
+          "mutant-cfcbab6": {
+            "time": 60,
+            "tokensIn": 5734,
+            "tokensOut": 859,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_4\\fail_pass_on_mutation\\mutant-cfcbab6"
+          }
+        },
+        "successful": {
+          "mutant-9c883ef": {
+            "time": 59,
+            "tokensIn": 6576,
+            "tokensOut": 1078,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_4\\successful\\mutant-9c883ef"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_pass_on_mutation": {
+          "mutant-cfcbab6": {
+            "time": 75,
+            "tokensIn": 7951,
+            "tokensOut": 1177,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_5\\fail_pass_on_mutation\\mutant-cfcbab6"
+          }
+        },
+        "successful": {
+          "mutant-b35effe": {
+            "time": 82,
+            "tokensIn": 9010,
+            "tokensOut": 926,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_5\\successful\\mutant-b35effe"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_pass_on_mutation": {
+          "mutant-cfcbab6": {
+            "time": 91,
+            "tokensIn": 10562,
+            "tokensOut": 1474,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_6\\fail_pass_on_mutation\\mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_fail_on_original": {
+          "mutant-cfcbab6": {
+            "time": 104,
+            "tokensIn": 13546,
+            "tokensOut": 1898,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_7\\fail_fail_on_original\\mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_fail_on_original": {
+          "mutant-cfcbab6": {
+            "time": 112,
+            "tokensIn": 17412,
+            "tokensOut": 2178,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_8\\fail_fail_on_original\\mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_fail_on_original": {
+          "mutant-cfcbab6": {
+            "time": 120,
+            "tokensIn": 22014,
+            "tokensOut": 2431,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_9\\fail_fail_on_original\\mutant-cfcbab6"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "delta": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-1b83b53": {
+            "time": 13,
+            "tokensIn": 4952,
+            "tokensOut": 242,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_1\\fail_fail_on_original\\mutant-1b83b53"
+          },
+          "mutant-7dadc4e": {
+            "time": 12,
+            "tokensIn": 4972,
+            "tokensOut": 155,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_1\\fail_fail_on_original\\mutant-7dadc4e"
+          },
+          "mutant-f681451": {
+            "time": 11,
+            "tokensIn": 4976,
+            "tokensOut": 120,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_1\\fail_fail_on_original\\mutant-f681451"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-bfe4f6d": {
+            "time": 27,
+            "tokensIn": 4966,
+            "tokensOut": 207,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_1\\fail_pass_on_mutation\\mutant-bfe4f6d"
+          },
+          "mutant-f48934c": {
+            "time": 76,
+            "tokensIn": 4972,
+            "tokensOut": 102,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_1\\fail_pass_on_mutation\\mutant-f48934c"
+          }
+        },
+        "successful": {
+          "mutant-2f2fb49": {
+            "time": 21,
+            "tokensIn": 1409,
+            "tokensOut": 135,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_1\\successful\\mutant-2f2fb49"
+          },
+          "mutant-66dbaca": {
+            "time": 24,
+            "tokensIn": 4974,
+            "tokensOut": 195,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_1\\successful\\mutant-66dbaca"
+          },
+          "mutant-7cd0f61": {
+            "time": 21,
+            "tokensIn": 4986,
+            "tokensOut": 128,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_1\\successful\\mutant-7cd0f61"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 140,
+            "tokensIn": 81004,
+            "tokensOut": 1541,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_10\\fail_fail_on_original\\mutant-7dadc4e"
+          },
+          "mutant-f681451": {
+            "time": 115,
+            "tokensIn": 78195,
+            "tokensOut": 1127,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_10\\fail_fail_on_original\\mutant-f681451"
+          }
+        },
+        "successful": {
+          "mutant-bfe4f6d": {
+            "time": 297,
+            "tokensIn": 116230,
+            "tokensOut": 21354,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_10\\successful\\mutant-bfe4f6d"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-1b83b53": {
+            "time": 26,
+            "tokensIn": 10843,
+            "tokensOut": 483,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_2\\fail_fail_on_original\\mutant-1b83b53"
+          },
+          "mutant-7dadc4e": {
+            "time": 28,
+            "tokensIn": 10800,
+            "tokensOut": 309,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_2\\fail_fail_on_original\\mutant-7dadc4e"
+          },
+          "mutant-f681451": {
+            "time": 24,
+            "tokensIn": 10751,
+            "tokensOut": 239,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_2\\fail_fail_on_original\\mutant-f681451"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-bfe4f6d": {
+            "time": 52,
+            "tokensIn": 10215,
+            "tokensOut": 504,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_2\\fail_pass_on_mutation\\mutant-bfe4f6d"
+          }
+        },
+        "successful": {
+          "mutant-f48934c": {
+            "time": 95,
+            "tokensIn": 10122,
+            "tokensOut": 195,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_2\\successful\\mutant-f48934c"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 43,
+            "tokensIn": 17283,
+            "tokensOut": 463,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_3\\fail_fail_on_original\\mutant-7dadc4e"
+          },
+          "mutant-bfe4f6d": {
+            "time": 63,
+            "tokensIn": 15837,
+            "tokensOut": 834,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_3\\fail_fail_on_original\\mutant-bfe4f6d"
+          },
+          "mutant-f681451": {
+            "time": 35,
+            "tokensIn": 17127,
+            "tokensOut": 350,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_3\\fail_fail_on_original\\mutant-f681451"
+          }
+        },
+        "successful": {
+          "mutant-1b83b53": {
+            "time": 54,
+            "tokensIn": 17472,
+            "tokensOut": 725,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_3\\successful\\mutant-1b83b53"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 55,
+            "tokensIn": 24421,
+            "tokensOut": 617,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_4\\fail_fail_on_original\\mutant-7dadc4e"
+          },
+          "mutant-f681451": {
+            "time": 46,
+            "tokensIn": 24090,
+            "tokensOut": 461,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_4\\fail_fail_on_original\\mutant-f681451"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-bfe4f6d": {
+            "time": 91,
+            "tokensIn": 22291,
+            "tokensOut": 962,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_4\\fail_pass_on_mutation\\mutant-bfe4f6d"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 66,
+            "tokensIn": 32214,
+            "tokensOut": 771,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_5\\fail_fail_on_original\\mutant-7dadc4e"
+          },
+          "mutant-f681451": {
+            "time": 59,
+            "tokensIn": 31640,
+            "tokensOut": 572,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_5\\fail_fail_on_original\\mutant-f681451"
+          }
+        },
+        "fail_syntax_error": {
+          "mutant-bfe4f6d": {
+            "time": 130,
+            "tokensIn": 28949,
+            "tokensOut": 9154,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_5\\fail_syntax_error\\mutant-bfe4f6d"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 80,
+            "tokensIn": 40662,
+            "tokensOut": 925,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_6\\fail_fail_on_original\\mutant-7dadc4e"
+          },
+          "mutant-bfe4f6d": {
+            "time": 144,
+            "tokensIn": 43897,
+            "tokensOut": 9558,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_6\\fail_fail_on_original\\mutant-bfe4f6d"
+          },
+          "mutant-f681451": {
+            "time": 70,
+            "tokensIn": 39777,
+            "tokensOut": 683,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_6\\fail_fail_on_original\\mutant-f681451"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 106,
+            "tokensIn": 49765,
+            "tokensOut": 1079,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_7\\fail_fail_on_original\\mutant-7dadc4e"
+          },
+          "mutant-bfe4f6d": {
+            "time": 157,
+            "tokensIn": 60292,
+            "tokensOut": 9977,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_7\\fail_fail_on_original\\mutant-bfe4f6d"
+          },
+          "mutant-f681451": {
+            "time": 81,
+            "tokensIn": 48501,
+            "tokensOut": 794,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_7\\fail_fail_on_original\\mutant-f681451"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 117,
+            "tokensIn": 59523,
+            "tokensOut": 1233,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_8\\fail_fail_on_original\\mutant-7dadc4e"
+          },
+          "mutant-f681451": {
+            "time": 92,
+            "tokensIn": 57812,
+            "tokensOut": 905,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_8\\fail_fail_on_original\\mutant-f681451"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-bfe4f6d": {
+            "time": 183,
+            "tokensIn": 77622,
+            "tokensOut": 10280,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_8\\fail_pass_on_mutation\\mutant-bfe4f6d"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 128,
+            "tokensIn": 69936,
+            "tokensOut": 1387,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_9\\fail_fail_on_original\\mutant-7dadc4e"
+          },
+          "mutant-f681451": {
+            "time": 103,
+            "tokensIn": 67710,
+            "tokensOut": 1016,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_9\\fail_fail_on_original\\mutant-f681451"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-bfe4f6d": {
+            "time": 226,
+            "tokensIn": 95331,
+            "tokensOut": 13395,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_9\\fail_pass_on_mutation\\mutant-bfe4f6d"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "crawler-url-parser": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-8043845": {
+            "time": 9,
+            "tokensIn": 2588,
+            "tokensOut": 224,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_1\\fail_fail_on_original\\mutant-8043845"
+          },
+          "mutant-b36f405": {
+            "time": 9,
+            "tokensIn": 2586,
+            "tokensOut": 131,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_1\\fail_fail_on_original\\mutant-b36f405"
+          },
+          "mutant-c4fa501": {
+            "time": 11,
+            "tokensIn": 2574,
+            "tokensOut": 195,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_1\\fail_fail_on_original\\mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-af25bdc": {
+            "time": 17,
+            "tokensIn": 2563,
+            "tokensOut": 210,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_1\\fail_pass_on_mutation\\mutant-af25bdc"
+          },
+          "mutant-e99b7e5": {
+            "time": 58,
+            "tokensIn": 2582,
+            "tokensOut": 135,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_1\\fail_pass_on_mutation\\mutant-e99b7e5"
+          }
+        },
+        "successful": {
+          "mutant-497dce4": {
+            "time": 16,
+            "tokensIn": 2543,
+            "tokensOut": 186,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_1\\successful\\mutant-497dce4"
+          },
+          "mutant-bc3e948": {
+            "time": 17,
+            "tokensIn": 2577,
+            "tokensOut": 213,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_1\\successful\\mutant-bc3e948"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_pass_on_mutation": {
+          "mutant-b36f405": {
+            "time": 115,
+            "tokensIn": 57687,
+            "tokensOut": 1390,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_10\\fail_pass_on_mutation\\mutant-b36f405"
+          },
+          "mutant-c4fa501": {
+            "time": 144,
+            "tokensIn": 55230,
+            "tokensOut": 2432,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_10\\fail_pass_on_mutation\\mutant-c4fa501"
+          },
+          "mutant-e99b7e5": {
+            "time": 221,
+            "tokensIn": 35459,
+            "tokensOut": 4646,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_10\\fail_pass_on_mutation\\mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-b36f405": {
+            "time": 18,
+            "tokensIn": 6238,
+            "tokensOut": 258,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_2\\fail_fail_on_original\\mutant-b36f405"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-af25bdc": {
+            "time": 34,
+            "tokensIn": 5412,
+            "tokensOut": 415,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_2\\fail_pass_on_mutation\\mutant-af25bdc"
+          },
+          "mutant-c4fa501": {
+            "time": 27,
+            "tokensIn": 5919,
+            "tokensOut": 373,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_2\\fail_pass_on_mutation\\mutant-c4fa501"
+          },
+          "mutant-e99b7e5": {
+            "time": 75,
+            "tokensIn": 5375,
+            "tokensOut": 288,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_2\\fail_pass_on_mutation\\mutant-e99b7e5"
+          }
+        },
+        "successful": {
+          "mutant-8043845": {
+            "time": 25,
+            "tokensIn": 6004,
+            "tokensOut": 451,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_2\\successful\\mutant-8043845"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_fail_on_original": {
+          "mutant-b36f405": {
+            "time": 26,
+            "tokensIn": 10603,
+            "tokensOut": 396,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_3\\fail_fail_on_original\\mutant-b36f405"
+          },
+          "mutant-c4fa501": {
+            "time": 37,
+            "tokensIn": 9518,
+            "tokensOut": 475,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_3\\fail_fail_on_original\\mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-e99b7e5": {
+            "time": 93,
+            "tokensIn": 8397,
+            "tokensOut": 423,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_3\\fail_pass_on_mutation\\mutant-e99b7e5"
+          }
+        },
+        "successful": {
+          "mutant-af25bdc": {
+            "time": 47,
+            "tokensIn": 8542,
+            "tokensOut": 608,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_3\\successful\\mutant-af25bdc"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_fail_on_original": {
+          "mutant-b36f405": {
+            "time": 37,
+            "tokensIn": 15714,
+            "tokensOut": 535,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_4\\fail_fail_on_original\\mutant-b36f405"
+          },
+          "mutant-c4fa501": {
+            "time": 46,
+            "tokensIn": 13935,
+            "tokensOut": 656,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_4\\fail_fail_on_original\\mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-e99b7e5": {
+            "time": 110,
+            "tokensIn": 11630,
+            "tokensOut": 558,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_4\\fail_pass_on_mutation\\mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_fail_on_original": {
+          "mutant-b36f405": {
+            "time": 48,
+            "tokensIn": 21574,
+            "tokensOut": 668,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_5\\fail_fail_on_original\\mutant-b36f405"
+          },
+          "mutant-c4fa501": {
+            "time": 56,
+            "tokensIn": 19096,
+            "tokensOut": 826,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_5\\fail_fail_on_original\\mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-e99b7e5": {
+            "time": 126,
+            "tokensIn": 15074,
+            "tokensOut": 693,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_5\\fail_pass_on_mutation\\mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_fail_on_original": {
+          "mutant-c4fa501": {
+            "time": 66,
+            "tokensIn": 24999,
+            "tokensOut": 981,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_6\\fail_fail_on_original\\mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b36f405": {
+            "time": 65,
+            "tokensIn": 28165,
+            "tokensOut": 811,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_6\\fail_pass_on_mutation\\mutant-b36f405"
+          },
+          "mutant-e99b7e5": {
+            "time": 141,
+            "tokensIn": 18729,
+            "tokensOut": 828,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_6\\fail_pass_on_mutation\\mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_pass_on_mutation": {
+          "mutant-b36f405": {
+            "time": 79,
+            "tokensIn": 34975,
+            "tokensOut": 954,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_7\\fail_pass_on_mutation\\mutant-b36f405"
+          },
+          "mutant-c4fa501": {
+            "time": 87,
+            "tokensIn": 31619,
+            "tokensOut": 1529,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_7\\fail_pass_on_mutation\\mutant-c4fa501"
+          },
+          "mutant-e99b7e5": {
+            "time": 157,
+            "tokensIn": 22595,
+            "tokensOut": 963,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_7\\fail_pass_on_mutation\\mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_fail_on_original": {
+          "mutant-b36f405": {
+            "time": 87,
+            "tokensIn": 42004,
+            "tokensOut": 1075,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_8\\fail_fail_on_original\\mutant-b36f405"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-c4fa501": {
+            "time": 111,
+            "tokensIn": 38863,
+            "tokensOut": 1922,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_8\\fail_pass_on_mutation\\mutant-c4fa501"
+          },
+          "mutant-e99b7e5": {
+            "time": 172,
+            "tokensIn": 26672,
+            "tokensOut": 1098,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_8\\fail_pass_on_mutation\\mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_fail_on_original": {
+          "mutant-c4fa501": {
+            "time": 127,
+            "tokensIn": 46576,
+            "tokensOut": 2330,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_9\\fail_fail_on_original\\mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b36f405": {
+            "time": 101,
+            "tokensIn": 49736,
+            "tokensOut": 1218,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_9\\fail_pass_on_mutation\\mutant-b36f405"
+          },
+          "mutant-e99b7e5": {
+            "time": 189,
+            "tokensIn": 30960,
+            "tokensOut": 1233,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_9\\fail_pass_on_mutation\\mutant-e99b7e5"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "node-geo-point": {
+    "attempts": {
+      "attempt_1": {
+        "fail_pass_on_mutation": {
+          "mutant-775e92b": {
+            "time": 14,
+            "tokensIn": 3378,
+            "tokensOut": 115,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\node-geo-point\\attempt_1\\fail_pass_on_mutation\\mutant-775e92b"
+          }
+        },
+        "successful": {
+          "mutant-0d10ae7": {
+            "time": 15,
+            "tokensIn": 3392,
+            "tokensOut": 94,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\node-geo-point\\attempt_1\\successful\\mutant-0d10ae7"
+          },
+          "mutant-13ad216": {
+            "time": 18,
+            "tokensIn": 3380,
+            "tokensOut": 139,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\node-geo-point\\attempt_1\\successful\\mutant-13ad216"
+          },
+          "mutant-7631766": {
+            "time": 18,
+            "tokensIn": 3387,
+            "tokensOut": 126,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\node-geo-point\\attempt_1\\successful\\mutant-7631766"
+          },
+          "mutant-7f41d2f": {
+            "time": 17,
+            "tokensIn": 3369,
+            "tokensOut": 181,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\node-geo-point\\attempt_1\\successful\\mutant-7f41d2f"
+          },
+          "mutant-fa538a2": {
+            "time": 26,
+            "tokensIn": 3372,
+            "tokensOut": 145,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\node-geo-point\\attempt_1\\successful\\mutant-fa538a2"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_pass_on_mutation": {
+          "mutant-775e92b": {
+            "time": 29,
+            "tokensIn": 6947,
+            "tokensOut": 192,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\node-geo-point\\attempt_2\\fail_pass_on_mutation\\mutant-775e92b"
+          }
+        }
+      },
+      "attempt_3": {
+        "successful": {
+          "mutant-775e92b": {
+            "time": 48,
+            "tokensIn": 10669,
+            "tokensOut": 276,
+            "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\node-geo-point\\attempt_3\\successful\\mutant-775e92b"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}
