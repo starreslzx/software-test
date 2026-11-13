@@ -1,0 +1,10 @@
+{
+  "project": "Complex.js",
+  "mutationShortId": "mutant-04a68d5",
+  "attempt": 2,
+  "category": "successful",
+  "elapsedSeconds": 17,
+  "tokensIn": 20989,
+  "tokensOut": 375,
+  "address": "generated_tests_M01_C_part1a\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-11_23-21\\artifacts\\Complex.js\\attempt_2\\successful\\mutant-04a68d5"
+}

@@ -1,0 +1,32 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/image-downloader/attempt_1/pending_category/mutant-bd61080/testCase.test.ts[0m:[93m4[0m:[93m18[0m - [91merror[0m[90m TS2307: [0mCannot find module 'nock' or its corresponding type declarations.
+
+[7m4[0m import nock from "nock";
+[7m [0m [91m                 ~~~~~~[0m
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\image-downloader\lib\request.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\image-downloader\lib\request.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/image-downloader/attempt_1/pending_category/mutant-bd61080/testCase.test.ts
+  request
+    × includes the status code in the error message when the response is not 200 (25 ms)
+
+  ● request › includes the status code in the error message when the response is not 200
+
+    expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Status Code: 404"
+    Received string:    "Request Failed.
+    "
+
+      21 |
+      22 |     expect(error).toBeInstanceOf(Error);
+    > 23 |     expect(error!.message).toContain("Status Code: 404");
+         |                            ^
+      24 |
+      25 |     if (fs.existsSync(dest)) {
+      26 |       fs.unlinkSync(dest);
+
+      at Object.toContain (generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/image-downloader/attempt_1/pending_category/mutant-bd61080/testCase.test.ts:23:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.386 s, estimated 3 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part3\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-46\artifacts\image-downloader\attempt_1\pending_category\mutant-bd61080\testCase.test.ts".

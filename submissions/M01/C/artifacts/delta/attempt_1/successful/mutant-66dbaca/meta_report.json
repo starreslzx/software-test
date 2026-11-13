@@ -1,0 +1,10 @@
+{
+  "project": "delta",
+  "mutationShortId": "mutant-66dbaca",
+  "attempt": 1,
+  "category": "successful",
+  "elapsedSeconds": 24,
+  "tokensIn": 4974,
+  "tokensOut": 195,
+  "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\delta\\attempt_1\\successful\\mutant-66dbaca"
+}

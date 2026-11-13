@@ -1,0 +1,28 @@
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_4/pending_category/mutant-9c883ef/testCase.test.ts
+  find sink
+    × should call the callback with the first value when only a callback is provided (1 ms)
+
+  ● find sink › should call the callback with the first value when only a callback is provided
+
+    TypeError: cb is not a function
+
+      21 |   }, function (err) {
+      22 |     if(ended) return //already called back
+    > 23 |     cb(err === true ? null : err, null)
+         |     ^
+      24 |   })
+      25 | }
+      26 |
+
+      at cb (../subject_repositories/pull-stream/sinks/find.js:23:5)
+      at done (../subject_repositories/pull-stream/sinks/drain.js:26:24)
+      at cb (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_4/pending_category/mutant-9c883ef/testCase.test.ts:10:38)
+      at read (../subject_repositories/pull-stream/sinks/drain.js:22:11)
+      at sink (../subject_repositories/pull-stream/sinks/drain.js:45:8)
+      at Object.sink (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_4/pending_category/mutant-9c883ef/testCase.test.ts:19:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.181 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\pull-stream\attempt_4\pending_category\mutant-9c883ef\testCase.test.ts".

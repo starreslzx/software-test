@@ -1,0 +1,17 @@
+C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js:152
+          throw e;
+          ^
+
+TypeError: 
+    at Array.<anonymous> (C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js:287:27)
+    at apply (C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js:263:21)
+    at array_reduce (C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js:623:9)
+    at defer.become [as resolve] (C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js:639:9)
+    at resolve (C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js:884:22)
+    at Promise.resolve [as promiseDispatch] (C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js:817:13)
+    at promiseDispatch (C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js:878:14)
+    at task (C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js:137:13)
+    at runSingle (C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js:125:13)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+
+Node.js v24.21.0

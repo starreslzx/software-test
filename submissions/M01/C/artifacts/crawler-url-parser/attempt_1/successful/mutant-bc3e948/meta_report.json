@@ -1,0 +1,10 @@
+{
+  "project": "crawler-url-parser",
+  "mutationShortId": "mutant-bc3e948",
+  "attempt": 1,
+  "category": "successful",
+  "elapsedSeconds": 17,
+  "tokensIn": 2577,
+  "tokensOut": 213,
+  "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\crawler-url-parser\\attempt_1\\successful\\mutant-bc3e948"
+}

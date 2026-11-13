@@ -1,0 +1,34 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\node-dirty\lib\dirty\dirty.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\node-dirty\lib\dirty\dirty.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/node-dirty/attempt_1/pending_category/mutant-9a3bb96/testCase.test.ts
+  Dirty close behavior with pending writes
+    × waits for pending writes to drain before closing streams (240 ms)
+
+  ● Dirty close behavior with pending writes › waits for pending writes to drain before closing streams
+
+    expect(received).toContain(expected) // indexOf
+
+    Expected substring: "\"key\":\"value\""
+    Received string:    "{\"key\":\"key\",\"val\":\"value\"}
+    "
+
+      32 |           expect(fs.existsSync(dbPath)).toBe(true);
+      33 |           const contents = fs.readFileSync(dbPath, "utf-8");
+    > 34 |           expect(contents).toContain('"key":"value"');
+         |                            ^
+      35 |           done();
+      36 |         } catch (err) {
+      37 |           done(err);
+
+      at Timeout.toContain [as _onTimeout] (generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/node-dirty/attempt_1/pending_category/mutant-9a3bb96/testCase.test.ts:34:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.628 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part3\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-46\artifacts\node-dirty\attempt_1\pending_category\mutant-9a3bb96\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

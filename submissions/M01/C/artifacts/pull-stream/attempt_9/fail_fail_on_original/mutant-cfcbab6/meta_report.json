@@ -1,0 +1,10 @@
+{
+  "project": "pull-stream",
+  "mutationShortId": "mutant-cfcbab6",
+  "attempt": 9,
+  "category": "fail_fail_on_original",
+  "elapsedSeconds": 120,
+  "tokensIn": 22014,
+  "tokensOut": 2431,
+  "address": "generated_tests_M01_C_part2\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-06\\artifacts\\pull-stream\\attempt_9\\fail_fail_on_original\\mutant-cfcbab6"
+}

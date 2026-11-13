@@ -1,0 +1,30 @@
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_1/pending_category/mutant-44bef4d/testCase.test.ts
+  Complex acsc
+    × computes the arcus cosecans of a non-zero complex number (3 ms)
+
+  ● Complex acsc › computes the arcus cosecans of a non-zero complex number
+
+    expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 0.7192463583047379
+    Received: 0.40158639166780613
+
+    Expected precision:    10
+    Expected difference: < 0.00000000005
+    Received difference:   0.3176599666369318
+
+       6 |     const expected = new Complex(2, 1).asin().div(new Complex(2, 1));
+       7 |
+    >  8 |     expect(result.re).toBeCloseTo(expected.re, 10);
+         |                       ^
+       9 |     expect(result.im).toBeCloseTo(expected.im, 10);
+      10 |   });
+      11 | });
+
+      at Object.toBeCloseTo (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_1/pending_category/mutant-44bef4d/testCase.test.ts:8:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.675 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_1\pending_category\mutant-44bef4d\testCase.test.ts".

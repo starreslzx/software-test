@@ -1,0 +1,10 @@
+{
+  "project": "node-dirty",
+  "mutationShortId": "mutant-202d0e2",
+  "attempt": 2,
+  "category": "successful",
+  "elapsedSeconds": 62,
+  "tokensIn": 4626,
+  "tokensOut": 896,
+  "address": "generated_tests_M01_C_part3\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-46\\artifacts\\node-dirty\\attempt_2\\successful\\mutant-202d0e2"
+}

@@ -1,0 +1,32 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-5a5398e/testCase.test.ts
+  Q.denodeify
+    × throws a descriptive error when wrapping an undefined function (10 ms)
+
+  ● Q.denodeify › throws a descriptive error when wrapping an undefined function
+
+    expect(received).toThrow(expected)
+
+    Expected substring: "Q can't wrap an undefined function"
+    Received message:   ""
+
+          1942 | Q.denodeify = function (callback /*...args*/) {
+          1943 |     if (callback === undefined) {
+        > 1944 |            throw new Error("");
+               |                  ^
+          1945 |
+          1946 |     }
+          1947 |     var baseArgs = array_slice(arguments, 1);
+
+      at Q.nfbind.Q.denodeify (../subject_repositories/q/q.js:1944:18)
+      at denodeify (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-5a5398e/testCase.test.ts:5:20)
+      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:320:21)
+      at Object.toThrow (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-5a5398e/testCase.test.ts:5:42)
+      at Object.toThrow (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-5a5398e/testCase.test.ts:5:42)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.854 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-5a5398e\testCase.test.ts".

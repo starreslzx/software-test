@@ -1,0 +1,10 @@
+{
+  "project": "Complex.js",
+  "mutationShortId": "mutant-b2ec3fb",
+  "attempt": 1,
+  "category": "fail_forbidden_libraries",
+  "elapsedSeconds": 3,
+  "tokensIn": 10367,
+  "tokensOut": 126,
+  "address": "generated_tests_M01_C_part1a\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-11_23-21\\artifacts\\Complex.js\\attempt_1\\fail_forbidden_libraries\\mutant-b2ec3fb"
+}

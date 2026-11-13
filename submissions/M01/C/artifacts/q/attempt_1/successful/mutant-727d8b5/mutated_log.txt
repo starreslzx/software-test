@@ -1,0 +1,39 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-727d8b5/testCase.test.ts
+  Q.any progress notifications
+    × forwards progress notifications from input promises with index and value (59 ms)
+
+  ● Q.any progress notifications › forwards progress notifications from input promises with index and value
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 10
+    + Received  +  1
+
+    - Array [
+    -   Object {
+    -     "index": 0,
+    -     "value": "first-progress",
+    -   },
+    -   Object {
+    -     "index": 1,
+    -     "value": "second-progress",
+    -   },
+    - ]
+    + Array []
+
+      28 |         setTimeout(() => {
+      29 |             try {
+    > 30 |                 expect(progressEvents).toEqual([
+         |                                        ^
+      31 |                     { index: 0, value: "first-progress" },
+      32 |                     { index: 1, value: "second-progress" }
+      33 |                 ]);
+
+      at Timeout.toEqual [as _onTimeout] (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-727d8b5/testCase.test.ts:30:40)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.904 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-727d8b5\testCase.test.ts".

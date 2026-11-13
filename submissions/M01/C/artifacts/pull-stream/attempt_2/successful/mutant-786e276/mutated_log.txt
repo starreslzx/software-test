@@ -1,0 +1,26 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\pull-stream\pull.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\pull-stream\pull.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_2/pending_category/mutant-786e276/testCase.test.ts
+  pull with a source object
+    × unwraps a source object that has a source function (4 ms)
+
+  ● pull with a source object › unwraps a source object that has a source function
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: [Function read]
+    Received: {"source": [Function read]}
+
+      19 |     const result = pull(sourceObject)
+      20 |
+    > 21 |     expect(result).toBe(read)
+         |                    ^
+      22 |   })
+      23 | })
+
+      at Object.toBe (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_2/pending_category/mutant-786e276/testCase.test.ts:21:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.209 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\pull-stream\attempt_2\pending_category\mutant-786e276\testCase.test.ts".

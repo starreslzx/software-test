@@ -1,0 +1,26 @@
+FAIL generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/node-dirty/attempt_5/pending_category/mutant-9a3bb96/testCase.test.ts
+  Dirty close behavior with pending writes
+    × defers closing the write stream until queued writes are flushed (13 ms)
+
+  ● Dirty close behavior with pending writes › defers closing the write stream until queued writes are flushed
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      32 |         try {
+      33 |           expect(writeCloseFired).toBe(false);
+    > 34 |           expect(writeCallbackFired).toBe(false);
+         |                                      ^
+      35 |           done();
+      36 |         } catch (err) {
+      37 |           done(err);
+
+      at Timeout.toBe [as _onTimeout] (generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/node-dirty/attempt_5/pending_category/mutant-9a3bb96/testCase.test.ts:34:38)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.247 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part3\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-46\artifacts\node-dirty\attempt_5\pending_category\mutant-9a3bb96\testCase.test.ts".

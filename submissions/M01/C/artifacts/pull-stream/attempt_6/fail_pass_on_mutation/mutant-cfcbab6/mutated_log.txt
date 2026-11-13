@@ -1,0 +1,9 @@
+PASS generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_6/pending_category/mutant-cfcbab6/testCase.test.ts
+  pull
+    √ should not invoke a sink-like object placed at the boundary index beyond arguments (3 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.435 s, estimated 3 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\pull-stream\attempt_6\pending_category\mutant-cfcbab6\testCase.test.ts".

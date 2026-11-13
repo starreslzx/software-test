@@ -1,0 +1,27 @@
+(node:3828) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/crawler-url-parser/attempt_4/pending_category/mutant-c4fa501/testCase.test.ts
+  crawler-url-parser extract
+    × does not include directory index URLs as separate entries (16 ms)
+
+  ● crawler-url-parser extract › does not include directory index URLs as separate entries
+
+    expect(received).not.toContain(expected) // indexOf
+
+    Expected value: not "http://example.com/docs/index.html"
+    Received array:     ["http://example.com/docs/index.html", "http://example.com/docs/"]
+
+      16 |
+      17 |     expect(urls).toContain("http://example.com/docs/");
+    > 18 |     expect(urls).not.toContain("http://example.com/docs/index.html");
+         |                      ^
+      19 |   });
+      20 | });
+
+      at Object.toContain (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/crawler-url-parser/attempt_4/pending_category/mutant-c4fa501/testCase.test.ts:18:22)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.694 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\crawler-url-parser\attempt_4\pending_category\mutant-c4fa501\testCase.test.ts".

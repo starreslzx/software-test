@@ -1,0 +1,25 @@
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_4/pending_category/mutant-f7d009c/testCase.test.ts
+  Complex hypot boundary behavior
+    × computes abs differently when one component is exactly 3000 (2 ms)
+
+  ● Complex hypot boundary behavior › computes abs differently when one component is exactly 3000
+
+    expect(received).not.toBe(expected) // Object.is equality
+
+    Expected: not 3000.00020166666
+
+      30 |
+      31 |     // Sanity: the two branches must actually differ for this input.
+    > 32 |     expect(expected).not.toBe(mutated);
+         |                          ^
+      33 |
+      34 |     expect(result).toBe(expected);
+      35 |   });
+
+      at Object.toBe (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_4/pending_category/mutant-f7d009c/testCase.test.ts:32:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.603 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_4\pending_category\mutant-f7d009c\testCase.test.ts".

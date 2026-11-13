@@ -1,0 +1,56 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/node-jsonfile/attempt_9/pending_category/mutant-d9833fc/testCase.test.ts[0m:[93m15[0m:[93m27[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Module'. Did you mean 'module'?
+
+[7m15[0m     const originalLoad = (Module as any)._load
+[7m  [0m [91m                          ~~~~~~[0m
+
+  [96mnode_modules/@types/node/module.d.ts[0m:[93m873[0m:[93m13[0m
+    [7m873[0m         var module: NodeJS.Module;
+    [7m   [0m [96m            ~~~~~~[0m
+    'module' is declared here.
+[96mgenerated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/node-jsonfile/attempt_9/pending_category/mutant-d9833fc/testCase.test.ts[0m:[93m16[0m:[93m7[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Module'. Did you mean 'module'?
+
+[7m16[0m     ;(Module as any)._load = function (request: string, parent: any, isMain: boolean) {
+[7m  [0m [91m      ~~~~~~[0m
+
+  [96mnode_modules/@types/node/module.d.ts[0m:[93m873[0m:[93m13[0m
+    [7m873[0m         var module: NodeJS.Module;
+    [7m   [0m [96m            ~~~~~~[0m
+    'module' is declared here.
+[96mgenerated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/node-jsonfile/attempt_9/pending_category/mutant-d9833fc/testCase.test.ts[0m:[93m32[0m:[93m9[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Module'. Did you mean 'module'?
+
+[7m32[0m       ;(Module as any)._load = originalLoad
+[7m  [0m [91m        ~~~~~~[0m
+
+  [96mnode_modules/@types/node/module.d.ts[0m:[93m873[0m:[93m13[0m
+    [7m873[0m         var module: NodeJS.Module;
+    [7m   [0m [96m            ~~~~~~[0m
+    'module' is declared here.
+FAIL generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/node-jsonfile/attempt_9/pending_category/mutant-d9833fc/testCase.test.ts
+  jsonfile falls back to built-in fs when graceful-fs cannot be loaded
+    × reads JSON files using the built-in fs module after graceful-fs import throws (2 ms)
+
+  ● jsonfile falls back to built-in fs when graceful-fs cannot be loaded › reads JSON files using the built-in fs module after graceful-fs import throws
+
+    ReferenceError: Module is not defined
+
+      13 |     jest.resetModules()
+      14 |
+    > 15 |     const originalLoad = (Module as any)._load
+         |                           ^
+      16 |     ;(Module as any)._load = function (request: string, parent: any, isMain: boolean) {
+      17 |       if (request === "graceful-fs") {
+      18 |         throw new Error("graceful-fs unavailable")
+
+      at Object.Module (generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/node-jsonfile/attempt_9/pending_category/mutant-d9833fc/testCase.test.ts:15:27)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.203 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part3\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-46\artifacts\node-jsonfile\attempt_9\pending_category\mutant-d9833fc\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

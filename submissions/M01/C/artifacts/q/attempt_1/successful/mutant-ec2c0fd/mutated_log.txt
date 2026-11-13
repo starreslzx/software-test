@@ -1,0 +1,29 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-ec2c0fd/testCase.test.ts[0m:[93m6[0m:[93m17[0m - [91merror[0m[90m TS7057: [0m'yield' expression implicitly results in an 'any' type because its containing generator lacks a return-type annotation.
+
+[7m6[0m       const a = yield Q(1);
+[7m [0m [91m                ~~~~~[0m
+[96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-ec2c0fd/testCase.test.ts[0m:[93m7[0m:[93m17[0m - [91merror[0m[90m TS7057: [0m'yield' expression implicitly results in an 'any' type because its containing generator lacks a return-type annotation.
+
+[7m7[0m       const b = yield Q(2);
+[7m [0m [91m                ~~~~~[0m
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+
+<--- Last few GCs --->
+
+[22400:0000014854821000]    44941 ms: Scavenge (interleaved) 3791.3 (4158.9) -> 3750.1 (4170.1) MB, pooled: 0 MB, 33.37 / 0.00 ms  (average mu = 0.238, current mu = 0.230) allocation failure; 
+[22400:0000014854821000]    47557 ms: Mark-Compact (reduce) 3778.8 (4175.4) -> 3601.4 (3960.1) MB, pooled: 0 MB, 2573.71 / 0.00 ms  (+ 28.1 ms in 6 steps since start of marking, biggest step 5.0 ms, walltime since start of marking 2608 ms) (average mu = 0
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 00007FF6F9DE90C6 node::SetAbortHandler+54
+ 2: 00007FF6F9DE9604 node::OnFatalError+1284
+ 3: 00007FF6F89F3617 v8::Function::NewInstance+423
+ 4: 00007FF6F87F3E57 X509_STORE_CTX_get_cert_crl+54423
+ 5: 00007FF6F87F7B64 X509_STORE_CTX_get_cert_crl+70052
+ 6: 00007FF6F8806ACC v8::internal::StrongRootAllocatorBase::deallocate_impl+16604
+ 7: 00007FF6F880630B v8::internal::StrongRootAllocatorBase::deallocate_impl+14619
+ 8: 00007FF6FA113BAD node::AsyncResource::CallbackScope::CallbackScope+2124541
+ 9: 00007FF6F87F1920 X509_STORE_CTX_get_cert_crl+44896
+10: 00007FF6F8875709 v8::Unlocker::~Unlocker+9273
+11: 00007FF6F83E8F48 v8::CodeEvent::GetFunctionName+131144
+12: 000001481FE775FA 

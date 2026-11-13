@@ -1,0 +1,32 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_7/pending_category/mutant-7644a72/testCase.test.ts
+  Q return value handling
+    × should support Q.return to stop an async generator with a value (26 ms)
+
+  ● Q return value handling › should support Q.return to stop an async generator with a value
+
+    thrown: QReturnValue {
+      "value": 3,
+    }
+
+      2 |
+      3 | describe("Q return value handling", () => {
+    > 4 |     it("should support Q.return to stop an async generator with a value", async () => {
+        |     ^
+      5 |         const qPath = path.resolve(
+      6 |             __dirname,
+      7 |             "../../../../../../../../../../../subject_repositories/q/q.js"
+
+      at it (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_7/pending_category/mutant-7644a72/testCase.test.ts:4:5)
+      at Object.describe (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_7/pending_category/mutant-7644a72/testCase.test.ts:3:1)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.668 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_7\pending_category\mutant-7644a72\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

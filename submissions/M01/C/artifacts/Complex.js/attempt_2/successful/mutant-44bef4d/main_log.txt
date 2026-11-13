@@ -1,0 +1,9 @@
+PASS generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_2/pending_category/mutant-44bef4d/testCase.test.ts
+  Complex acsc
+    √ computes the arcus cosecans of a non-zero complex number (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.685 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_2\pending_category\mutant-44bef4d\testCase.test.ts".

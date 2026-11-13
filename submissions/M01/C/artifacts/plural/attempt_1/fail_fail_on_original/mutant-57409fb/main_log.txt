@@ -1,0 +1,26 @@
+FAIL generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/plural/attempt_1/pending_category/mutant-57409fb/testCase.test.ts
+  plural
+    × returns the singular word unchanged when num is undefined (5 ms)
+
+  ● plural › returns the singular word unchanged when num is undefined
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "cat"
+    Received: "cats"
+
+      3 | describe("plural", () => {
+      4 |   it("returns the singular word unchanged when num is undefined", () => {
+    > 5 |     expect(plural("cat")).toBe("cat");
+        |                           ^
+      6 |     expect(plural("box")).toBe("box");
+      7 |     expect(plural("person")).toBe("person");
+      8 |   });
+
+      at Object.toBe (generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/plural/attempt_1/pending_category/mutant-57409fb/testCase.test.ts:5:27)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.172 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part3\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-46\artifacts\plural\attempt_1\pending_category\mutant-57409fb\testCase.test.ts".

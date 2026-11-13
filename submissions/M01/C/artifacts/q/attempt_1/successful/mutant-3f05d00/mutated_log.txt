@@ -1,0 +1,33 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-3f05d00/testCase.test.ts[0m:[93m5[0m:[93m42[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m5[0m         const callback = jest.fn(() => Q.resolve());
+[7m [0m [91m                                         ~~~~~~~[0m
+
+  [96m../subject_repositories/q/q.js[0m:[93m497[0m:[93m12[0m
+    [7m497[0m function Q(value) {
+    [7m   [0m [96m           ~~~~~[0m
+    An argument for 'value' was not provided.
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-3f05d00/testCase.test.ts
+  Q promise finally
+    × invokes the finally callback and preserves the fulfillment value (2 ms)
+
+  ● Q promise finally › invokes the finally callback and preserves the fulfillment value
+
+    TypeError: q_js_1.default.resolve(...).finally is not a function
+
+      4 |     it("invokes the finally callback and preserves the fulfillment value", async () => {
+      5 |         const callback = jest.fn(() => Q.resolve());
+    > 6 |         const result = await Q.resolve(42)["finally"](callback);
+        |                                                      ^
+      7 |         expect(callback).toHaveBeenCalledTimes(1);
+      8 |         expect(result).toBe(42);
+      9 |     });
+
+      at Object.<anonymous> (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-3f05d00/testCase.test.ts:6:54)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.839 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-3f05d00\testCase.test.ts".

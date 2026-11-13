@@ -1,0 +1,25 @@
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-b35effe/testCase.test.ts (6.991 s)
+  find sink
+    × calls back with the matching value and null error when a match is found (5009 ms)
+
+  ● find sink › calls back with the matching value and null error when a match is found
+
+    thrown: "Exceeded timeout of 5000 ms for a test while waiting for `done()` to be called.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      2 |
+      3 | describe("find sink", () => {
+    > 4 |   it("calls back with the matching value and null error when a match is found", (done) => {
+        |   ^
+      5 |     const source = (abort: any, cb: any) => {
+      6 |       let i = 0;
+      7 |       const values = [1, 2, 3, 4, 5];
+
+      at it (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-b35effe/testCase.test.ts:4:3)
+      at Object.describe (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-b35effe/testCase.test.ts:3:1)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.249 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\pull-stream\attempt_1\pending_category\mutant-b35effe\testCase.test.ts".

@@ -1,0 +1,26 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-2ed8f4e/testCase.test.ts
+  Q long stack traces filtering
+    × filters out Q internal frames from rejection stack traces (6 ms)
+
+  ● Q long stack traces filtering › filters out Q internal frames from rejection stack traces
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "string"
+    Received: "undefined"
+
+      19 |             expect(error).toBeInstanceOf(Error);
+      20 |             expect(error.message).toBe("boom");
+    > 21 |             expect(typeof error.stack).toBe("string");
+         |                                        ^
+      22 |
+      23 |             const stack = error.stack as string;
+      24 |             const qFileName = path.basename(__filename);
+
+      at Object.toBe (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-2ed8f4e/testCase.test.ts:21:40)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.631 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-2ed8f4e\testCase.test.ts".

@@ -1,0 +1,17 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-982069b/testCase.test.ts[0m:[93m34[0m:[93m14[0m - [91merror[0m[90m TS7006: [0mParameter 'line' implicitly has an 'any' type.
+
+[7m34[0m             (line) => line.includes("testCase.test") || line.includes("q.js")
+[7m  [0m [91m             ~~~~[0m
+[96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-982069b/testCase.test.ts[0m:[93m40[0m:[93m47[0m - [91merror[0m[90m TS7006: [0mParameter 'line' implicitly has an 'any' type.
+
+[7m40[0m         const frameLines = stackLines.filter((line) => /^\s+at /.test(line));
+[7m  [0m [91m                                              ~~~~[0m
+PASS generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-982069b/testCase.test.ts
+  Q long stack traces
+    √ filters out internal Q frames from the stack trace of a rejection (4 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.628 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-982069b\testCase.test.ts".

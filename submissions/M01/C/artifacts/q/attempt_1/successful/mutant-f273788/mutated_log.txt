@@ -1,0 +1,26 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-f273788/testCase.test.ts
+  Q.fapply
+    × applies the promised function with the provided arguments (2 ms)
+
+  ● Q.fapply › applies the promised function with the provided arguments
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 5
+    Received: NaN
+
+      5 |     const add = (a: number, b: number) => a + b;
+      6 |     const result = await Q.fapply(add, [2, 3]);
+    > 7 |     expect(result).toBe(5);
+        |                    ^
+      8 |   });
+      9 | });
+
+      at Object.toBe (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-f273788/testCase.test.ts:7:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.921 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-f273788\testCase.test.ts".

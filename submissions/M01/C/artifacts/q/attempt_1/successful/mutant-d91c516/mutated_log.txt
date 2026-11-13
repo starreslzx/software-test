@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-d91c516/testCase.test.ts[0m:[93m7[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'sort' does not exist on type 'void'.
+
+[7m7[0m     expect(keys.sort()).toEqual(["a", "b", "c"]);
+[7m [0m [91m                ~~~~[0m
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-d91c516/testCase.test.ts
+  Q.keys
+    × returns a promise resolving to the object's own enumerable keys (1 ms)
+
+  ● Q.keys › returns a promise resolving to the object's own enumerable keys
+
+    TypeError: Cannot read properties of undefined (reading 'sort')
+
+      5 |     const obj = { a: 1, b: 2, c: 3 };
+      6 |     const keys = await Q.keys(obj);
+    > 7 |     expect(keys.sort()).toEqual(["a", "b", "c"]);
+        |                 ^
+      8 |   });
+      9 | });
+
+      at Object.sort (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-d91c516/testCase.test.ts:7:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.917 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-d91c516\testCase.test.ts".

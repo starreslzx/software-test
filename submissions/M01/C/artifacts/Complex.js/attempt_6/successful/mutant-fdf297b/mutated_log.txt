@@ -1,0 +1,26 @@
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_6/pending_category/mutant-fdf297b/testCase.test.ts
+  Complex subtraction with infinity
+    × returns the infinity pole when subtracting an infinite number from a finite one (2 ms)
+
+  ● Complex subtraction with infinity › returns the infinity pole when subtracting an infinite number from a finite one
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: Infinity
+    Received: -Infinity
+
+      10 |     const result = new Complex(1, 2).sub(new Complex(Infinity, 0));
+      11 |
+    > 12 |     expect(result.re).toBe(Infinity);
+         |                       ^
+      13 |     expect(result.im).toBe(Infinity);
+      14 |   });
+      15 | });
+
+      at Object.toBe (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_6/pending_category/mutant-fdf297b/testCase.test.ts:12:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.232 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_6\pending_category\mutant-fdf297b\testCase.test.ts".

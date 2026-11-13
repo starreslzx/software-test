@@ -1,0 +1,26 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_7/pending_category/mutant-c4ba1f4/testCase.test.ts
+  Q nextTick with setImmediate
+    × should use setImmediate for scheduling when setImmediate is available (85 ms)
+
+  ● Q nextTick with setImmediate › should use setImmediate for scheduling when setImmediate is available
+
+    expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+      63 |                 // MessageChannel branch is used instead and setImmediate
+      64 |                 // is never called.
+    > 65 |                 expect(setImmediateCalls).toBeGreaterThan(0);
+         |                                           ^
+      66 |                 expect(called).toBe(true);
+      67 |                 done();
+      68 |             } catch (e) {
+
+      at Timeout.toBeGreaterThan [as _onTimeout] (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_7/pending_category/mutant-c4ba1f4/testCase.test.ts:65:43)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.717 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_7\pending_category\mutant-c4ba1f4\testCase.test.ts".

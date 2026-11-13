@@ -1,0 +1,9 @@
+PASS generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/crawler-url-parser/attempt_3/pending_category/mutant-af25bdc/testCase.test.ts
+  crawler-url-parser
+    √ should log 'for testing purpose' when the module is loaded (380 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.453 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\crawler-url-parser\attempt_3\pending_category\mutant-af25bdc\testCase.test.ts".

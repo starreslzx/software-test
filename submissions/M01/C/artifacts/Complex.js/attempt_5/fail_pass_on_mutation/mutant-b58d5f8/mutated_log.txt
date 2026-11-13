@@ -1,0 +1,9 @@
+PASS generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_5/pending_category/mutant-b58d5f8/testCase.test.ts
+  Complex parsing of invalid string input
+    √ throws a SyntaxError when the string contains no parseable tokens (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.274 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_5\pending_category\mutant-b58d5f8\testCase.test.ts".

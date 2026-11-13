@@ -1,0 +1,26 @@
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_1/pending_category/mutant-fdf297b/testCase.test.ts
+  Complex subtraction with infinity
+    × returns NaN when subtracting finite from infinite (or vice versa) (2 ms)
+
+  ● Complex subtraction with infinity › returns NaN when subtracting finite from infinite (or vice versa)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+       7 |     // finite - Infinity should be NaN
+       8 |     const result1 = new Complex(1, 2).sub(inf);
+    >  9 |     expect(result1.isNaN()).toBe(true);
+         |                             ^
+      10 |
+      11 |     // Infinity - finite should be NaN
+      12 |     const result2 = inf.sub(new Complex(1, 2));
+
+      at Object.toBe (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_1/pending_category/mutant-fdf297b/testCase.test.ts:9:29)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.754 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_1\pending_category\mutant-fdf297b\testCase.test.ts".

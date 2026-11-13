@@ -1,0 +1,10 @@
+{
+  "project": "node-jsonfile",
+  "mutationShortId": "mutant-d9833fc",
+  "attempt": 4,
+  "category": "fail_pass_on_mutation",
+  "elapsedSeconds": 107,
+  "tokensIn": 7206,
+  "tokensOut": 1559,
+  "address": "generated_tests_M01_C_part3\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-46\\artifacts\\node-jsonfile\\attempt_4\\fail_pass_on_mutation\\mutant-d9833fc"
+}

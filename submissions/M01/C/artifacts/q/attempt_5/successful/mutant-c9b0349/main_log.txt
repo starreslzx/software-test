@@ -1,0 +1,9 @@
+PASS generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_5/pending_category/mutant-c9b0349/testCase.test.ts
+  Q long stack trace filtering
+    √ keeps user frames and drops internal q.js frames from long stack traces (64 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.676 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_5\pending_category\mutant-c9b0349\testCase.test.ts".

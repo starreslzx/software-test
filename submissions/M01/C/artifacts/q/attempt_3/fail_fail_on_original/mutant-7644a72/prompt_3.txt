@@ -1,0 +1,40 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_2/pending_category/mutant-7644a72/testCase.test.ts[0m:[93m13[0m:[93m23[0m - [91merror[0m[90m TS7057: [0m'yield' expression implicitly results in an 'any' type because its containing generator lacks a return-type annotation.
+
+[7m13[0m             const a = yield Q(1);
+[7m  [0m [91m                      ~~~~~[0m
+[96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_2/pending_category/mutant-7644a72/testCase.test.ts[0m:[93m14[0m:[93m23[0m - [91merror[0m[90m TS7057: [0m'yield' expression implicitly results in an 'any' type because its containing generator lacks a return-type annotation.
+
+[7m14[0m             const b = yield Q(2);
+[7m  [0m [91m                      ~~~~~[0m
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_2/pending_category/mutant-7644a72/testCase.test.ts
+  Q return value handling
+    × should support Q.return to stop an async generator with a value (39 ms)
+
+  ● Q return value handling › should support Q.return to stop an async generator with a value
+
+    thrown: QReturnValue {
+      "value": 3,
+    }
+
+      2 |
+      3 | describe("Q return value handling", () => {
+    > 4 |     it("should support Q.return to stop an async generator with a value", async () => {
+        |     ^
+      5 |         const qPath = path.resolve(
+      6 |             __dirname,
+      7 |             "../../../../../../../../../../../subject_repositories/q/q.js"
+
+      at it (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_2/pending_category/mutant-7644a72/testCase.test.ts:4:5)
+      at Object.describe (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_2/pending_category/mutant-7644a72/testCase.test.ts:3:1)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.625 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_2\pending_category\mutant-7644a72\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

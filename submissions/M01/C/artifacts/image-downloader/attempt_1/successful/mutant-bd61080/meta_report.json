@@ -1,0 +1,10 @@
+{
+  "project": "image-downloader",
+  "mutationShortId": "mutant-bd61080",
+  "attempt": 1,
+  "category": "successful",
+  "elapsedSeconds": 30,
+  "tokensIn": 909,
+  "tokensOut": 232,
+  "address": "generated_tests_M01_C_part3\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-46\\artifacts\\image-downloader\\attempt_1\\successful\\mutant-bd61080"
+}

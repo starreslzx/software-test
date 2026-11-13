@@ -1,0 +1,35 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\pull-stream\sinks\drain.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\pull-stream\sinks\drain.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-79747e0/testCase.test.ts
+  drain sink
+    × does not call a missing done callback when the stream ends (18 ms)
+
+  ● drain sink › does not call a missing done callback when the stream ends
+
+    expect(received).not.toThrow()
+
+    Error name:    "TypeError"
+    Error message: "done is not a function"
+
+          24 |             if(end = end || abort) {
+          25 |               loop = false
+        > 26 |                  if(true) done(end === true ? null : end)
+             |                           ^
+          27 |
+          28 |               else if(end && end !== true) {
+          29 |                 console.warn(doneLackingErr)
+
+      at done (../subject_repositories/pull-stream/sinks/drain.js:26:27)
+      at cb (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-79747e0/testCase.test.ts:9:7)
+      at read (../subject_repositories/pull-stream/sinks/drain.js:22:11)
+      at sink (../subject_repositories/pull-stream/sinks/drain.js:46:8)
+      at sink (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-79747e0/testCase.test.ts:18:7)
+      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:320:21)
+      at Object.toThrow (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-79747e0/testCase.test.ts:19:12)
+      at Object.toThrow (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-79747e0/testCase.test.ts:19:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.25 s, estimated 3 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\pull-stream\attempt_1\pending_category\mutant-79747e0\testCase.test.ts".

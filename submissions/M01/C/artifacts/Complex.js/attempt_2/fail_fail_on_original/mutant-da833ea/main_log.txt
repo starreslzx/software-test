@@ -1,0 +1,30 @@
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_2/pending_category/mutant-da833ea/testCase.test.ts
+  Complex asech
+    × computes asech for a complex number with non-unit magnitude (2 ms)
+
+  ● Complex asech › computes asech for a complex number with non-unit magnitude
+
+    expect(received).toBeCloseTo(expected, precision)
+
+    Expected: -1.326213
+    Received: -1.3262741616593563
+
+    Expected precision:    4
+    Expected difference: < 0.00005
+    Received difference:   0.00006116165935621254
+
+      17 |     // ln(...) ≈ 0.2548956 - 1.326213i
+      18 |     expect(result.re).toBeCloseTo(0.2548956, 4);
+    > 19 |     expect(result.im).toBeCloseTo(-1.326213, 4);
+         |                       ^
+      20 |
+      21 |     // Sanity check: acosh(cosh(asech(z))) should return conj(z)/|z|^2
+      22 |     const roundTrip = result.cosh();
+
+      at Object.toBeCloseTo (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_2/pending_category/mutant-da833ea/testCase.test.ts:19:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.623 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_2\pending_category\mutant-da833ea\testCase.test.ts".
