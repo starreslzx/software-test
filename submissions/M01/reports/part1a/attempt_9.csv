@@ -1,3 +1,0 @@
-Project Name,#Tested mutants,successful,fail_syntax_error,fail_forbidden_libraries,fail_fail_on_original,fail_pass_on_mutation,average time,average tokens_in,average tokens_out
-Complex.js,2,,,,1,1,115.00,130376.00,10022.50
-Total,2,,,,1,1,115.00,130376.00,10022.50

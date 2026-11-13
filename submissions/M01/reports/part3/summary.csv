@@ -1,9 +1,0 @@
-Project Name,#Tested mutants,attempt_1.successful,attempt_2.successful,attempt_3.successful,attempt_4.successful,attempt_5.successful,attempt_6.successful,attempt_7.successful,attempt_8.successful,attempt_9.successful,attempt_10.successful,total successes,fail_syntax_error,fail_forbidden_libraries,fail_fail_on_original,fail_pass_on_mutation,time,tokens_in,tokens_out
-node-dirty,5,,1,,1,1,1,,,,,4,,,1,,800.00,127638.00,12809.00
-plural,4,3,,,,,,,,,,3,,,,1,218.00,49783.00,4746.00
-spacl-core,2,1,,,,,,,,,,1,,,1,,229.00,44919.00,1338.00
-countries-and-timezones,1,,,,,,,,,,,,,,,1,453.00,26705.00,1542.00
-image-downloader,1,1,,,,,,,,,,1,,,,,30.00,909.00,232.00
-node-jsonfile,1,,,,,,,,,,,,,,1,,251.00,66928.00,17181.00
-zip-a-folder,1,,1,,,,,,,,,1,,,,,86.00,5113.00,940.00
-Total,15,5,2,,1,1,1,,,,,10,,,3,2,2067.00,321995.00,38788.00

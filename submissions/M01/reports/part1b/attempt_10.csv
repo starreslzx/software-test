@@ -1,3 +1,0 @@
-Project Name,#Tested mutants,successful,fail_syntax_error,fail_forbidden_libraries,fail_fail_on_original,fail_pass_on_mutation,average time,average tokens_in,average tokens_out
-q,4,,,,2,2,102.25,183937.25,3552.75
-Total,4,,,,2,2,102.25,183937.25,3552.75

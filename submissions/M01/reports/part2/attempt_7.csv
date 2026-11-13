@@ -1,6 +1,0 @@
-Project Name,#Tested mutants,successful,fail_syntax_error,fail_forbidden_libraries,fail_fail_on_original,fail_pass_on_mutation,average time,average tokens_in,average tokens_out
-pull-stream,1,,,,1,,104.00,13546.00,1898.00
-delta,3,,,,3,,114.67,52852.67,3950.00
-crawler-url-parser,3,,,,,3,107.67,29729.67,1148.67
-node-geo-point,0,,,,,,,,
-Total,7,,,,4,3,110.14,37327.57,2456.29
