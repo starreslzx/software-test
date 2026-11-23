@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_19-07/artifacts/Complex.js/attempt_2/pending_category/mutant-b9e058f/testCase.test.ts
+  Complex.add
+    √ returns Infinity when adding a finite value to an infinite value (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.865 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-22_19-07\artifacts\Complex.js\attempt_2\pending_category\mutant-b9e058f\testCase.test.ts".

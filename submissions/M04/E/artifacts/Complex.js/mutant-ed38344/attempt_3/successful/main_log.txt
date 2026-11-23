@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_19-09/artifacts/Complex.js/attempt_3/pending_category/mutant-ed38344/testCase.test.ts
+  Complex subtraction with a single infinite operand
+    √ returns Infinity rather than NaN when exactly one operand is infinite (9 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.567 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-22_19-09\artifacts\Complex.js\attempt_3\pending_category\mutant-ed38344\testCase.test.ts".
