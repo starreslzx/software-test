@@ -1,0 +1,2895 @@
+{
+  "Complex.js": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-3396602": {
+            "time": 11,
+            "tokensIn": 10370,
+            "tokensOut": 168,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_fail_on_original/mutant-3396602"
+          },
+          "mutant-374868f": {
+            "time": 12,
+            "tokensIn": 10343,
+            "tokensOut": 196,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_fail_on_original/mutant-374868f"
+          },
+          "mutant-44bef4d": {
+            "time": 12,
+            "tokensIn": 10345,
+            "tokensOut": 187,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_fail_on_original/mutant-44bef4d"
+          },
+          "mutant-f977050": {
+            "time": 12,
+            "tokensIn": 10353,
+            "tokensOut": 207,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_fail_on_original/mutant-f977050"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-04a68d5": {
+            "time": 2,
+            "tokensIn": 10350,
+            "tokensOut": 197,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_forbidden_libraries/mutant-04a68d5"
+          },
+          "mutant-2fa9afb": {
+            "time": 2,
+            "tokensIn": 10362,
+            "tokensOut": 113,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_forbidden_libraries/mutant-2fa9afb"
+          },
+          "mutant-c3d4345": {
+            "time": 3,
+            "tokensIn": 10348,
+            "tokensOut": 355,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_forbidden_libraries/mutant-c3d4345"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b58d5f8": {
+            "time": 20,
+            "tokensIn": 10355,
+            "tokensOut": 73,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_pass_on_mutation/mutant-b58d5f8"
+          },
+          "mutant-c8c916d": {
+            "time": 22,
+            "tokensIn": 10355,
+            "tokensOut": 316,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_pass_on_mutation/mutant-c8c916d"
+          },
+          "mutant-d85712e": {
+            "time": 21,
+            "tokensIn": 10388,
+            "tokensOut": 92,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_pass_on_mutation/mutant-d85712e"
+          },
+          "mutant-eed5f9d": {
+            "time": 21,
+            "tokensIn": 10364,
+            "tokensOut": 159,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_pass_on_mutation/mutant-eed5f9d"
+          },
+          "mutant-f7d009c": {
+            "time": 20,
+            "tokensIn": 10358,
+            "tokensOut": 87,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_pass_on_mutation/mutant-f7d009c"
+          },
+          "mutant-fdf297b": {
+            "time": 19,
+            "tokensIn": 10366,
+            "tokensOut": 106,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/fail_pass_on_mutation/mutant-fdf297b"
+          }
+        },
+        "successful": {
+          "mutant-129bc94": {
+            "time": 23,
+            "tokensIn": 10347,
+            "tokensOut": 69,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-129bc94"
+          },
+          "mutant-15a16cd": {
+            "time": 26,
+            "tokensIn": 10364,
+            "tokensOut": 114,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-15a16cd"
+          },
+          "mutant-2fa106f": {
+            "time": 20,
+            "tokensIn": 10354,
+            "tokensOut": 85,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-2fa106f"
+          },
+          "mutant-8f11a46": {
+            "time": 20,
+            "tokensIn": 10369,
+            "tokensOut": 116,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-8f11a46"
+          },
+          "mutant-b2ec3fb": {
+            "time": 26,
+            "tokensIn": 10359,
+            "tokensOut": 154,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-b2ec3fb"
+          },
+          "mutant-b9e058f": {
+            "time": 20,
+            "tokensIn": 10363,
+            "tokensOut": 189,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-b9e058f"
+          },
+          "mutant-d8fad7c": {
+            "time": 21,
+            "tokensIn": 10349,
+            "tokensOut": 105,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-d8fad7c"
+          },
+          "mutant-da833ea": {
+            "time": 22,
+            "tokensIn": 10357,
+            "tokensOut": 247,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-da833ea"
+          },
+          "mutant-ed38344": {
+            "time": 19,
+            "tokensIn": 10370,
+            "tokensOut": 102,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-ed38344"
+          },
+          "mutant-f9e9146": {
+            "time": 16,
+            "tokensIn": 10361,
+            "tokensOut": 64,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-f9e9146"
+          },
+          "mutant-fb78f3a": {
+            "time": 21,
+            "tokensIn": 10357,
+            "tokensOut": 85,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_1/successful/mutant-fb78f3a"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_fail_on_original": {
+          "mutant-44bef4d": {
+            "time": 139,
+            "tokensIn": 164547,
+            "tokensOut": 10206,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_10/fail_fail_on_original/mutant-44bef4d"
+          },
+          "mutant-c3d4345": {
+            "time": 110,
+            "tokensIn": 121073,
+            "tokensOut": 5110,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_10/fail_fail_on_original/mutant-c3d4345"
+          },
+          "mutant-c8c916d": {
+            "time": 155,
+            "tokensIn": 126730,
+            "tokensOut": 4421,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_10/fail_fail_on_original/mutant-c8c916d"
+          },
+          "mutant-fdf297b": {
+            "time": 262,
+            "tokensIn": 224127,
+            "tokensOut": 37002,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_10/fail_fail_on_original/mutant-fdf297b"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-eed5f9d": {
+            "time": 264,
+            "tokensIn": 243719,
+            "tokensOut": 33892,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_10/fail_pass_on_mutation/mutant-eed5f9d"
+          },
+          "mutant-f7d009c": {
+            "time": 284,
+            "tokensIn": 177075,
+            "tokensOut": 27964,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_10/fail_pass_on_mutation/mutant-f7d009c"
+          },
+          "mutant-f977050": {
+            "time": 153,
+            "tokensIn": 115419,
+            "tokensOut": 1727,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_10/fail_pass_on_mutation/mutant-f977050"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-3396602": {
+            "time": 22,
+            "tokensIn": 20993,
+            "tokensOut": 322,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_fail_on_original/mutant-3396602"
+          },
+          "mutant-44bef4d": {
+            "time": 23,
+            "tokensIn": 20962,
+            "tokensOut": 374,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_fail_on_original/mutant-44bef4d"
+          },
+          "mutant-f977050": {
+            "time": 24,
+            "tokensIn": 20998,
+            "tokensOut": 387,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_fail_on_original/mutant-f977050"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-04a68d5": {
+            "time": 4,
+            "tokensIn": 20983,
+            "tokensOut": 394,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_forbidden_libraries/mutant-04a68d5"
+          },
+          "mutant-2fa9afb": {
+            "time": 4,
+            "tokensIn": 20923,
+            "tokensOut": 228,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_forbidden_libraries/mutant-2fa9afb"
+          },
+          "mutant-c3d4345": {
+            "time": 5,
+            "tokensIn": 21137,
+            "tokensOut": 562,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_forbidden_libraries/mutant-c3d4345"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b58d5f8": {
+            "time": 39,
+            "tokensIn": 20859,
+            "tokensOut": 144,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_pass_on_mutation/mutant-b58d5f8"
+          },
+          "mutant-c8c916d": {
+            "time": 48,
+            "tokensIn": 21102,
+            "tokensOut": 638,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_pass_on_mutation/mutant-c8c916d"
+          },
+          "mutant-d85712e": {
+            "time": 44,
+            "tokensIn": 20944,
+            "tokensOut": 180,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_pass_on_mutation/mutant-d85712e"
+          },
+          "mutant-eed5f9d": {
+            "time": 41,
+            "tokensIn": 20963,
+            "tokensOut": 318,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_pass_on_mutation/mutant-eed5f9d"
+          },
+          "mutant-f7d009c": {
+            "time": 40,
+            "tokensIn": 20879,
+            "tokensOut": 280,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_pass_on_mutation/mutant-f7d009c"
+          },
+          "mutant-fdf297b": {
+            "time": 38,
+            "tokensIn": 20914,
+            "tokensOut": 211,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/fail_pass_on_mutation/mutant-fdf297b"
+          }
+        },
+        "successful": {
+          "mutant-374868f": {
+            "time": 34,
+            "tokensIn": 20967,
+            "tokensOut": 437,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_2/successful/mutant-374868f"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_fail_on_original": {
+          "mutant-44bef4d": {
+            "time": 34,
+            "tokensIn": 31851,
+            "tokensOut": 561,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/fail_fail_on_original/mutant-44bef4d"
+          },
+          "mutant-c3d4345": {
+            "time": 17,
+            "tokensIn": 32219,
+            "tokensOut": 754,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/fail_fail_on_original/mutant-c3d4345"
+          },
+          "mutant-c8c916d": {
+            "time": 61,
+            "tokensIn": 32247,
+            "tokensOut": 1133,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/fail_fail_on_original/mutant-c8c916d"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-fdf297b": {
+            "time": 54,
+            "tokensIn": 31643,
+            "tokensOut": 3482,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/fail_forbidden_libraries/mutant-fdf297b"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b58d5f8": {
+            "time": 60,
+            "tokensIn": 31510,
+            "tokensOut": 239,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/fail_pass_on_mutation/mutant-b58d5f8"
+          },
+          "mutant-d85712e": {
+            "time": 64,
+            "tokensIn": 31664,
+            "tokensOut": 271,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/fail_pass_on_mutation/mutant-d85712e"
+          },
+          "mutant-f7d009c": {
+            "time": 60,
+            "tokensIn": 31669,
+            "tokensOut": 390,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/fail_pass_on_mutation/mutant-f7d009c"
+          },
+          "mutant-f977050": {
+            "time": 45,
+            "tokensIn": 31908,
+            "tokensOut": 556,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/fail_pass_on_mutation/mutant-f977050"
+          }
+        },
+        "fail_syntax_error": {
+          "mutant-eed5f9d": {
+            "time": 74,
+            "tokensIn": 31797,
+            "tokensOut": 8510,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/fail_syntax_error/mutant-eed5f9d"
+          }
+        },
+        "successful": {
+          "mutant-04a68d5": {
+            "time": 29,
+            "tokensIn": 31899,
+            "tokensOut": 586,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/successful/mutant-04a68d5"
+          },
+          "mutant-2fa9afb": {
+            "time": 30,
+            "tokensIn": 31685,
+            "tokensOut": 328,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/successful/mutant-2fa9afb"
+          },
+          "mutant-3396602": {
+            "time": 41,
+            "tokensIn": 31855,
+            "tokensOut": 493,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_3/successful/mutant-3396602"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_fail_on_original": {
+          "mutant-c3d4345": {
+            "time": 28,
+            "tokensIn": 43578,
+            "tokensOut": 946,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_4/fail_fail_on_original/mutant-c3d4345"
+          },
+          "mutant-c8c916d": {
+            "time": 76,
+            "tokensIn": 43972,
+            "tokensOut": 1945,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_4/fail_fail_on_original/mutant-c8c916d"
+          },
+          "mutant-f977050": {
+            "time": 57,
+            "tokensIn": 43063,
+            "tokensOut": 742,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_4/fail_fail_on_original/mutant-f977050"
+          },
+          "mutant-fdf297b": {
+            "time": 65,
+            "tokensIn": 45729,
+            "tokensOut": 3577,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_4/fail_fail_on_original/mutant-fdf297b"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-44bef4d": {
+            "time": 70,
+            "tokensIn": 43012,
+            "tokensOut": 8753,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_4/fail_forbidden_libraries/mutant-44bef4d"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b58d5f8": {
+            "time": 88,
+            "tokensIn": 42332,
+            "tokensOut": 309,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_4/fail_pass_on_mutation/mutant-b58d5f8"
+          },
+          "mutant-d85712e": {
+            "time": 83,
+            "tokensIn": 42551,
+            "tokensOut": 359,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_4/fail_pass_on_mutation/mutant-d85712e"
+          },
+          "mutant-f7d009c": {
+            "time": 78,
+            "tokensIn": 42645,
+            "tokensOut": 542,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_4/fail_pass_on_mutation/mutant-f7d009c"
+          }
+        },
+        "fail_syntax_error": {
+          "mutant-eed5f9d": {
+            "time": 103,
+            "tokensIn": 50909,
+            "tokensOut": 16702,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_4/fail_syntax_error/mutant-eed5f9d"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_fail_on_original": {
+          "mutant-44bef4d": {
+            "time": 81,
+            "tokensIn": 62451,
+            "tokensOut": 8940,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_5/fail_fail_on_original/mutant-44bef4d"
+          },
+          "mutant-c3d4345": {
+            "time": 40,
+            "tokensIn": 55214,
+            "tokensOut": 1138,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_5/fail_fail_on_original/mutant-c3d4345"
+          },
+          "mutant-c8c916d": {
+            "time": 90,
+            "tokensIn": 56594,
+            "tokensOut": 2437,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_5/fail_fail_on_original/mutant-c8c916d"
+          },
+          "mutant-f7d009c": {
+            "time": 127,
+            "tokensIn": 53849,
+            "tokensOut": 8734,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_5/fail_fail_on_original/mutant-f7d009c"
+          },
+          "mutant-f977050": {
+            "time": 68,
+            "tokensIn": 54489,
+            "tokensOut": 931,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_5/fail_fail_on_original/mutant-f977050"
+          },
+          "mutant-fdf297b": {
+            "time": 124,
+            "tokensIn": 59995,
+            "tokensOut": 11769,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_5/fail_fail_on_original/mutant-fdf297b"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-eed5f9d": {
+            "time": 129,
+            "tokensIn": 78299,
+            "tokensOut": 16929,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_5/fail_pass_on_mutation/mutant-eed5f9d"
+          }
+        },
+        "successful": {
+          "mutant-b58d5f8": {
+            "time": 109,
+            "tokensIn": 53300,
+            "tokensOut": 770,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_5/successful/mutant-b58d5f8"
+          },
+          "mutant-d85712e": {
+            "time": 106,
+            "tokensIn": 53602,
+            "tokensOut": 1286,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_5/successful/mutant-d85712e"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_fail_on_original": {
+          "mutant-44bef4d": {
+            "time": 92,
+            "tokensIn": 82162,
+            "tokensOut": 9039,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_6/fail_fail_on_original/mutant-44bef4d"
+          },
+          "mutant-c3d4345": {
+            "time": 51,
+            "tokensIn": 67127,
+            "tokensOut": 1330,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_6/fail_fail_on_original/mutant-c3d4345"
+          },
+          "mutant-c8c916d": {
+            "time": 104,
+            "tokensIn": 69793,
+            "tokensOut": 2794,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_6/fail_fail_on_original/mutant-c8c916d"
+          },
+          "mutant-fdf297b": {
+            "time": 160,
+            "tokensIn": 82538,
+            "tokensOut": 19961,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_6/fail_fail_on_original/mutant-fdf297b"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-eed5f9d": {
+            "time": 150,
+            "tokensIn": 105992,
+            "tokensOut": 17156,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_6/fail_pass_on_mutation/mutant-eed5f9d"
+          },
+          "mutant-f7d009c": {
+            "time": 147,
+            "tokensIn": 73330,
+            "tokensOut": 8889,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_6/fail_pass_on_mutation/mutant-f7d009c"
+          },
+          "mutant-f977050": {
+            "time": 88,
+            "tokensIn": 66189,
+            "tokensOut": 1099,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_6/fail_pass_on_mutation/mutant-f977050"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_fail_on_original": {
+          "mutant-44bef4d": {
+            "time": 106,
+            "tokensIn": 102057,
+            "tokensOut": 9603,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_7/fail_fail_on_original/mutant-44bef4d"
+          },
+          "mutant-c3d4345": {
+            "time": 64,
+            "tokensIn": 79317,
+            "tokensOut": 1903,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_7/fail_fail_on_original/mutant-c3d4345"
+          },
+          "mutant-c8c916d": {
+            "time": 117,
+            "tokensIn": 83434,
+            "tokensOut": 3132,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_7/fail_fail_on_original/mutant-c8c916d"
+          },
+          "mutant-f977050": {
+            "time": 102,
+            "tokensIn": 78133,
+            "tokensOut": 1276,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_7/fail_fail_on_original/mutant-f977050"
+          },
+          "mutant-fdf297b": {
+            "time": 176,
+            "tokensIn": 113358,
+            "tokensOut": 20340,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_7/fail_fail_on_original/mutant-fdf297b"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-eed5f9d": {
+            "time": 170,
+            "tokensIn": 133988,
+            "tokensOut": 17383,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_7/fail_pass_on_mutation/mutant-eed5f9d"
+          },
+          "mutant-f7d009c": {
+            "time": 179,
+            "tokensIn": 93042,
+            "tokensOut": 12760,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_7/fail_pass_on_mutation/mutant-f7d009c"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_fail_on_original": {
+          "mutant-44bef4d": {
+            "time": 117,
+            "tokensIn": 122601,
+            "tokensOut": 9804,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_8/fail_fail_on_original/mutant-44bef4d"
+          },
+          "mutant-c3d4345": {
+            "time": 80,
+            "tokensIn": 92164,
+            "tokensOut": 3133,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_8/fail_fail_on_original/mutant-c3d4345"
+          },
+          "mutant-c8c916d": {
+            "time": 130,
+            "tokensIn": 97498,
+            "tokensOut": 3415,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_8/fail_fail_on_original/mutant-c8c916d"
+          },
+          "mutant-f977050": {
+            "time": 113,
+            "tokensIn": 90339,
+            "tokensOut": 1424,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_8/fail_fail_on_original/mutant-f977050"
+          },
+          "mutant-fdf297b": {
+            "time": 214,
+            "tokensIn": 144642,
+            "tokensOut": 28532,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_8/fail_fail_on_original/mutant-fdf297b"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-f7d009c": {
+            "time": 208,
+            "tokensIn": 116701,
+            "tokensOut": 15078,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_8/fail_pass_on_mutation/mutant-f7d009c"
+          }
+        },
+        "fail_syntax_error": {
+          "mutant-eed5f9d": {
+            "time": 206,
+            "tokensIn": 162287,
+            "tokensOut": 25575,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_8/fail_syntax_error/mutant-eed5f9d"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_fail_on_original": {
+          "mutant-44bef4d": {
+            "time": 128,
+            "tokensIn": 143431,
+            "tokensOut": 10005,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_9/fail_fail_on_original/mutant-44bef4d"
+          },
+          "mutant-c3d4345": {
+            "time": 93,
+            "tokensIn": 106326,
+            "tokensOut": 3633,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_9/fail_fail_on_original/mutant-c3d4345"
+          },
+          "mutant-c8c916d": {
+            "time": 142,
+            "tokensIn": 111930,
+            "tokensOut": 3698,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_9/fail_fail_on_original/mutant-c8c916d"
+          },
+          "mutant-fdf297b": {
+            "time": 226,
+            "tokensIn": 184203,
+            "tokensOut": 28810,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_9/fail_fail_on_original/mutant-fdf297b"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-f7d009c": {
+            "time": 250,
+            "tokensIn": 142754,
+            "tokensOut": 23270,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_9/fail_pass_on_mutation/mutant-f7d009c"
+          },
+          "mutant-f977050": {
+            "time": 133,
+            "tokensIn": 102778,
+            "tokensOut": 1550,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_9/fail_pass_on_mutation/mutant-f977050"
+          }
+        },
+        "fail_syntax_error": {
+          "mutant-eed5f9d": {
+            "time": 243,
+            "tokensIn": 198864,
+            "tokensOut": 33767,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/Complex.js/attempt_9/fail_syntax_error/mutant-eed5f9d"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "countries-and-timezones": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-36f4eda": {
+            "time": 205,
+            "tokensIn": 1361,
+            "tokensOut": 92,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/countries-and-timezones/attempt_1/fail_fail_on_original/mutant-36f4eda"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_pass_on_mutation": {
+          "mutant-36f4eda": {
+            "time": 820,
+            "tokensIn": 22338,
+            "tokensOut": 1130,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/countries-and-timezones/attempt_10/fail_pass_on_mutation/mutant-36f4eda"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-36f4eda": {
+            "time": 255,
+            "tokensIn": 2899,
+            "tokensOut": 182,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/countries-and-timezones/attempt_2/fail_fail_on_original/mutant-36f4eda"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_pass_on_mutation": {
+          "mutant-36f4eda": {
+            "time": 356,
+            "tokensIn": 4612,
+            "tokensOut": 320,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/countries-and-timezones/attempt_3/fail_pass_on_mutation/mutant-36f4eda"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_fail_on_original": {
+          "mutant-36f4eda": {
+            "time": 405,
+            "tokensIn": 6539,
+            "tokensOut": 429,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/countries-and-timezones/attempt_4/fail_fail_on_original/mutant-36f4eda"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_pass_on_mutation": {
+          "mutant-36f4eda": {
+            "time": 508,
+            "tokensIn": 8660,
+            "tokensOut": 597,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/countries-and-timezones/attempt_5/fail_pass_on_mutation/mutant-36f4eda"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_fail_on_original": {
+          "mutant-36f4eda": {
+            "time": 560,
+            "tokensIn": 11025,
+            "tokensOut": 687,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/countries-and-timezones/attempt_6/fail_fail_on_original/mutant-36f4eda"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_fail_on_original": {
+          "mutant-36f4eda": {
+            "time": 612,
+            "tokensIn": 13565,
+            "tokensOut": 810,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/countries-and-timezones/attempt_7/fail_fail_on_original/mutant-36f4eda"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_fail_on_original": {
+          "mutant-36f4eda": {
+            "time": 667,
+            "tokensIn": 16313,
+            "tokensOut": 902,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/countries-and-timezones/attempt_8/fail_fail_on_original/mutant-36f4eda"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_fail_on_original": {
+          "mutant-36f4eda": {
+            "time": 720,
+            "tokensIn": 19238,
+            "tokensOut": 992,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/countries-and-timezones/attempt_9/fail_fail_on_original/mutant-36f4eda"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "crawler-url-parser": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-c4fa501": {
+            "time": 11,
+            "tokensIn": 2566,
+            "tokensOut": 117,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_1/fail_fail_on_original/mutant-c4fa501"
+          },
+          "mutant-e99b7e5": {
+            "time": 84,
+            "tokensIn": 2574,
+            "tokensOut": 135,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_1/fail_fail_on_original/mutant-e99b7e5"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-af25bdc": {
+            "time": 22,
+            "tokensIn": 2555,
+            "tokensOut": 178,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_1/fail_pass_on_mutation/mutant-af25bdc"
+          },
+          "mutant-b36f405": {
+            "time": 20,
+            "tokensIn": 2568,
+            "tokensOut": 183,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_1/fail_pass_on_mutation/mutant-b36f405"
+          }
+        },
+        "successful": {
+          "mutant-497dce4": {
+            "time": 22,
+            "tokensIn": 2535,
+            "tokensOut": 191,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_1/successful/mutant-497dce4"
+          },
+          "mutant-8043845": {
+            "time": 22,
+            "tokensIn": 2580,
+            "tokensOut": 242,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_1/successful/mutant-8043845"
+          },
+          "mutant-bc3e948": {
+            "time": 25,
+            "tokensIn": 2569,
+            "tokensOut": 208,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_1/successful/mutant-bc3e948"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_fail_on_original": {
+          "mutant-c4fa501": {
+            "time": 107,
+            "tokensIn": 34461,
+            "tokensOut": 1101,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_10/fail_fail_on_original/mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b36f405": {
+            "time": 202,
+            "tokensIn": 43154,
+            "tokensOut": 3607,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_10/fail_pass_on_mutation/mutant-b36f405"
+          },
+          "mutant-e99b7e5": {
+            "time": 257,
+            "tokensIn": 35601,
+            "tokensOut": 1434,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_10/fail_pass_on_mutation/mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-c4fa501": {
+            "time": 21,
+            "tokensIn": 5334,
+            "tokensOut": 234,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_2/fail_fail_on_original/mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-af25bdc": {
+            "time": 41,
+            "tokensIn": 5364,
+            "tokensOut": 337,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_2/fail_pass_on_mutation/mutant-af25bdc"
+          },
+          "mutant-b36f405": {
+            "time": 42,
+            "tokensIn": 5395,
+            "tokensOut": 326,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_2/fail_pass_on_mutation/mutant-b36f405"
+          },
+          "mutant-e99b7e5": {
+            "time": 104,
+            "tokensIn": 5368,
+            "tokensOut": 273,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_2/fail_pass_on_mutation/mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_fail_on_original": {
+          "mutant-af25bdc": {
+            "time": 56,
+            "tokensIn": 8408,
+            "tokensOut": 471,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_3/fail_fail_on_original/mutant-af25bdc"
+          },
+          "mutant-c4fa501": {
+            "time": 33,
+            "tokensIn": 8304,
+            "tokensOut": 337,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_3/fail_fail_on_original/mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b36f405": {
+            "time": 63,
+            "tokensIn": 8441,
+            "tokensOut": 495,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_3/fail_pass_on_mutation/mutant-b36f405"
+          },
+          "mutant-e99b7e5": {
+            "time": 124,
+            "tokensIn": 8376,
+            "tokensOut": 432,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_3/fail_pass_on_mutation/mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_fail_on_original": {
+          "mutant-c4fa501": {
+            "time": 43,
+            "tokensIn": 11462,
+            "tokensOut": 443,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_4/fail_fail_on_original/mutant-c4fa501"
+          },
+          "mutant-e99b7e5": {
+            "time": 134,
+            "tokensIn": 11619,
+            "tokensOut": 575,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_4/fail_fail_on_original/mutant-e99b7e5"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b36f405": {
+            "time": 87,
+            "tokensIn": 11732,
+            "tokensOut": 1232,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_4/fail_pass_on_mutation/mutant-b36f405"
+          }
+        },
+        "successful": {
+          "mutant-af25bdc": {
+            "time": 64,
+            "tokensIn": 11671,
+            "tokensOut": 591,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_4/successful/mutant-af25bdc"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_fail_on_original": {
+          "mutant-b36f405": {
+            "time": 100,
+            "tokensIn": 15836,
+            "tokensOut": 1640,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_5/fail_fail_on_original/mutant-b36f405"
+          },
+          "mutant-c4fa501": {
+            "time": 54,
+            "tokensIn": 14811,
+            "tokensOut": 544,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_5/fail_fail_on_original/mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-e99b7e5": {
+            "time": 154,
+            "tokensIn": 15090,
+            "tokensOut": 713,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_5/fail_pass_on_mutation/mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_fail_on_original": {
+          "mutant-c4fa501": {
+            "time": 65,
+            "tokensIn": 18346,
+            "tokensOut": 661,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_6/fail_fail_on_original/mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b36f405": {
+            "time": 121,
+            "tokensIn": 20433,
+            "tokensOut": 1788,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_6/fail_pass_on_mutation/mutant-b36f405"
+          },
+          "mutant-e99b7e5": {
+            "time": 179,
+            "tokensIn": 18775,
+            "tokensOut": 839,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_6/fail_pass_on_mutation/mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_fail_on_original": {
+          "mutant-c4fa501": {
+            "time": 75,
+            "tokensIn": 22083,
+            "tokensOut": 778,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_7/fail_fail_on_original/mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b36f405": {
+            "time": 147,
+            "tokensIn": 25254,
+            "tokensOut": 2319,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_7/fail_pass_on_mutation/mutant-b36f405"
+          },
+          "mutant-e99b7e5": {
+            "time": 198,
+            "tokensIn": 22662,
+            "tokensOut": 959,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_7/fail_pass_on_mutation/mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_fail_on_original": {
+          "mutant-b36f405": {
+            "time": 159,
+            "tokensIn": 30682,
+            "tokensOut": 2773,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_8/fail_fail_on_original/mutant-b36f405"
+          },
+          "mutant-c4fa501": {
+            "time": 86,
+            "tokensIn": 26022,
+            "tokensOut": 878,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_8/fail_fail_on_original/mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-e99b7e5": {
+            "time": 216,
+            "tokensIn": 26745,
+            "tokensOut": 1114,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_8/fail_pass_on_mutation/mutant-e99b7e5"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_fail_on_original": {
+          "mutant-c4fa501": {
+            "time": 96,
+            "tokensIn": 30146,
+            "tokensOut": 984,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_9/fail_fail_on_original/mutant-c4fa501"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b36f405": {
+            "time": 181,
+            "tokensIn": 36649,
+            "tokensOut": 3235,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_9/fail_pass_on_mutation/mutant-b36f405"
+          },
+          "mutant-e99b7e5": {
+            "time": 238,
+            "tokensIn": 31059,
+            "tokensOut": 1266,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/crawler-url-parser/attempt_9/fail_pass_on_mutation/mutant-e99b7e5"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "delta": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-1b83b53": {
+            "time": 12,
+            "tokensIn": 4946,
+            "tokensOut": 254,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_1/fail_fail_on_original/mutant-1b83b53"
+          },
+          "mutant-2f2fb49": {
+            "time": 10,
+            "tokensIn": 1403,
+            "tokensOut": 124,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_1/fail_fail_on_original/mutant-2f2fb49"
+          },
+          "mutant-7cd0f61": {
+            "time": 11,
+            "tokensIn": 4980,
+            "tokensOut": 100,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_1/fail_fail_on_original/mutant-7cd0f61"
+          },
+          "mutant-7dadc4e": {
+            "time": 10,
+            "tokensIn": 4966,
+            "tokensOut": 137,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_1/fail_fail_on_original/mutant-7dadc4e"
+          },
+          "mutant-bfe4f6d": {
+            "time": 11,
+            "tokensIn": 4960,
+            "tokensOut": 102,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_1/fail_fail_on_original/mutant-bfe4f6d"
+          },
+          "mutant-f681451": {
+            "time": 10,
+            "tokensIn": 4970,
+            "tokensOut": 116,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_1/fail_fail_on_original/mutant-f681451"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-66dbaca": {
+            "time": 20,
+            "tokensIn": 4968,
+            "tokensOut": 154,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_1/fail_pass_on_mutation/mutant-66dbaca"
+          },
+          "mutant-f48934c": {
+            "time": 66,
+            "tokensIn": 4966,
+            "tokensOut": 91,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_1/fail_pass_on_mutation/mutant-f48934c"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 173,
+            "tokensIn": 74731,
+            "tokensOut": 17276,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_10/fail_fail_on_original/mutant-7dadc4e"
+          },
+          "mutant-f681451": {
+            "time": 179,
+            "tokensIn": 131060,
+            "tokensOut": 25363,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_10/fail_fail_on_original/mutant-f681451"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-1b83b53": {
+            "time": 22,
+            "tokensIn": 10231,
+            "tokensOut": 508,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_2/fail_fail_on_original/mutant-1b83b53"
+          },
+          "mutant-7cd0f61": {
+            "time": 22,
+            "tokensIn": 10145,
+            "tokensOut": 202,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_2/fail_fail_on_original/mutant-7cd0f61"
+          },
+          "mutant-7dadc4e": {
+            "time": 21,
+            "tokensIn": 10154,
+            "tokensOut": 239,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_2/fail_fail_on_original/mutant-7dadc4e"
+          },
+          "mutant-bfe4f6d": {
+            "time": 20,
+            "tokensIn": 10107,
+            "tokensOut": 207,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_2/fail_fail_on_original/mutant-bfe4f6d"
+          },
+          "mutant-f48934c": {
+            "time": 76,
+            "tokensIn": 10099,
+            "tokensOut": 169,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_2/fail_fail_on_original/mutant-f48934c"
+          },
+          "mutant-f681451": {
+            "time": 19,
+            "tokensIn": 10141,
+            "tokensOut": 234,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_2/fail_fail_on_original/mutant-f681451"
+          }
+        },
+        "successful": {
+          "mutant-2f2fb49": {
+            "time": 27,
+            "tokensIn": 3015,
+            "tokensOut": 212,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_2/successful/mutant-2f2fb49"
+          },
+          "mutant-66dbaca": {
+            "time": 37,
+            "tokensIn": 10166,
+            "tokensOut": 292,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_2/successful/mutant-66dbaca"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_fail_on_original": {
+          "mutant-1b83b53": {
+            "time": 31,
+            "tokensIn": 15855,
+            "tokensOut": 762,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_3/fail_fail_on_original/mutant-1b83b53"
+          },
+          "mutant-7cd0f61": {
+            "time": 30,
+            "tokensIn": 15497,
+            "tokensOut": 304,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_3/fail_fail_on_original/mutant-7cd0f61"
+          },
+          "mutant-7dadc4e": {
+            "time": 31,
+            "tokensIn": 15529,
+            "tokensOut": 349,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_3/fail_fail_on_original/mutant-7dadc4e"
+          },
+          "mutant-bfe4f6d": {
+            "time": 29,
+            "tokensIn": 15444,
+            "tokensOut": 308,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_3/fail_fail_on_original/mutant-bfe4f6d"
+          },
+          "mutant-f48934c": {
+            "time": 86,
+            "tokensIn": 15395,
+            "tokensOut": 260,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_3/fail_fail_on_original/mutant-f48934c"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-f681451": {
+            "time": 39,
+            "tokensIn": 15515,
+            "tokensOut": 331,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_3/fail_pass_on_mutation/mutant-f681451"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_fail_on_original": {
+          "mutant-7cd0f61": {
+            "time": 44,
+            "tokensIn": 21036,
+            "tokensOut": 433,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_4/fail_fail_on_original/mutant-7cd0f61"
+          },
+          "mutant-7dadc4e": {
+            "time": 40,
+            "tokensIn": 21099,
+            "tokensOut": 462,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_4/fail_fail_on_original/mutant-7dadc4e"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-bfe4f6d": {
+            "time": 49,
+            "tokensIn": 20967,
+            "tokensOut": 436,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_4/fail_pass_on_mutation/mutant-bfe4f6d"
+          },
+          "mutant-f681451": {
+            "time": 55,
+            "tokensIn": 21062,
+            "tokensOut": 433,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_4/fail_pass_on_mutation/mutant-f681451"
+          }
+        },
+        "successful": {
+          "mutant-1b83b53": {
+            "time": 70,
+            "tokensIn": 21818,
+            "tokensOut": 4094,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_4/successful/mutant-1b83b53"
+          },
+          "mutant-f48934c": {
+            "time": 105,
+            "tokensIn": 20867,
+            "tokensOut": 359,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_4/successful/mutant-f48934c"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_fail_on_original": {
+          "mutant-7cd0f61": {
+            "time": 53,
+            "tokensIn": 26789,
+            "tokensOut": 563,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_5/fail_fail_on_original/mutant-7cd0f61"
+          },
+          "mutant-bfe4f6d": {
+            "time": 59,
+            "tokensIn": 26694,
+            "tokensOut": 542,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_5/fail_fail_on_original/mutant-bfe4f6d"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-7dadc4e": {
+            "time": 67,
+            "tokensIn": 26867,
+            "tokensOut": 574,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_5/fail_pass_on_mutation/mutant-7dadc4e"
+          }
+        },
+        "fail_syntax_error": {
+          "mutant-f681451": {
+            "time": 84,
+            "tokensIn": 26787,
+            "tokensOut": 8625,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_5/fail_syntax_error/mutant-f681451"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_fail_on_original": {
+          "mutant-7cd0f61": {
+            "time": 63,
+            "tokensIn": 32757,
+            "tokensOut": 693,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_6/fail_fail_on_original/mutant-7cd0f61"
+          },
+          "mutant-7dadc4e": {
+            "time": 76,
+            "tokensIn": 32823,
+            "tokensOut": 674,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_6/fail_fail_on_original/mutant-7dadc4e"
+          },
+          "mutant-f681451": {
+            "time": 97,
+            "tokensIn": 40790,
+            "tokensOut": 8741,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_6/fail_fail_on_original/mutant-f681451"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-bfe4f6d": {
+            "time": 83,
+            "tokensIn": 32612,
+            "tokensOut": 678,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_6/fail_pass_on_mutation/mutant-bfe4f6d"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 86,
+            "tokensIn": 38964,
+            "tokensOut": 789,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_7/fail_fail_on_original/mutant-7dadc4e"
+          },
+          "mutant-bfe4f6d": {
+            "time": 93,
+            "tokensIn": 38742,
+            "tokensOut": 783,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_7/fail_fail_on_original/mutant-bfe4f6d"
+          }
+        },
+        "fail_syntax_error": {
+          "mutant-f681451": {
+            "time": 125,
+            "tokensIn": 54994,
+            "tokensOut": 16933,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_7/fail_syntax_error/mutant-f681451"
+          }
+        },
+        "successful": {
+          "mutant-7cd0f61": {
+            "time": 107,
+            "tokensIn": 38940,
+            "tokensOut": 6018,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_7/successful/mutant-7cd0f61"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_pass_on_mutation": {
+          "mutant-f681451": {
+            "time": 142,
+            "tokensIn": 77476,
+            "tokensOut": 17028,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_8/fail_pass_on_mutation/mutant-f681451"
+          }
+        },
+        "fail_syntax_error": {
+          "mutant-7dadc4e": {
+            "time": 122,
+            "tokensIn": 45305,
+            "tokensOut": 8981,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_8/fail_syntax_error/mutant-7dadc4e"
+          }
+        },
+        "successful": {
+          "mutant-bfe4f6d": {
+            "time": 118,
+            "tokensIn": 45062,
+            "tokensOut": 2051,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_8/successful/mutant-bfe4f6d"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 136,
+            "tokensIn": 59924,
+            "tokensOut": 9084,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_9/fail_fail_on_original/mutant-7dadc4e"
+          }
+        },
+        "fail_syntax_error": {
+          "mutant-f681451": {
+            "time": 169,
+            "tokensIn": 100129,
+            "tokensOut": 25220,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/delta/attempt_9/fail_syntax_error/mutant-f681451"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "image-downloader": {
+    "attempts": {
+      "attempt_1": {
+        "successful": {
+          "mutant-bd61080": {
+            "time": 51,
+            "tokensIn": 901,
+            "tokensOut": 254,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/image-downloader/attempt_1/successful/mutant-bd61080"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "node-dirty": {
+    "attempts": {
+      "attempt_1": {
+        "fail_pass_on_mutation": {
+          "mutant-0af9d8e": {
+            "time": 13,
+            "tokensIn": 2089,
+            "tokensOut": 282,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_1/fail_pass_on_mutation/mutant-0af9d8e"
+          },
+          "mutant-1ac7862": {
+            "time": 17,
+            "tokensIn": 2077,
+            "tokensOut": 449,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_1/fail_pass_on_mutation/mutant-1ac7862"
+          },
+          "mutant-7491a14": {
+            "time": 14,
+            "tokensIn": 2074,
+            "tokensOut": 342,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_1/fail_pass_on_mutation/mutant-7491a14"
+          },
+          "mutant-9a3bb96": {
+            "time": 35,
+            "tokensIn": 2074,
+            "tokensOut": 236,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_1/fail_pass_on_mutation/mutant-9a3bb96"
+          }
+        },
+        "successful": {
+          "mutant-202d0e2": {
+            "time": 18,
+            "tokensIn": 2075,
+            "tokensOut": 333,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_1/successful/mutant-202d0e2"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_fail_on_original": {
+          "mutant-1ac7862": {
+            "time": 194,
+            "tokensIn": 46953,
+            "tokensOut": 5481,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_10/fail_fail_on_original/mutant-1ac7862"
+          },
+          "mutant-7491a14": {
+            "time": 117,
+            "tokensIn": 39583,
+            "tokensOut": 3680,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_10/fail_fail_on_original/mutant-7491a14"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-9a3bb96": {
+            "time": 162,
+            "tokensIn": 36998,
+            "tokensOut": 3000,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_10/fail_pass_on_mutation/mutant-9a3bb96"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-9a3bb96": {
+            "time": 49,
+            "tokensIn": 4460,
+            "tokensOut": 549,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_2/fail_fail_on_original/mutant-9a3bb96"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-0af9d8e": {
+            "time": 39,
+            "tokensIn": 4536,
+            "tokensOut": 676,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_2/fail_pass_on_mutation/mutant-0af9d8e"
+          },
+          "mutant-1ac7862": {
+            "time": 35,
+            "tokensIn": 4679,
+            "tokensOut": 881,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_2/fail_pass_on_mutation/mutant-1ac7862"
+          },
+          "mutant-7491a14": {
+            "time": 27,
+            "tokensIn": 4566,
+            "tokensOut": 684,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_2/fail_pass_on_mutation/mutant-7491a14"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_pass_on_mutation": {
+          "mutant-0af9d8e": {
+            "time": 64,
+            "tokensIn": 7453,
+            "tokensOut": 1098,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_3/fail_pass_on_mutation/mutant-0af9d8e"
+          },
+          "mutant-1ac7862": {
+            "time": 54,
+            "tokensIn": 7789,
+            "tokensOut": 1395,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_3/fail_pass_on_mutation/mutant-1ac7862"
+          },
+          "mutant-7491a14": {
+            "time": 39,
+            "tokensIn": 7476,
+            "tokensOut": 986,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_3/fail_pass_on_mutation/mutant-7491a14"
+          },
+          "mutant-9a3bb96": {
+            "time": 66,
+            "tokensIn": 7244,
+            "tokensOut": 840,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_3/fail_pass_on_mutation/mutant-9a3bb96"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_pass_on_mutation": {
+          "mutant-0af9d8e": {
+            "time": 90,
+            "tokensIn": 10868,
+            "tokensOut": 1530,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_4/fail_pass_on_mutation/mutant-0af9d8e"
+          },
+          "mutant-1ac7862": {
+            "time": 72,
+            "tokensIn": 11489,
+            "tokensOut": 1898,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_4/fail_pass_on_mutation/mutant-1ac7862"
+          },
+          "mutant-7491a14": {
+            "time": 52,
+            "tokensIn": 10764,
+            "tokensOut": 1316,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_4/fail_pass_on_mutation/mutant-7491a14"
+          },
+          "mutant-9a3bb96": {
+            "time": 81,
+            "tokensIn": 10395,
+            "tokensOut": 1131,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_4/fail_pass_on_mutation/mutant-9a3bb96"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_fail_on_original": {
+          "mutant-7491a14": {
+            "time": 61,
+            "tokensIn": 14458,
+            "tokensOut": 1727,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_5/fail_fail_on_original/mutant-7491a14"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-0af9d8e": {
+            "time": 113,
+            "tokensIn": 14791,
+            "tokensOut": 1965,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_5/fail_pass_on_mutation/mutant-0af9d8e"
+          },
+          "mutant-1ac7862": {
+            "time": 89,
+            "tokensIn": 15768,
+            "tokensOut": 2382,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_5/fail_pass_on_mutation/mutant-1ac7862"
+          },
+          "mutant-9a3bb96": {
+            "time": 93,
+            "tokensIn": 13913,
+            "tokensOut": 1409,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_5/fail_pass_on_mutation/mutant-9a3bb96"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_pass_on_mutation": {
+          "mutant-0af9d8e": {
+            "time": 141,
+            "tokensIn": 19225,
+            "tokensOut": 2400,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_6/fail_pass_on_mutation/mutant-0af9d8e"
+          },
+          "mutant-1ac7862": {
+            "time": 109,
+            "tokensIn": 20607,
+            "tokensOut": 2958,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_6/fail_pass_on_mutation/mutant-1ac7862"
+          },
+          "mutant-7491a14": {
+            "time": 73,
+            "tokensIn": 18648,
+            "tokensOut": 2029,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_6/fail_pass_on_mutation/mutant-7491a14"
+          },
+          "mutant-9a3bb96": {
+            "time": 107,
+            "tokensIn": 17785,
+            "tokensOut": 1700,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_6/fail_pass_on_mutation/mutant-9a3bb96"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_pass_on_mutation": {
+          "mutant-1ac7862": {
+            "time": 130,
+            "tokensIn": 26098,
+            "tokensOut": 3516,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_7/fail_pass_on_mutation/mutant-1ac7862"
+          },
+          "mutant-7491a14": {
+            "time": 89,
+            "tokensIn": 23216,
+            "tokensOut": 2372,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_7/fail_pass_on_mutation/mutant-7491a14"
+          },
+          "mutant-9a3bb96": {
+            "time": 122,
+            "tokensIn": 22024,
+            "tokensOut": 1994,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_7/fail_pass_on_mutation/mutant-9a3bb96"
+          }
+        },
+        "successful": {
+          "mutant-0af9d8e": {
+            "time": 162,
+            "tokensIn": 24170,
+            "tokensOut": 2838,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_7/successful/mutant-0af9d8e"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_fail_on_original": {
+          "mutant-1ac7862": {
+            "time": 151,
+            "tokensIn": 32223,
+            "tokensOut": 4349,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_8/fail_fail_on_original/mutant-1ac7862"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-7491a14": {
+            "time": 102,
+            "tokensIn": 28203,
+            "tokensOut": 2715,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_8/fail_pass_on_mutation/mutant-7491a14"
+          },
+          "mutant-9a3bb96": {
+            "time": 136,
+            "tokensIn": 26633,
+            "tokensOut": 2285,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_8/fail_pass_on_mutation/mutant-9a3bb96"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_fail_on_original": {
+          "mutant-1ac7862": {
+            "time": 173,
+            "tokensIn": 39266,
+            "tokensOut": 4908,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_9/fail_fail_on_original/mutant-1ac7862"
+          },
+          "mutant-7491a14": {
+            "time": 109,
+            "tokensIn": 33609,
+            "tokensOut": 3198,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_9/fail_fail_on_original/mutant-7491a14"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-9a3bb96": {
+            "time": 149,
+            "tokensIn": 31609,
+            "tokensOut": 2622,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-dirty/attempt_9/fail_pass_on_mutation/mutant-9a3bb96"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "node-geo-point": {
+    "attempts": {
+      "attempt_1": {
+        "fail_pass_on_mutation": {
+          "mutant-775e92b": {
+            "time": 12,
+            "tokensIn": 3370,
+            "tokensOut": 120,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-geo-point/attempt_1/fail_pass_on_mutation/mutant-775e92b"
+          },
+          "mutant-7f41d2f": {
+            "time": 12,
+            "tokensIn": 3361,
+            "tokensOut": 187,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-geo-point/attempt_1/fail_pass_on_mutation/mutant-7f41d2f"
+          }
+        },
+        "successful": {
+          "mutant-0d10ae7": {
+            "time": 13,
+            "tokensIn": 3384,
+            "tokensOut": 94,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-geo-point/attempt_1/successful/mutant-0d10ae7"
+          },
+          "mutant-13ad216": {
+            "time": 16,
+            "tokensIn": 3372,
+            "tokensOut": 136,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-geo-point/attempt_1/successful/mutant-13ad216"
+          },
+          "mutant-7631766": {
+            "time": 11,
+            "tokensIn": 3379,
+            "tokensOut": 122,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-geo-point/attempt_1/successful/mutant-7631766"
+          },
+          "mutant-fa538a2": {
+            "time": 35,
+            "tokensIn": 3364,
+            "tokensOut": 102,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-geo-point/attempt_1/successful/mutant-fa538a2"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_pass_on_mutation": {
+          "mutant-7f41d2f": {
+            "time": 25,
+            "tokensIn": 6985,
+            "tokensOut": 374,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-geo-point/attempt_2/fail_pass_on_mutation/mutant-7f41d2f"
+          }
+        },
+        "successful": {
+          "mutant-775e92b": {
+            "time": 25,
+            "tokensIn": 6936,
+            "tokensOut": 214,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-geo-point/attempt_2/successful/mutant-775e92b"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_fail_on_original": {
+          "mutant-7f41d2f": {
+            "time": 32,
+            "tokensIn": 10872,
+            "tokensOut": 535,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-geo-point/attempt_3/fail_fail_on_original/mutant-7f41d2f"
+          }
+        }
+      },
+      "attempt_4": {
+        "successful": {
+          "mutant-7f41d2f": {
+            "time": 48,
+            "tokensIn": 15005,
+            "tokensOut": 968,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-geo-point/attempt_4/successful/mutant-7f41d2f"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "node-jsonfile": {
+    "attempts": {
+      "attempt_1": {
+        "fail_forbidden_libraries": {
+          "mutant-d9833fc": {
+            "time": 3,
+            "tokensIn": 1227,
+            "tokensOut": 330,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/node-jsonfile/attempt_1/fail_forbidden_libraries/mutant-d9833fc"
+          }
+        }
+      }
+    },
+    "errors": [
+      "mutant-d9833fc: Error: Command failed: npm install --silent\n"
+    ]
+  },
+  "plural": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-57409fb": {
+            "time": 6,
+            "tokensIn": 1850,
+            "tokensOut": 85,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_1/fail_fail_on_original/mutant-57409fb"
+          }
+        },
+        "successful": {
+          "mutant-a014dbb": {
+            "time": 13,
+            "tokensIn": 1847,
+            "tokensOut": 84,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_1/successful/mutant-a014dbb"
+          },
+          "mutant-c94c06c": {
+            "time": 18,
+            "tokensIn": 1840,
+            "tokensOut": 65,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_1/successful/mutant-c94c06c"
+          },
+          "mutant-d5bab3b": {
+            "time": 17,
+            "tokensIn": 1868,
+            "tokensOut": 93,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_1/successful/mutant-d5bab3b"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_pass_on_mutation": {
+          "mutant-57409fb": {
+            "time": 100,
+            "tokensIn": 40932,
+            "tokensOut": 5227,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_10/fail_pass_on_mutation/mutant-57409fb"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_pass_on_mutation": {
+          "mutant-57409fb": {
+            "time": 17,
+            "tokensIn": 3870,
+            "tokensOut": 170,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_2/fail_pass_on_mutation/mutant-57409fb"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_forbidden_libraries": {
+          "mutant-57409fb": {
+            "time": 29,
+            "tokensIn": 6051,
+            "tokensOut": 1403,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_3/fail_forbidden_libraries/mutant-57409fb"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_pass_on_mutation": {
+          "mutant-57409fb": {
+            "time": 40,
+            "tokensIn": 9550,
+            "tokensOut": 1484,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_4/fail_pass_on_mutation/mutant-57409fb"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_forbidden_libraries": {
+          "mutant-57409fb": {
+            "time": 47,
+            "tokensIn": 13206,
+            "tokensOut": 2244,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_5/fail_forbidden_libraries/mutant-57409fb"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_pass_on_mutation": {
+          "mutant-57409fb": {
+            "time": 55,
+            "tokensIn": 17707,
+            "tokensOut": 2345,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_6/fail_pass_on_mutation/mutant-57409fb"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_pass_on_mutation": {
+          "mutant-57409fb": {
+            "time": 69,
+            "tokensIn": 22385,
+            "tokensOut": 3137,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_7/fail_pass_on_mutation/mutant-57409fb"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_forbidden_libraries": {
+          "mutant-57409fb": {
+            "time": 73,
+            "tokensIn": 27931,
+            "tokensOut": 3728,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_8/fail_forbidden_libraries/mutant-57409fb"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_pass_on_mutation": {
+          "mutant-57409fb": {
+            "time": 85,
+            "tokensIn": 34154,
+            "tokensOut": 4207,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/plural/attempt_9/fail_pass_on_mutation/mutant-57409fb"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "pull-stream": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-bc61ada": {
+            "time": 8,
+            "tokensIn": 827,
+            "tokensOut": 191,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_1/fail_fail_on_original/mutant-bc61ada"
+          },
+          "mutant-e591fdf": {
+            "time": 10,
+            "tokensIn": 1030,
+            "tokensOut": 400,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_1/fail_fail_on_original/mutant-e591fdf"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-9937593": {
+            "time": 11,
+            "tokensIn": 1048,
+            "tokensOut": 163,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_1/fail_pass_on_mutation/mutant-9937593"
+          },
+          "mutant-b35effe": {
+            "time": 11,
+            "tokensIn": 819,
+            "tokensOut": 154,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_1/fail_pass_on_mutation/mutant-b35effe"
+          },
+          "mutant-cfcbab6": {
+            "time": 14,
+            "tokensIn": 1047,
+            "tokensOut": 144,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_1/fail_pass_on_mutation/mutant-cfcbab6"
+          }
+        },
+        "successful": {
+          "mutant-53fc850": {
+            "time": 11,
+            "tokensIn": 757,
+            "tokensOut": 100,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_1/successful/mutant-53fc850"
+          },
+          "mutant-786e276": {
+            "time": 14,
+            "tokensIn": 1036,
+            "tokensOut": 178,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_1/successful/mutant-786e276"
+          },
+          "mutant-79747e0": {
+            "time": 13,
+            "tokensIn": 1048,
+            "tokensOut": 177,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_1/successful/mutant-79747e0"
+          },
+          "mutant-8303b1e": {
+            "time": 42,
+            "tokensIn": 769,
+            "tokensOut": 98,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_1/successful/mutant-8303b1e"
+          },
+          "mutant-9c883ef": {
+            "time": 11,
+            "tokensIn": 812,
+            "tokensOut": 189,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_1/successful/mutant-9c883ef"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_syntax_error": {
+          "mutant-cfcbab6": {
+            "time": 183,
+            "tokensIn": 67438,
+            "tokensOut": 25617,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_10/fail_syntax_error/mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-bc61ada": {
+            "time": 15,
+            "tokensIn": 1930,
+            "tokensOut": 382,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_2/fail_fail_on_original/mutant-bc61ada"
+          },
+          "mutant-e591fdf": {
+            "time": 16,
+            "tokensIn": 2545,
+            "tokensOut": 658,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_2/fail_fail_on_original/mutant-e591fdf"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-9937593": {
+            "time": 22,
+            "tokensIn": 2335,
+            "tokensOut": 338,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_2/fail_pass_on_mutation/mutant-9937593"
+          },
+          "mutant-b35effe": {
+            "time": 23,
+            "tokensIn": 1868,
+            "tokensOut": 308,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_2/fail_pass_on_mutation/mutant-b35effe"
+          },
+          "mutant-cfcbab6": {
+            "time": 29,
+            "tokensIn": 2314,
+            "tokensOut": 276,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_2/fail_pass_on_mutation/mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_fail_on_original": {
+          "mutant-bc61ada": {
+            "time": 23,
+            "tokensIn": 3309,
+            "tokensOut": 587,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_3/fail_fail_on_original/mutant-bc61ada"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-b35effe": {
+            "time": 34,
+            "tokensIn": 3147,
+            "tokensOut": 462,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_3/fail_pass_on_mutation/mutant-b35effe"
+          },
+          "mutant-cfcbab6": {
+            "time": 42,
+            "tokensIn": 3789,
+            "tokensOut": 406,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_3/fail_pass_on_mutation/mutant-cfcbab6"
+          }
+        },
+        "successful": {
+          "mutant-9937593": {
+            "time": 32,
+            "tokensIn": 3873,
+            "tokensOut": 458,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_3/successful/mutant-9937593"
+          },
+          "mutant-e591fdf": {
+            "time": 28,
+            "tokensIn": 4403,
+            "tokensOut": 909,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_3/successful/mutant-e591fdf"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_fail_on_original": {
+          "mutant-bc61ada": {
+            "time": 30,
+            "tokensIn": 4978,
+            "tokensOut": 775,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_4/fail_fail_on_original/mutant-bc61ada"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-cfcbab6": {
+            "time": 54,
+            "tokensIn": 5470,
+            "tokensOut": 506,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_4/fail_pass_on_mutation/mutant-cfcbab6"
+          }
+        },
+        "successful": {
+          "mutant-b35effe": {
+            "time": 47,
+            "tokensIn": 4656,
+            "tokensOut": 819,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_4/successful/mutant-b35effe"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_fail_on_original": {
+          "mutant-bc61ada": {
+            "time": 37,
+            "tokensIn": 6920,
+            "tokensOut": 983,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_5/fail_fail_on_original/mutant-bc61ada"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-cfcbab6": {
+            "time": 67,
+            "tokensIn": 7327,
+            "tokensOut": 649,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_5/fail_pass_on_mutation/mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_fail_on_original": {
+          "mutant-bc61ada": {
+            "time": 44,
+            "tokensIn": 9155,
+            "tokensOut": 1191,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_6/fail_fail_on_original/mutant-bc61ada"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-cfcbab6": {
+            "time": 111,
+            "tokensIn": 9403,
+            "tokensOut": 7736,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_6/fail_pass_on_mutation/mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_fail_on_original": {
+          "mutant-bc61ada": {
+            "time": 51,
+            "tokensIn": 11683,
+            "tokensOut": 1399,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_7/fail_fail_on_original/mutant-bc61ada"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-cfcbab6": {
+            "time": 126,
+            "tokensIn": 18641,
+            "tokensOut": 9099,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_7/fail_pass_on_mutation/mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_fail_on_original": {
+          "mutant-bc61ada": {
+            "time": 56,
+            "tokensIn": 14504,
+            "tokensOut": 1607,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_8/fail_fail_on_original/mutant-bc61ada"
+          }
+        },
+        "fail_syntax_error": {
+          "mutant-cfcbab6": {
+            "time": 149,
+            "tokensIn": 29318,
+            "tokensOut": 17291,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_8/fail_syntax_error/mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_pass_on_mutation": {
+          "mutant-cfcbab6": {
+            "time": 160,
+            "tokensIn": 48273,
+            "tokensOut": 17425,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_9/fail_pass_on_mutation/mutant-cfcbab6"
+          }
+        },
+        "successful": {
+          "mutant-bc61ada": {
+            "time": 71,
+            "tokensIn": 17618,
+            "tokensOut": 2152,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/pull-stream/attempt_9/successful/mutant-bc61ada"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "q": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-5b2a054": {
+            "time": 13,
+            "tokensIn": 15468,
+            "tokensOut": 570,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/fail_fail_on_original/mutant-5b2a054"
+          },
+          "mutant-ab94fe2": {
+            "time": 12,
+            "tokensIn": 15466,
+            "tokensOut": 181,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/fail_fail_on_original/mutant-ab94fe2"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-7145248": {
+            "time": 10,
+            "tokensIn": 15470,
+            "tokensOut": 133,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/fail_forbidden_libraries/mutant-7145248"
+          },
+          "mutant-727d8b5": {
+            "time": 3,
+            "tokensIn": 15467,
+            "tokensOut": 263,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/fail_forbidden_libraries/mutant-727d8b5"
+          },
+          "mutant-76329a3": {
+            "time": 14,
+            "tokensIn": 15468,
+            "tokensOut": 122,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/fail_forbidden_libraries/mutant-76329a3"
+          },
+          "mutant-a392fc2": {
+            "time": 2,
+            "tokensIn": 15476,
+            "tokensOut": 100,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/fail_forbidden_libraries/mutant-a392fc2"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-1f17b8d": {
+            "time": 73,
+            "tokensIn": 15480,
+            "tokensOut": 117,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/fail_pass_on_mutation/mutant-1f17b8d"
+          },
+          "mutant-5095899": {
+            "time": 17,
+            "tokensIn": 15401,
+            "tokensOut": 250,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/fail_pass_on_mutation/mutant-5095899"
+          },
+          "mutant-c4ba1f4": {
+            "time": 19,
+            "tokensIn": 15502,
+            "tokensOut": 121,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/fail_pass_on_mutation/mutant-c4ba1f4"
+          }
+        },
+        "successful": {
+          "mutant-0a20137": {
+            "time": 18,
+            "tokensIn": 15473,
+            "tokensOut": 75,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-0a20137"
+          },
+          "mutant-2b53f21": {
+            "time": 16,
+            "tokensIn": 15454,
+            "tokensOut": 135,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-2b53f21"
+          },
+          "mutant-2dbaf61": {
+            "time": 19,
+            "tokensIn": 15469,
+            "tokensOut": 286,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-2dbaf61"
+          },
+          "mutant-3f05d00": {
+            "time": 47,
+            "tokensIn": 15460,
+            "tokensOut": 95,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-3f05d00"
+          },
+          "mutant-5212880": {
+            "time": 25,
+            "tokensIn": 15477,
+            "tokensOut": 123,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-5212880"
+          },
+          "mutant-5a5398e": {
+            "time": 25,
+            "tokensIn": 15465,
+            "tokensOut": 74,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-5a5398e"
+          },
+          "mutant-b68e5f9": {
+            "time": 21,
+            "tokensIn": 15459,
+            "tokensOut": 72,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-b68e5f9"
+          },
+          "mutant-c369491": {
+            "time": 23,
+            "tokensIn": 15485,
+            "tokensOut": 177,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-c369491"
+          },
+          "mutant-d91c516": {
+            "time": 22,
+            "tokensIn": 15470,
+            "tokensOut": 94,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-d91c516"
+          },
+          "mutant-e0dce9c": {
+            "time": 19,
+            "tokensIn": 15467,
+            "tokensOut": 113,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-e0dce9c"
+          },
+          "mutant-f52bdbd": {
+            "time": 20,
+            "tokensIn": 15465,
+            "tokensOut": 187,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_1/successful/mutant-f52bdbd"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_fail_on_original": {
+          "mutant-ab94fe2": {
+            "time": 123,
+            "tokensIn": 166482,
+            "tokensOut": 1904,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_10/fail_fail_on_original/mutant-ab94fe2"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-727d8b5": {
+            "time": 21,
+            "tokensIn": 169079,
+            "tokensOut": 2306,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_10/fail_forbidden_libraries/mutant-727d8b5"
+          },
+          "mutant-76329a3": {
+            "time": 29,
+            "tokensIn": 163996,
+            "tokensOut": 1216,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_10/fail_forbidden_libraries/mutant-76329a3"
+          },
+          "mutant-a392fc2": {
+            "time": 20,
+            "tokensIn": 163125,
+            "tokensOut": 1002,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_10/fail_forbidden_libraries/mutant-a392fc2"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-5b2a054": {
+            "time": 26,
+            "tokensIn": 31591,
+            "tokensOut": 1026,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_2/fail_fail_on_original/mutant-5b2a054"
+          },
+          "mutant-ab94fe2": {
+            "time": 24,
+            "tokensIn": 31198,
+            "tokensOut": 361,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_2/fail_fail_on_original/mutant-ab94fe2"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-7145248": {
+            "time": 13,
+            "tokensIn": 31159,
+            "tokensOut": 266,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_2/fail_forbidden_libraries/mutant-7145248"
+          },
+          "mutant-727d8b5": {
+            "time": 5,
+            "tokensIn": 31283,
+            "tokensOut": 490,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_2/fail_forbidden_libraries/mutant-727d8b5"
+          },
+          "mutant-76329a3": {
+            "time": 16,
+            "tokensIn": 31144,
+            "tokensOut": 239,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_2/fail_forbidden_libraries/mutant-76329a3"
+          },
+          "mutant-a392fc2": {
+            "time": 5,
+            "tokensIn": 31138,
+            "tokensOut": 200,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_2/fail_forbidden_libraries/mutant-a392fc2"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-1f17b8d": {
+            "time": 91,
+            "tokensIn": 31153,
+            "tokensOut": 263,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_2/fail_pass_on_mutation/mutant-1f17b8d"
+          },
+          "mutant-c4ba1f4": {
+            "time": 37,
+            "tokensIn": 31201,
+            "tokensOut": 260,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_2/fail_pass_on_mutation/mutant-c4ba1f4"
+          }
+        },
+        "successful": {
+          "mutant-5095899": {
+            "time": 33,
+            "tokensIn": 31128,
+            "tokensOut": 451,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_2/successful/mutant-5095899"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_fail_on_original": {
+          "mutant-ab94fe2": {
+            "time": 38,
+            "tokensIn": 47195,
+            "tokensOut": 514,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_3/fail_fail_on_original/mutant-ab94fe2"
+          },
+          "mutant-c4ba1f4": {
+            "time": 54,
+            "tokensIn": 47115,
+            "tokensOut": 427,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_3/fail_fail_on_original/mutant-c4ba1f4"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-727d8b5": {
+            "time": 8,
+            "tokensIn": 47412,
+            "tokensOut": 717,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_3/fail_forbidden_libraries/mutant-727d8b5"
+          },
+          "mutant-76329a3": {
+            "time": 18,
+            "tokensIn": 47023,
+            "tokensOut": 357,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_3/fail_forbidden_libraries/mutant-76329a3"
+          },
+          "mutant-a392fc2": {
+            "time": 7,
+            "tokensIn": 46986,
+            "tokensOut": 298,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_3/fail_forbidden_libraries/mutant-a392fc2"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-1f17b8d": {
+            "time": 107,
+            "tokensIn": 47048,
+            "tokensOut": 380,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_3/fail_pass_on_mutation/mutant-1f17b8d"
+          }
+        },
+        "successful": {
+          "mutant-5b2a054": {
+            "time": 45,
+            "tokensIn": 48255,
+            "tokensOut": 1517,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_3/successful/mutant-5b2a054"
+          },
+          "mutant-7145248": {
+            "time": 45,
+            "tokensIn": 47067,
+            "tokensOut": 396,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_3/successful/mutant-7145248"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_fail_on_original": {
+          "mutant-ab94fe2": {
+            "time": 50,
+            "tokensIn": 63430,
+            "tokensOut": 668,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_4/fail_fail_on_original/mutant-ab94fe2"
+          },
+          "mutant-c4ba1f4": {
+            "time": 66,
+            "tokensIn": 63281,
+            "tokensOut": 625,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_4/fail_fail_on_original/mutant-c4ba1f4"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-727d8b5": {
+            "time": 10,
+            "tokensIn": 63854,
+            "tokensOut": 944,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_4/fail_forbidden_libraries/mutant-727d8b5"
+          },
+          "mutant-76329a3": {
+            "time": 19,
+            "tokensIn": 63106,
+            "tokensOut": 472,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_4/fail_forbidden_libraries/mutant-76329a3"
+          },
+          "mutant-a392fc2": {
+            "time": 9,
+            "tokensIn": 63018,
+            "tokensOut": 399,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_4/fail_forbidden_libraries/mutant-a392fc2"
+          }
+        },
+        "successful": {
+          "mutant-1f17b8d": {
+            "time": 126,
+            "tokensIn": 63136,
+            "tokensOut": 708,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_4/successful/mutant-1f17b8d"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_fail_on_original": {
+          "mutant-ab94fe2": {
+            "time": 61,
+            "tokensIn": 79904,
+            "tokensOut": 821,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_5/fail_fail_on_original/mutant-ab94fe2"
+          },
+          "mutant-c4ba1f4": {
+            "time": 76,
+            "tokensIn": 79730,
+            "tokensOut": 794,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_5/fail_fail_on_original/mutant-c4ba1f4"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-727d8b5": {
+            "time": 12,
+            "tokensIn": 80609,
+            "tokensOut": 1171,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_5/fail_forbidden_libraries/mutant-727d8b5"
+          },
+          "mutant-76329a3": {
+            "time": 21,
+            "tokensIn": 79390,
+            "tokensOut": 607,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_5/fail_forbidden_libraries/mutant-76329a3"
+          },
+          "mutant-a392fc2": {
+            "time": 11,
+            "tokensIn": 79237,
+            "tokensOut": 500,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_5/fail_forbidden_libraries/mutant-a392fc2"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_fail_on_original": {
+          "mutant-ab94fe2": {
+            "time": 73,
+            "tokensIn": 96616,
+            "tokensOut": 974,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_6/fail_fail_on_original/mutant-ab94fe2"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-727d8b5": {
+            "time": 14,
+            "tokensIn": 97677,
+            "tokensOut": 1398,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_6/fail_forbidden_libraries/mutant-727d8b5"
+          },
+          "mutant-76329a3": {
+            "time": 23,
+            "tokensIn": 95895,
+            "tokensOut": 730,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_6/fail_forbidden_libraries/mutant-76329a3"
+          },
+          "mutant-a392fc2": {
+            "time": 13,
+            "tokensIn": 95643,
+            "tokensOut": 598,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_6/fail_forbidden_libraries/mutant-a392fc2"
+          }
+        },
+        "fail_pass_on_mutation": {
+          "mutant-c4ba1f4": {
+            "time": 93,
+            "tokensIn": 96433,
+            "tokensOut": 936,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_6/fail_pass_on_mutation/mutant-c4ba1f4"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_fail_on_original": {
+          "mutant-ab94fe2": {
+            "time": 84,
+            "tokensIn": 113566,
+            "tokensOut": 1127,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_7/fail_fail_on_original/mutant-ab94fe2"
+          },
+          "mutant-c4ba1f4": {
+            "time": 147,
+            "tokensIn": 113354,
+            "tokensOut": 1117,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_7/fail_fail_on_original/mutant-c4ba1f4"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-727d8b5": {
+            "time": 16,
+            "tokensIn": 115058,
+            "tokensOut": 1625,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_7/fail_forbidden_libraries/mutant-727d8b5"
+          },
+          "mutant-76329a3": {
+            "time": 25,
+            "tokensIn": 112609,
+            "tokensOut": 850,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_7/fail_forbidden_libraries/mutant-76329a3"
+          },
+          "mutant-a392fc2": {
+            "time": 15,
+            "tokensIn": 112233,
+            "tokensOut": 699,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_7/fail_forbidden_libraries/mutant-a392fc2"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_fail_on_original": {
+          "mutant-ab94fe2": {
+            "time": 98,
+            "tokensIn": 130754,
+            "tokensOut": 1591,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_8/fail_fail_on_original/mutant-ab94fe2"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-727d8b5": {
+            "time": 18,
+            "tokensIn": 132752,
+            "tokensOut": 1852,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_8/fail_forbidden_libraries/mutant-727d8b5"
+          },
+          "mutant-76329a3": {
+            "time": 26,
+            "tokensIn": 129529,
+            "tokensOut": 973,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_8/fail_forbidden_libraries/mutant-76329a3"
+          },
+          "mutant-a392fc2": {
+            "time": 17,
+            "tokensIn": 129010,
+            "tokensOut": 800,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_8/fail_forbidden_libraries/mutant-a392fc2"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_fail_on_original": {
+          "mutant-ab94fe2": {
+            "time": 112,
+            "tokensIn": 148491,
+            "tokensOut": 1760,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_9/fail_fail_on_original/mutant-ab94fe2"
+          }
+        },
+        "fail_forbidden_libraries": {
+          "mutant-727d8b5": {
+            "time": 20,
+            "tokensIn": 150759,
+            "tokensOut": 2079,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_9/fail_forbidden_libraries/mutant-727d8b5"
+          },
+          "mutant-76329a3": {
+            "time": 28,
+            "tokensIn": 146658,
+            "tokensOut": 1096,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_9/fail_forbidden_libraries/mutant-76329a3"
+          },
+          "mutant-a392fc2": {
+            "time": 19,
+            "tokensIn": 145974,
+            "tokensOut": 901,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/q/attempt_9/fail_forbidden_libraries/mutant-a392fc2"
+          }
+        }
+      }
+    },
+    "errors": [
+      "mutant-c4ba1f4: TypeError: fetch failed",
+      "mutant-c125836: TypeError: fetch failed",
+      "mutant-7644a72: TypeError: fetch failed",
+      "mutant-2ed8f4e: TypeError: fetch failed",
+      "mutant-982069b: TypeError: fetch failed",
+      "mutant-c420d61: TypeError: fetch failed",
+      "mutant-c854557: TypeError: fetch failed",
+      "mutant-08a5bab: TypeError: fetch failed",
+      "mutant-c9b0349: TypeError: fetch failed",
+      "mutant-ec2c0fd: TypeError: fetch failed",
+      "mutant-f273788: TypeError: fetch failed"
+    ]
+  },
+  "spacl-core": {
+    "attempts": {
+      "attempt_1": {
+        "fail_pass_on_mutation": {
+          "mutant-5c543f7": {
+            "time": 123,
+            "tokensIn": 1682,
+            "tokensOut": 111,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_1/fail_pass_on_mutation/mutant-5c543f7"
+          }
+        },
+        "successful": {
+          "mutant-d8f9a80": {
+            "time": 34,
+            "tokensIn": 1675,
+            "tokensOut": 99,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_1/successful/mutant-d8f9a80"
+          }
+        }
+      },
+      "attempt_10": {
+        "fail_syntax_error": {
+          "mutant-5c543f7": {
+            "time": 344,
+            "tokensIn": 122503,
+            "tokensOut": 33447,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_10/fail_syntax_error/mutant-5c543f7"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-5c543f7": {
+            "time": 135,
+            "tokensIn": 3551,
+            "tokensOut": 235,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_2/fail_fail_on_original/mutant-5c543f7"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_pass_on_mutation": {
+          "mutant-5c543f7": {
+            "time": 157,
+            "tokensIn": 5629,
+            "tokensOut": 346,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_3/fail_pass_on_mutation/mutant-5c543f7"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_syntax_error": {
+          "mutant-5c543f7": {
+            "time": 199,
+            "tokensIn": 7894,
+            "tokensOut": 8538,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_4/fail_syntax_error/mutant-5c543f7"
+          }
+        }
+      },
+      "attempt_5": {
+        "fail_pass_on_mutation": {
+          "mutant-5c543f7": {
+            "time": 220,
+            "tokensIn": 18437,
+            "tokensOut": 8649,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_5/fail_pass_on_mutation/mutant-5c543f7"
+          }
+        }
+      },
+      "attempt_6": {
+        "fail_syntax_error": {
+          "mutant-5c543f7": {
+            "time": 258,
+            "tokensIn": 29167,
+            "tokensOut": 16841,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_6/fail_syntax_error/mutant-5c543f7"
+          }
+        }
+      },
+      "attempt_7": {
+        "fail_pass_on_mutation": {
+          "mutant-5c543f7": {
+            "time": 277,
+            "tokensIn": 48175,
+            "tokensOut": 16952,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_7/fail_pass_on_mutation/mutant-5c543f7"
+          }
+        }
+      },
+      "attempt_8": {
+        "fail_syntax_error": {
+          "mutant-5c543f7": {
+            "time": 301,
+            "tokensIn": 67370,
+            "tokensOut": 25144,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_8/fail_syntax_error/mutant-5c543f7"
+          }
+        }
+      },
+      "attempt_9": {
+        "fail_pass_on_mutation": {
+          "mutant-5c543f7": {
+            "time": 322,
+            "tokensIn": 94843,
+            "tokensOut": 25255,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/spacl-core/attempt_9/fail_pass_on_mutation/mutant-5c543f7"
+          }
+        }
+      }
+    },
+    "errors": []
+  },
+  "zip-a-folder": {
+    "attempts": {
+      "attempt_1": {
+        "successful": {
+          "mutant-c653c55": {
+            "time": 70,
+            "tokensIn": 1803,
+            "tokensOut": 310,
+            "address": "generated_tests/deepseek-chat/temp_0.5/withoutTests/2026-11-24_05-20/artifacts/zip-a-folder/attempt_1/successful/mutant-c653c55"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

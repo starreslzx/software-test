@@ -1,0 +1,15 @@
+Project Name,#Tested mutants,attempt_1.successful,attempt_2.successful,attempt_3.successful,attempt_4.successful,attempt_5.successful,attempt_6.successful,attempt_7.successful,attempt_8.successful,attempt_9.successful,attempt_10.successful,total successes,fail_syntax_error,fail_forbidden_libraries,fail_fail_on_original,fail_pass_on_mutation,time,tokens_in,tokens_out
+Complex.js,24,11,1,3,,2,,,,,,17,,,4,3,1950.00,1509948.00,125552.00
+countries-and-timezones,1,,,,,,,,,,,,,,,1,820.00,22338.00,1130.00
+crawler-url-parser,7,3,,,1,,,,,,,4,,,1,2,699.00,132571.00,7374.00
+delta,8,,2,,2,,,1,1,,,6,,,2,,816.00,345659.00,55665.00
+image-downloader,1,1,,,,,,,,,,1,,,,,51.00,901.00,254.00
+node-dirty,5,1,,,,,,1,,,,2,,,2,1,653.00,149779.00,15332.00
+node-geo-point,6,4,1,,1,,,,,,,6,,,,,148.00,35440.00,1636.00
+node-jsonfile,1,,,,,,,,,,,,,,,,3.00,1227.00,330.00
+plural,4,3,,,,,,,,,,3,,,,1,148.00,46487.00,5469.00
+pull-stream,10,5,,2,1,,,,,1,,9,1,,,,452.00,102410.00,30697.00
+q,30,11,1,2,1,,,,,,,15,,3,1,,844.00,1135766.00,12048.00
+spacl-core,2,1,,,,,,,,,,1,1,,,,378.00,124178.00,33546.00
+zip-a-folder,1,1,,,,,,,,,,1,,,,,70.00,1803.00,310.00
+Total,100,41,5,7,6,2,,2,1,1,,65,2,3,10,8,7032.00,3608507.00,289343.00
