@@ -1,0 +1,29 @@
+{
+  "Complex.js": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-b2ec3fb": {
+            "time": 18,
+            "tokensIn": 10387,
+            "tokensOut": 2196,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_21-45\\artifacts\\Complex.js\\attempt_1\\fail_fail_on_original\\mutant-b2ec3fb"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-b2ec3fb": {
+            "time": 254,
+            "tokensIn": 21563,
+            "tokensOut": 51903,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_21-45\\artifacts\\Complex.js\\attempt_2\\successful\\mutant-b2ec3fb"
+          }
+        }
+      }
+    },
+    "errors": [
+      "mutant-b2ec3fb: Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {\"count\":50,\"threshold\":50,\"scope\":\"turn\",\"targets\":[\"D:\\\\桌面\\\\软测小组报告\\\\repro\\\\official\\\\source-code\\\\generated_tests\\\\deepseek-flash\\\\temp_0.5\\\\withoutTests\\\\2026-11-26_21-45\\\\artifacts\\\\Complex.js\\\\attempt_2\\\\pending_category\"],\"targetCount\":1}"
+    ]
+  }
+}

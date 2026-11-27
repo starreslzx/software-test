@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-32/artifacts/plural/attempt_2/pending_category/mutant-a014dbb/testCase.test.ts
+  plural
+    √ treats dwarf and roof as exceptions that simply gain an s rather than becoming ves (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.416 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-32\artifacts\plural\attempt_2\pending_category\mutant-a014dbb\testCase.test.ts".

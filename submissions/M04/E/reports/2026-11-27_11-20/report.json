@@ -1,0 +1,27 @@
+{
+  "zip-a-folder": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-c653c55": {
+            "time": 43,
+            "tokensIn": 1831,
+            "tokensOut": 6116,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-20\\artifacts\\zip-a-folder\\attempt_1\\fail_fail_on_original\\mutant-c653c55"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-c653c55": {
+            "time": 105,
+            "tokensIn": 4870,
+            "tokensOut": 17372,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-20\\artifacts\\zip-a-folder\\attempt_2\\successful\\mutant-c653c55"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

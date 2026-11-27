@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-37/artifacts/q/attempt_2/pending_category/mutant-982069b/testCase.test.ts
+  Q long stack traces
+    × preserves stack trace details across a promise rejection when long stack support is enabled (4 ms)
+
+  ● Q long stack traces › preserves stack trace details across a promise rejection when long stack support is enabled
+
+    expect(received).toContain(expected) // indexOf
+
+    Expected substring: "stack trace probe"
+    Received string:    ""
+
+      17 |         expect(observed).toBe(originalError);
+      18 |         expect(typeof observed.stack).toBe("string");
+    > 19 |         expect(observed.stack).toContain("stack trace probe");
+         |                                ^
+      20 |         expect(observed.stack).toContain("From previous event:");
+      21 |     });
+      22 | });
+
+      at Object.toContain (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-37/artifacts/q/attempt_2/pending_category/mutant-982069b/testCase.test.ts:19:32)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.822 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-37\artifacts\q\attempt_2\pending_category\mutant-982069b\testCase.test.ts".

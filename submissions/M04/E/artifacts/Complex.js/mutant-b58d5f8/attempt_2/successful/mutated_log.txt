@@ -1,10 +1,10 @@
-FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_18-58/artifacts/Complex.js/attempt_2/pending_category/mutant-b58d5f8/testCase.test.ts
-  Complex string parsing
-    × throws a SyntaxError for strings that cannot be tokenized as a complex number (50 ms)
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-47/artifacts/Complex.js/attempt_2/pending_category/mutant-b58d5f8/testCase.test.ts
+  Complex parsing of invalid strings
+    × throws a SyntaxError when constructed from an empty string (36 ms)
 
-  ● Complex string parsing › throws a SyntaxError for strings that cannot be tokenized as a complex number
+  ● Complex parsing of invalid strings › throws a SyntaxError when constructed from an empty string
 
-    expect(received).toThrowError(expected)
+    expect(received).toThrow(expected)
 
     Expected constructor: SyntaxError
     Received constructor: TypeError
@@ -21,14 +21,14 @@ FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_18-58/artif
 
       at length (../../subject_repositories/Complex.js/complex.js:225:38)
       at new parse (../../subject_repositories/Complex.js/complex.js:298:13)
-      at generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_18-58/artifacts/Complex.js/attempt_2/pending_category/mutant-b58d5f8/testCase.test.ts:5:18
+      at generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-47/artifacts/Complex.js/attempt_2/pending_category/mutant-b58d5f8/testCase.test.ts:21:18
       at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
-      at Object.throwingMatcher [as toThrowError] (node_modules/expect/build/index.js:320:21)
-      at Object.toThrowError (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_18-58/artifacts/Complex.js/attempt_2/pending_category/mutant-b58d5f8/testCase.test.ts:5:37)
-      at Object.toThrowError (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_18-58/artifacts/Complex.js/attempt_2/pending_category/mutant-b58d5f8/testCase.test.ts:5:37)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:320:21)
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-47/artifacts/Complex.js/attempt_2/pending_category/mutant-b58d5f8/testCase.test.ts:21:35)
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-47/artifacts/Complex.js/attempt_2/pending_category/mutant-b58d5f8/testCase.test.ts:21:35)
 
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.935 s, estimated 3 s
-Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-22_18-58\artifacts\Complex.js\attempt_2\pending_category\mutant-b58d5f8\testCase.test.ts".
+Time:        1.422 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_20-47\artifacts\Complex.js\attempt_2\pending_category\mutant-b58d5f8\testCase.test.ts".

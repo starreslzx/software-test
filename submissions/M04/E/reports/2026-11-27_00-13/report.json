@@ -1,0 +1,23 @@
+{
+  "node-geo-point": {
+    "attempts": {
+      "attempt_1": {
+        "successful": {
+          "mutant-0d10ae7": {
+            "time": 10,
+            "tokensIn": 3400,
+            "tokensOut": 532,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_00-13\\artifacts\\node-geo-point\\attempt_1\\successful\\mutant-0d10ae7"
+          },
+          "mutant-fa538a2": {
+            "time": 13,
+            "tokensIn": 3393,
+            "tokensOut": 288,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_00-13\\artifacts\\node-geo-point\\attempt_1\\successful\\mutant-fa538a2"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

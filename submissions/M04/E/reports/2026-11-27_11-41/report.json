@@ -1,0 +1,27 @@
+{
+  "pull-stream": {
+    "attempts": {
+      "attempt_1": {
+        "fail_pass_on_mutation": {
+          "mutant-b35effe": {
+            "time": 170,
+            "tokensIn": 847,
+            "tokensOut": 24133,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-41\\artifacts\\pull-stream\\attempt_1\\fail_pass_on_mutation\\mutant-b35effe"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-b35effe": {
+            "time": 377,
+            "tokensIn": 1904,
+            "tokensOut": 51550,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-41\\artifacts\\pull-stream\\attempt_2\\successful\\mutant-b35effe"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

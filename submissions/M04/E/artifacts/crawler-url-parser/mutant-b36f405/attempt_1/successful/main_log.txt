@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-54/artifacts/crawler-url-parser/attempt_1/pending_category/mutant-b36f405/testCase.test.ts
+  crawler-url-parser query parameter configuration
+    √ recognizes utm_* query parameters using word characters for removal (3 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.602 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_21-54\artifacts\crawler-url-parser\attempt_1\pending_category\mutant-b36f405\testCase.test.ts".

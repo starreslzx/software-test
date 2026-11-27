@@ -1,0 +1,37 @@
+{
+  "pull-stream": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-786e276": {
+            "time": 125,
+            "tokensIn": 1064,
+            "tokensOut": 16837,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-52\\artifacts\\pull-stream\\attempt_1\\fail_fail_on_original\\mutant-786e276"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-786e276": {
+            "time": 239,
+            "tokensIn": 2765,
+            "tokensOut": 34649,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-52\\artifacts\\pull-stream\\attempt_2\\fail_fail_on_original\\mutant-786e276"
+          }
+        }
+      },
+      "attempt_3": {
+        "successful": {
+          "mutant-786e276": {
+            "time": 337,
+            "tokensIn": 5100,
+            "tokensOut": 48032,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-52\\artifacts\\pull-stream\\attempt_3\\successful\\mutant-786e276"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

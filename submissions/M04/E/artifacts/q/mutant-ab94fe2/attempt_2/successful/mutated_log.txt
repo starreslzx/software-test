@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-15/artifacts/q/attempt_2/pending_category/mutant-ab94fe2/testCase.test.ts
+  Q.done unhandled rejection
+    × notifies Q.onerror when a rejected promise is terminated with done (584 ms)
+
+  ● Q.done unhandled rejection › notifies Q.onerror when a rejected promise is terminated with done
+
+    expect(jest.fn()).toHaveBeenCalledTimes(expected)
+
+    Expected number of calls: 1
+    Received number of calls: 0
+
+      47 |       });
+      48 |
+    > 49 |       expect(onerror).toHaveBeenCalledTimes(1);
+         |                       ^
+      50 |       expect(onerror).toHaveBeenCalledWith(error);
+      51 |     } finally {
+      52 |       Q.onerror = originalOnerror;
+
+      at Object.toHaveBeenCalledTimes (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-15/artifacts/q/attempt_2/pending_category/mutant-ab94fe2/testCase.test.ts:49:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.536 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-15\artifacts\q\attempt_2\pending_category\mutant-ab94fe2\testCase.test.ts".

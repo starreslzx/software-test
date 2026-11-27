@@ -1,26 +1,26 @@
-FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_19-00/artifacts/Complex.js/attempt_2/pending_category/mutant-d85712e/testCase.test.ts
-  Complex string parser
-    × parses an imaginary coefficient placed after the i symbol (4 ms)
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-49/artifacts/Complex.js/attempt_2/pending_category/mutant-d85712e/testCase.test.ts
+  Complex string parsing
+    × parses an imaginary token followed by a numeric coefficient (84 ms)
 
-  ● Complex string parser › parses an imaginary coefficient placed after the i symbol
+  ● Complex string parsing › parses an imaginary token followed by a numeric coefficient
 
     expect(received).toBe(expected) // Object.is equality
 
     Expected: 2
     Received: NaN
 
-      51 |
-      52 |     expect(z.re).toBe(0);
-    > 53 |     expect(z.im).toBe(2);
+      43 |
+      44 |     expect(z.re).toBe(0);
+    > 45 |     expect(z.im).toBe(2);
          |                  ^
-      54 |     expect(z.toString()).toBe("2i");
-      55 |   });
-      56 | });
+      46 |     expect(z.toString()).toBe("2i");
+      47 |   });
+      48 | });
 
-      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_19-00/artifacts/Complex.js/attempt_2/pending_category/mutant-d85712e/testCase.test.ts:53:18)
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-49/artifacts/Complex.js/attempt_2/pending_category/mutant-d85712e/testCase.test.ts:45:18)
 
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.755 s, estimated 3 s
-Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-22_19-00\artifacts\Complex.js\attempt_2\pending_category\mutant-d85712e\testCase.test.ts".
+Time:        1.178 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_20-49\artifacts\Complex.js\attempt_2\pending_category\mutant-d85712e\testCase.test.ts".

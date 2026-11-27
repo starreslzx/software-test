@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-09/artifacts/q/attempt_1/pending_category/mutant-2b53f21/testCase.test.ts
+  Q unhandled rejection tracking
+    √ removes a rejection from the unhandled reasons once a rejection handler is attached (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.66 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_23-09\artifacts\q\attempt_1\pending_category\mutant-2b53f21\testCase.test.ts".

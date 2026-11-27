@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-32/artifacts/q/attempt_1/pending_category/mutant-7644a72/testCase.test.ts
+  Q.return with a global ReturnValue constructor
+    √ throws an instance of the provided ReturnValue with the given value (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.389 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-32\artifacts\q\attempt_1\pending_category\mutant-7644a72\testCase.test.ts".

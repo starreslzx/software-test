@@ -1,0 +1,85 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-15/artifacts/q/attempt_3/pending_category/mutant-1f17b8d/testCase.test.ts
+  Q.all
+    × waits for pending promises and resolves with their fulfillment values (4 ms)
+
+  ● Q.all › waits for pending promises and resolves with their fulfillment values
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 54
+
+      Array [
+        1,
+    -   2,
+    +   Promise {
+    +     "all": [Function anonymous],
+    +     "allResolved": [Function anonymous],
+    +     "allSettled": [Function anonymous],
+    +     "any": [Function anonymous],
+    +     "catch": [Function anonymous],
+    +     "del": [Function anonymous],
+    +     "delay": [Function anonymous],
+    +     "delete": [Function anonymous],
+    +     "denodeify": [Function anonymous],
+    +     "dispatch": [Function anonymous],
+    +     "done": [Function anonymous],
+    +     "fail": [Function anonymous],
+    +     "fapply": [Function anonymous],
+    +     "fbind": [Function anonymous],
+    +     "fcall": [Function anonymous],
+    +     "fin": [Function anonymous],
+    +     "finally": [Function anonymous],
+    +     "get": [Function anonymous],
+    +     "inspect": [Function anonymous],
+    +     "invoke": [Function anonymous],
+    +     "isFulfilled": [Function anonymous],
+    +     "isPending": [Function anonymous],
+    +     "isRejected": [Function anonymous],
+    +     "join": [Function anonymous],
+    +     "keys": [Function anonymous],
+    +     "mapply": [Function anonymous],
+    +     "mcall": [Function anonymous],
+    +     "nbind": [Function anonymous],
+    +     "nfapply": [Function anonymous],
+    +     "nfbind": [Function anonymous],
+    +     "nfcall": [Function anonymous],
+    +     "ninvoke": [Function anonymous],
+    +     "nmapply": [Function anonymous],
+    +     "nmcall": [Function anonymous],
+    +     "nodeify": [Function anonymous],
+    +     "npost": [Function anonymous],
+    +     "nsend": [Function anonymous],
+    +     "passByCopy": [Function anonymous],
+    +     "post": [Function anonymous],
+    +     "progress": [Function anonymous],
+    +     "promiseDispatch": [Function anonymous],
+    +     "race": [Function anonymous],
+    +     "send": [Function anonymous],
+    +     "set": [Function anonymous],
+    +     "spread": [Function anonymous],
+    +     "tap": [Function anonymous],
+    +     "then": [Function anonymous],
+    +     "thenReject": [Function anonymous],
+    +     "thenResolve": [Function anonymous],
+    +     "timeout": [Function anonymous],
+    +     "toString": [Function anonymous],
+    +     "valueOf": [Function anonymous],
+    +   },
+      ]
+
+      25 |         const values = await allPromise;
+      26 |
+    > 27 |         expect(values).toEqual([1, 2]);
+         |                        ^
+      28 |     });
+      29 | });
+
+      at Object.toEqual (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-15/artifacts/q/attempt_3/pending_category/mutant-1f17b8d/testCase.test.ts:27:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.623 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-15\artifacts\q\attempt_3\pending_category\mutant-1f17b8d\testCase.test.ts".

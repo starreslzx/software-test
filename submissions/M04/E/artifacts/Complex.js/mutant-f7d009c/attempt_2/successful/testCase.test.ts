@@ -1,11 +1,36 @@
-import { Complex } from "../../../../../../../../../../../../subject_repositories/Complex.js/complex.js";
+// @ts-ignore
+const fs = require("fs");
+// @ts-ignore
+const path = require("path");
 
-describe("Complex.abs hypot at the 3000 boundary", () => {
-  it("uses the stable hypot computation when the imaginary part equals 3000", () => {
-    for (let i = 1; i <= 20000; i++) {
-      const x = i / 10;
-      const expected = 3000 * Math.sqrt(1 + (x / 3000) * (x / 3000));
-      expect(new Complex(x, 3000).abs()).toBe(expected);
+function locateComplexJs(): string {
+  const startDir: string = typeof __dirname !== "undefined" ? __dirname : process.cwd();
+  let dir: string = startDir;
+
+  for (let i = 0; i < 40; i++) {
+    const candidate: string = path.join(dir, "subject_repositories", "Complex.js", "complex.js");
+    if (fs.existsSync(candidate)) {
+      return candidate;
+    }
+    const parent: string = path.dirname(dir);
+    if (parent === dir) {
+      break;
+    }
+    dir = parent;
+  }
+
+  throw new Error("Unable to locate subject_repositories/Complex.js/complex.js");
+}
+
+// @ts-ignore
+const Complex: any = require(locateComplexJs());
+
+describe("Complex.abs when the imaginary magnitude is exactly 3000", () => {
+  test("uses the overflow-safe hypot formula at the 3000 boundary", () => {
+    for (let re = 0; re < 3000; re++) {
+      const actual: number = new Complex(re, 3000).abs();
+      const expected: number = 3000 * Math.sqrt(1 + (re / 3000) * (re / 3000));
+      expect(actual).toBe(expected);
     }
   });
 });

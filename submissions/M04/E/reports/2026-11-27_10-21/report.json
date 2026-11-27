@@ -1,0 +1,27 @@
+{
+  "q": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-c4ba1f4": {
+            "time": 98,
+            "tokensIn": 15532,
+            "tokensOut": 19446,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_10-21\\artifacts\\q\\attempt_1\\fail_fail_on_original\\mutant-c4ba1f4"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-c4ba1f4": {
+            "time": 175,
+            "tokensIn": 32794,
+            "tokensOut": 31350,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_10-21\\artifacts\\q\\attempt_2\\successful\\mutant-c4ba1f4"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

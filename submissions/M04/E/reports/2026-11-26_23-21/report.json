@@ -1,0 +1,34 @@
+{
+  "spacl-core": {
+    "attempts": {
+      "attempt_1": {
+        "successful": {
+          "mutant-d8f9a80": {
+            "time": 27,
+            "tokensIn": 1704,
+            "tokensOut": 814,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-21\\artifacts\\spacl-core\\attempt_1\\successful\\mutant-d8f9a80"
+          }
+        }
+      }
+    },
+    "errors": [
+      "mutant-d8f9a80: Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {\"count\":50,\"threshold\":50,\"scope\":\"turn\",\"targets\":[\"D:\\\\桌面\\\\软测小组报告\\\\repro\\\\official\\\\source-code\\\\generated_tests\\\\deepseek-flash\\\\temp_0.5\\\\withoutTests\\\\2026-11-26_23-21\\\\artifacts\\\\spacl-core\\\\attempt_1\\\\pending_category\"],\"targetCount\":1}"
+    ]
+  },
+  "q": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-b68e5f9": {
+            "time": 22,
+            "tokensIn": 15488,
+            "tokensOut": 3499,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-21\\artifacts\\q\\attempt_1\\fail_fail_on_original\\mutant-b68e5f9"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

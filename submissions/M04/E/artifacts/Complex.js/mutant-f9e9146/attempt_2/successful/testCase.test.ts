@@ -1,50 +1,50 @@
 import * as fs from "fs";
 import * as path from "path";
 
-describe("Complex.js ES module interoperability", () => {
-  it("flags the exported Complex constructor as an ES module export", () => {
-    const startingPoints = [__dirname, process.cwd()];
-    let filePath: string | undefined;
+const TARGET = path.join("subject_repositories", "Complex.js", "complex.js");
 
-    for (const start of startingPoints) {
-      let dir = start;
-      while (true) {
-        const candidate = path.join(
-          dir,
-          "subject_repositories",
-          "Complex.js",
-          "complex.js"
-        );
-
-        if (fs.existsSync(candidate)) {
-          filePath = candidate;
-          break;
-        }
-
-        const parent = path.dirname(dir);
-        if (parent === dir) {
-          break;
-        }
-        dir = parent;
-      }
-
-      if (filePath) {
-        break;
-      }
+function walkUp(start: string): string | null {
+  let dir = start;
+  while (true) {
+    const candidate = path.join(dir, TARGET);
+    if (fs.existsSync(candidate)) {
+      return candidate;
     }
+    const parent = path.dirname(dir);
+    if (parent === dir) {
+      return null;
+    }
+    dir = parent;
+  }
+}
 
-    expect(filePath).toBeDefined();
+function locateComplexModule(): string {
+  const fromDirname = walkUp(__dirname);
+  if (fromDirname) {
+    return fromDirname;
+  }
+  const fromCwd = walkUp(process.cwd());
+  if (fromCwd) {
+    return fromCwd;
+  }
+  throw new Error("Unable to locate module at " + TARGET);
+}
 
-    // @ts-ignore: load the plain JavaScript module without type declarations
-    const loadedModule = require(filePath as string);
-    const Complex =
-      loadedModule && loadedModule.default ? loadedModule.default : loadedModule;
+describe("Complex.js CommonJS export interop flag", () => {
+  it("exposes the Complex constructor with __esModule marked as true", () => {
+    const modulePath = locateComplexModule();
+    const Complex = require(modulePath);
 
-    // Sanity check that we loaded the Complex constructor.
+    // The exported value is the constructor function itself.
     expect(typeof Complex).toBe("function");
-    expect(new Complex(1, 2).re).toBe(1);
 
-    // The export advertises itself as an ES module (Node/Babel interop flag).
+    // Default-import interop relies on this flag being truthy.
     expect(Complex.__esModule).toBe(true);
+
+    // Sanity check that the constructor behaves correctly through the located module.
+    const z = new Complex(2, 3);
+    expect(z.re).toBe(2);
+    expect(z.im).toBe(3);
+    expect(z.toString()).toBe("2 + 3i");
   });
 });

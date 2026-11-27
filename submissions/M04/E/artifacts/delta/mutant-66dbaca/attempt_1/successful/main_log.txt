@@ -1,0 +1,13 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_22-07/artifacts/delta/attempt_1/pending_category/mutant-66dbaca/testCase.test.ts[0m:[93m1[0m:[93m53[0m - [91merror[0m[90m TS5097: [0mAn import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+
+[7m1[0m import Delta, { Op, OpIterator, AttributeMap } from "../../../../../../../../../../../../subject_repositories/delta/src/Delta.ts";
+[7m [0m [91m                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_22-07/artifacts/delta/attempt_1/pending_category/mutant-66dbaca/testCase.test.ts
+  Delta module CommonJS export
+    √ exposes the Delta constructor as the module export (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.194 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_22-07\artifacts\delta\attempt_1\pending_category\mutant-66dbaca\testCase.test.ts".

@@ -1,0 +1,37 @@
+{
+  "node-dirty": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-0af9d8e": {
+            "time": 71,
+            "tokensIn": 2118,
+            "tokensOut": 12480,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_00-00\\artifacts\\node-dirty\\attempt_1\\fail_fail_on_original\\mutant-0af9d8e"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-0af9d8e": {
+            "time": 116,
+            "tokensIn": 5169,
+            "tokensOut": 20840,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_00-00\\artifacts\\node-dirty\\attempt_2\\fail_fail_on_original\\mutant-0af9d8e"
+          }
+        }
+      },
+      "attempt_3": {
+        "successful": {
+          "mutant-0af9d8e": {
+            "time": 210,
+            "tokensIn": 9353,
+            "tokensOut": 42802,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_00-00\\artifacts\\node-dirty\\attempt_3\\successful\\mutant-0af9d8e"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

@@ -20,6 +20,6 @@
   "sample_sha256": "a5fdff6edf6fa2d619076cf60f10e36df6a4b0a65b9301422d3faa3cbff9bd13",
   "runner_commit": "",
   "subject_revisions": "neu-se-experiments (main + mutant-<id> branches)",
-  "started_at": "2026-11-22T10:49:13.165Z",
-  "finished_at": "2026-11-22T11:20:27.304Z"
+  "started_at": "2026-11-26T12:41:06.403Z",
+  "finished_at": "2026-11-27T03:57:50.893Z"
 }

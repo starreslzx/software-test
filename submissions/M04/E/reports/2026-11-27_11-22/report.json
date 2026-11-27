@@ -1,0 +1,47 @@
+{
+  "node-jsonfile": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-d9833fc": {
+            "time": 132,
+            "tokensIn": 1256,
+            "tokensOut": 16621,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-22\\artifacts\\node-jsonfile\\attempt_1\\fail_fail_on_original\\mutant-d9833fc"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_pass_on_mutation": {
+          "mutant-d9833fc": {
+            "time": 262,
+            "tokensIn": 3333,
+            "tokensOut": 39769,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-22\\artifacts\\node-jsonfile\\attempt_2\\fail_pass_on_mutation\\mutant-d9833fc"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_fail_on_original": {
+          "mutant-d9833fc": {
+            "time": 387,
+            "tokensIn": 5919,
+            "tokensOut": 64681,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-22\\artifacts\\node-jsonfile\\attempt_3\\fail_fail_on_original\\mutant-d9833fc"
+          }
+        }
+      },
+      "attempt_4": {
+        "successful": {
+          "mutant-d9833fc": {
+            "time": 437,
+            "tokensIn": 9465,
+            "tokensOut": 72447,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-22\\artifacts\\node-jsonfile\\attempt_4\\successful\\mutant-d9833fc"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

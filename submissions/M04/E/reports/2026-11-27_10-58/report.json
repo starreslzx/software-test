@@ -1,0 +1,27 @@
+{
+  "q": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-e0dce9c": {
+            "time": 51,
+            "tokensIn": 15492,
+            "tokensOut": 10165,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_10-58\\artifacts\\q\\attempt_1\\fail_fail_on_original\\mutant-e0dce9c"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-e0dce9c": {
+            "time": 86,
+            "tokensIn": 31524,
+            "tokensOut": 14991,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_10-58\\artifacts\\q\\attempt_2\\successful\\mutant-e0dce9c"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

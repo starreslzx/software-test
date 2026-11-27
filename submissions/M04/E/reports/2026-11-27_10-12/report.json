@@ -1,0 +1,27 @@
+{
+  "pull-stream": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-cfcbab6": {
+            "time": 73,
+            "tokensIn": 1062,
+            "tokensOut": 11287,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_10-12\\artifacts\\pull-stream\\attempt_1\\fail_fail_on_original\\mutant-cfcbab6"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-cfcbab6": {
+            "time": 177,
+            "tokensIn": 2978,
+            "tokensOut": 28686,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_10-12\\artifacts\\pull-stream\\attempt_2\\successful\\mutant-cfcbab6"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\node-dirty\lib\dirty\dirty.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\node-dirty\lib\dirty\dirty.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_00-00/artifacts/node-dirty/attempt_3/pending_category/mutant-0af9d8e/testCase.test.ts
+  Dirty drain notification
+    × emits drain when the write stream drains with an empty queue and no in-flight writes (551 ms)
+
+  ● Dirty drain notification › emits drain when the write stream drains with an empty queue and no in-flight writes
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 0
+
+      85 |       writeStream.emit("drain");
+      86 |
+    > 87 |       expect(drainCount).toBe(1);
+         |                          ^
+      88 |     } finally {
+      89 |       writeStreamSpy.mockRestore();
+      90 |       readStreamSpy.mockRestore();
+
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_00-00/artifacts/node-dirty/attempt_3/pending_category/mutant-0af9d8e/testCase.test.ts:87:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.875 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_00-00\artifacts\node-dirty\attempt_3\pending_category\mutant-0af9d8e\testCase.test.ts".

@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\pull-stream\sinks\drain.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\pull-stream\sinks\drain.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_22-30/artifacts/pull-stream/attempt_1/pending_category/mutant-9937593/testCase.test.ts
+  drain
+    × throws the source error when no done callback is supplied (3 ms)
+
+  ● drain › throws the source error when no done callback is supplied
+
+    expect(received).toThrow(expected)
+
+    Expected substring: "drain source failed"
+
+    Received function did not throw
+
+      23 |     const sink = drain();
+      24 |
+    > 25 |     expect(() => sink(source)).toThrow("drain source failed");
+         |                                ^
+      26 |   });
+      27 | });
+
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_22-30/artifacts/pull-stream/attempt_1/pending_category/mutant-9937593/testCase.test.ts:25:32)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.173 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_22-30\artifacts\pull-stream\attempt_1\pending_category\mutant-9937593\testCase.test.ts".

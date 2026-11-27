@@ -1,0 +1,17 @@
+{
+  "q": {
+    "attempts": {
+      "attempt_1": {
+        "successful": {
+          "mutant-f52bdbd": {
+            "time": 75,
+            "tokensIn": 15496,
+            "tokensOut": 12770,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-00\\artifacts\\q\\attempt_1\\successful\\mutant-f52bdbd"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

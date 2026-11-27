@@ -1,0 +1,26 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-38/artifacts/q/attempt_2/pending_category/mutant-c420d61/testCase.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '../../../../../../../../../../subject_repositories/q/q.js' from 'generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-38/artifacts/q/attempt_2/pending_category/mutant-c420d61/testCase.test.ts'
+
+      1 | // @ts-ignore
+    > 2 | const Q = require("../../../../../../../../../../subject_repositories/q/q.js");
+        |           ^
+      3 |
+      4 | describe("Q long stack traces", () => {
+      5 |     it("filters Node.js internal frames from rejection stacks", () => {
+
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/resolver.js:427:11)
+      at Object.require (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-38/artifacts/q/attempt_2/pending_category/mutant-c420d61/testCase.test.ts:2:11)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.421 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-38\artifacts\q\attempt_2\pending_category\mutant-c420d61\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

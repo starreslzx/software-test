@@ -1,25 +1,26 @@
-FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_18-49/artifacts/Complex.js/attempt_2/pending_category/mutant-f9e9146/testCase.test.ts
-  Complex.js ES module interoperability
-    × flags the exported Complex constructor as an ES module export (75 ms)
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-41/artifacts/Complex.js/attempt_2/pending_category/mutant-f9e9146/testCase.test.ts
+  Complex.js CommonJS export interop flag
+    × exposes the Complex constructor with __esModule marked as true (99 ms)
 
-  ● Complex.js ES module interoperability › flags the exported Complex constructor as an ES module export
+  ● Complex.js CommonJS export interop flag › exposes the Complex constructor with __esModule marked as true
 
     expect(received).toBe(expected) // Object.is equality
 
     Expected: true
     Received: false
 
-      46 |
-      47 |     // The export advertises itself as an ES module (Node/Babel interop flag).
-    > 48 |     expect(Complex.__esModule).toBe(true);
+      40 |
+      41 |     // Default-import interop relies on this flag being truthy.
+    > 42 |     expect(Complex.__esModule).toBe(true);
          |                                ^
-      49 |   });
-      50 | });
+      43 |
+      44 |     // Sanity check that the constructor behaves correctly through the located module.
+      45 |     const z = new Complex(2, 3);
 
-      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_18-49/artifacts/Complex.js/attempt_2/pending_category/mutant-f9e9146/testCase.test.ts:48:32)
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-41/artifacts/Complex.js/attempt_2/pending_category/mutant-f9e9146/testCase.test.ts:42:32)
 
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.108 s, estimated 3 s
-Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-22_18-49\artifacts\Complex.js\attempt_2\pending_category\mutant-f9e9146\testCase.test.ts".
+Time:        1.409 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_20-41\artifacts\Complex.js\attempt_2\pending_category\mutant-f9e9146\testCase.test.ts".

@@ -1,26 +1,26 @@
-FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_18-53/artifacts/Complex.js/attempt_2/pending_category/mutant-f7d009c/testCase.test.ts
-  Complex.abs hypot at the 3000 boundary
-    × uses the stable hypot computation when the imaginary part equals 3000 (4 ms)
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-44/artifacts/Complex.js/attempt_2/pending_category/mutant-f7d009c/testCase.test.ts
+  Complex.abs when the imaginary magnitude is exactly 3000
+    × uses the overflow-safe hypot formula at the 3000 boundary (3 ms)
 
-  ● Complex.abs hypot at the 3000 boundary › uses the stable hypot computation when the imaginary part equals 3000
+  ● Complex.abs when the imaginary magnitude is exactly 3000 › uses the overflow-safe hypot formula at the 3000 boundary
 
     expect(received).toBe(expected) // Object.is equality
 
-    Expected: 3000.000026666666
-    Received: 3000.0000266666666
+    Expected: 3000.0001666666626
+    Received: 3000.000166666662
 
-       6 |       const x = i / 10;
-       7 |       const expected = 3000 * Math.sqrt(1 + (x / 3000) * (x / 3000));
-    >  8 |       expect(new Complex(x, 3000).abs()).toBe(expected);
-         |                                          ^
-       9 |     }
-      10 |   });
-      11 | });
+      31 |       const actual: number = new Complex(re, 3000).abs();
+      32 |       const expected: number = 3000 * Math.sqrt(1 + (re / 3000) * (re / 3000));
+    > 33 |       expect(actual).toBe(expected);
+         |                      ^
+      34 |     }
+      35 |   });
+      36 | });
 
-      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-22_18-53/artifacts/Complex.js/attempt_2/pending_category/mutant-f7d009c/testCase.test.ts:8:42)
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-44/artifacts/Complex.js/attempt_2/pending_category/mutant-f7d009c/testCase.test.ts:33:22)
 
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.496 s, estimated 3 s
-Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-22_18-53\artifacts\Complex.js\attempt_2\pending_category\mutant-f7d009c\testCase.test.ts".
+Time:        1.14 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_20-44\artifacts\Complex.js\attempt_2\pending_category\mutant-f7d009c\testCase.test.ts".

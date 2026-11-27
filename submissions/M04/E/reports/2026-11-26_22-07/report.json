@@ -1,0 +1,19 @@
+{
+  "delta": {
+    "attempts": {
+      "attempt_1": {
+        "successful": {
+          "mutant-66dbaca": {
+            "time": 74,
+            "tokensIn": 4995,
+            "tokensOut": 12218,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_22-07\\artifacts\\delta\\attempt_1\\successful\\mutant-66dbaca"
+          }
+        }
+      }
+    },
+    "errors": [
+      "mutant-66dbaca: Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {\"count\":50,\"threshold\":50,\"scope\":\"turn\",\"targets\":[\"D:\\\\桌面\\\\软测小组报告\\\\repro\\\\official\\\\source-code\\\\generated_tests\\\\deepseek-flash\\\\temp_0.5\\\\withoutTests\\\\2026-11-26_22-07\\\\artifacts\\\\delta\\\\attempt_1\\\\pending_category\"],\"targetCount\":1}"
+    ]
+  }
+}

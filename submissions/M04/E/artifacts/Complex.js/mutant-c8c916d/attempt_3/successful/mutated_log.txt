@@ -1,0 +1,26 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\Complex.js\complex.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\Complex.js\complex.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-20/artifacts/Complex.js/attempt_3/pending_category/mutant-c8c916d/testCase.test.ts
+  Complex.acsc
+    × does not collapse a tiny nonzero real part to zero when its square underflows (3 ms)
+
+  ● Complex.acsc › does not collapse a tiny nonzero real part to zero when its square underflows
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      25 |     const result = new Complex(1e-200, 0).acsc();
+      26 |
+    > 27 |     expect(result.isNaN()).toBe(true);
+         |                            ^
+      28 |   });
+      29 | });
+
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-20/artifacts/Complex.js/attempt_3/pending_category/mutant-c8c916d/testCase.test.ts:27:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.538 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_21-20\artifacts\Complex.js\attempt_3\pending_category\mutant-c8c916d\testCase.test.ts".

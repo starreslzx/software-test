@@ -1,53 +1,42 @@
-// @ts-ignore
-const nodePath = require("path");
+import * as fs from "fs";
+import * as path from "path";
 
-function upLevels(n: number): string {
-  let prefix = "";
-  for (let i = 0; i < n; i++) {
-    prefix += "../";
-  }
-  return prefix;
-}
-
-function loadComplex(): any {
-  // @ts-ignore
-  const cwd: string = process.cwd();
-  const candidates: string[] = [
-    nodePath.resolve(cwd, "subject_repositories/Complex.js/complex.js"),
-    nodePath.resolve(cwd, "../subject_repositories/Complex.js/complex.js"),
-    nodePath.resolve(cwd, "../../subject_repositories/Complex.js/complex.js"),
-    nodePath.resolve(cwd, "../../../subject_repositories/Complex.js/complex.js"),
-    nodePath.resolve(cwd, "../../../../subject_repositories/Complex.js/complex.js"),
-  ];
-  for (let i = 8; i <= 18; i++) {
-    candidates.push(upLevels(i) + "subject_repositories/Complex.js/complex.js");
-  }
-  for (let j = 0; j < candidates.length; j++) {
-    try {
-      // @ts-ignore
-      return require(candidates[j]);
-    } catch (e) {
-      void e;
+function locateComplexJs(): string {
+  let dir = __dirname;
+  for (let i = 0; i < 50; i++) {
+    const candidate = path.join(
+      dir,
+      "subject_repositories",
+      "Complex.js",
+      "complex.js",
+    );
+    if (fs.existsSync(candidate)) {
+      return candidate;
     }
+    const parent = path.dirname(dir);
+    if (parent === dir) {
+      break;
+    }
+    dir = parent;
   }
-  throw new Error("Unable to locate complex.js");
+  throw new Error("Could not locate subject_repositories/Complex.js/complex.js");
 }
 
-const loaded = loadComplex();
-const Complex = loaded && loaded.default ? loaded.default : loaded;
+// @ts-ignore
+const Complex = require(locateComplexJs());
 
-describe("Complex.prototype.csc", () => {
-  it("computes the cosecant using the standard hyperbolic formula", () => {
-    const re = Math.PI / 6;
-    const im = 1;
-    const z = new Complex(re, im);
+describe("Complex csc", () => {
+  it("returns the reciprocal of sin(z) for z = 1 + i", () => {
+    const a = 1;
+    const b = 1;
+    const z = new Complex(a, b);
     const result = z.csc();
 
-    const d = 0.5 * Math.cosh(2 * im) - 0.5 * Math.cos(2 * re);
-    const expectedRe = Math.sin(re) * Math.cosh(im) / d;
-    const expectedIm = -Math.cos(re) * Math.sinh(im) / d;
+    const sinRe = Math.sin(a) * Math.cosh(b);
+    const sinIm = Math.cos(a) * Math.sinh(b);
+    const magnitudeSquared = sinRe * sinRe + sinIm * sinIm;
 
-    expect(result.re).toBeCloseTo(expectedRe, 12);
-    expect(result.im).toBeCloseTo(expectedIm, 12);
+    expect(result.re).toBeCloseTo(sinRe / magnitudeSquared, 10);
+    expect(result.im).toBeCloseTo(-sinIm / magnitudeSquared, 10);
   });
 });

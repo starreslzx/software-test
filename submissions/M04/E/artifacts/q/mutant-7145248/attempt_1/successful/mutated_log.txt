@@ -1,0 +1,33 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-02/artifacts/q/attempt_1/pending_category/mutant-7145248/testCase.test.ts
+  Q deferred makeNodeResolver
+    × resolves with the plain value for a two-argument node callback (4 ms)
+
+  ● Q deferred makeNodeResolver › resolves with the plain value for a two-argument node callback
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 42
+    Received: [42]
+
+       9 |
+      10 |         return deferred.promise.then((value: any) => {
+    > 11 |             expect(value).toBe(42);
+         |                           ^
+      12 |         });
+      13 |     });
+      14 | });
+
+      at toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-02/artifacts/q/attempt_1/pending_category/mutant-7145248/testCase.test.ts:11:27)
+      at fulfilled (../../subject_repositories/q/q.js:855:54)
+      at _fulfilled (../../subject_repositories/q/q.js:884:30)
+      at Promise.resolve [as promiseDispatch] (../../subject_repositories/q/q.js:817:13)
+      at apply (../../subject_repositories/q/q.js:570:49)
+      at task (../../subject_repositories/q/q.js:137:13)
+      at runSingle (../../subject_repositories/q/q.js:125:13)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.759 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_23-02\artifacts\q\attempt_1\pending_category\mutant-7145248\testCase.test.ts".

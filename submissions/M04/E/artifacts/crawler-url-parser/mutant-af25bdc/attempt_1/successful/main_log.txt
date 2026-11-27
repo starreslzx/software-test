@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-57/artifacts/crawler-url-parser/attempt_1/pending_category/mutant-af25bdc/testCase.test.ts
+  crawler-url-parser main-module behavior
+    √ prints the testing message when the file is executed as the main module (275 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.757 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_21-57\artifacts\crawler-url-parser\attempt_1\pending_category\mutant-af25bdc\testCase.test.ts".

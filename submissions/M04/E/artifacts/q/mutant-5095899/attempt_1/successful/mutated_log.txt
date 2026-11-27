@@ -1,0 +1,24 @@
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-18/artifacts/q/attempt_1/pending_category/mutant-5095899/testCase.test.ts
+  Q global script environment detection
+    × exposes Q on self when only self is present (no window, no CommonJS) (14 ms)
+
+  ● Q global script environment detection › exposes Q on self when only self is present (no window, no CommonJS)
+
+    expect(received).not.toThrow()
+
+    Error name:    "Error"
+    Error message: "This environment was not anticipated by Q. Please file a bug."
+
+      at evalmachine.<anonymous>:77:15
+      at evalmachine.<anonymous>:80:3
+      at runInContext (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-18/artifacts/q/attempt_1/pending_category/mutant-5095899/testCase.test.ts:32:21)
+      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:320:21)
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-18/artifacts/q/attempt_1/pending_category/mutant-5095899/testCase.test.ts:32:56)
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-18/artifacts/q/attempt_1/pending_category/mutant-5095899/testCase.test.ts:32:56)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.966 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-18\artifacts\q\attempt_1\pending_category\mutant-5095899\testCase.test.ts".

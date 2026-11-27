@@ -3,8 +3,8 @@
   "mutationShortId": "mutant-f9e9146",
   "attempt": 2,
   "category": "successful",
-  "elapsedSeconds": 218,
-  "tokensIn": 21539,
-  "tokensOut": 19950,
-  "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-22_18-49\\artifacts\\Complex.js\\attempt_2\\successful\\mutant-f9e9146"
+  "elapsedSeconds": 147,
+  "tokensIn": 21391,
+  "tokensOut": 16438,
+  "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_20-41\\artifacts\\Complex.js\\attempt_2\\successful\\mutant-f9e9146"
 }

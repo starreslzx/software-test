@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-12/artifacts/q/attempt_1/pending_category/mutant-f273788/testCase.test.ts
+  Q.fapply
+    √ invokes the function with the supplied argument array (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.518 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_23-12\artifacts\q\attempt_1\pending_category\mutant-f273788\testCase.test.ts".

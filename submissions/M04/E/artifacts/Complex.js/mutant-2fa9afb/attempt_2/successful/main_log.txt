@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-15/artifacts/Complex.js/attempt_2/pending_category/mutant-2fa9afb/testCase.test.ts
+  Complex.acsc
+    √ computes the inverse cosecant of a nonzero real number (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.422 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_21-15\artifacts\Complex.js\attempt_2\pending_category\mutant-2fa9afb\testCase.test.ts".

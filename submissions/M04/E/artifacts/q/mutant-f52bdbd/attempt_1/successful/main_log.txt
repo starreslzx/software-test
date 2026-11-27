@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-00/artifacts/q/attempt_1/pending_category/mutant-f52bdbd/testCase.test.ts
+  unhandled rejection tracking
+    √ records the stack trace of the reason for a rejected promise (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.374 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-00\artifacts\q\attempt_1\pending_category\mutant-f52bdbd\testCase.test.ts".

@@ -1,0 +1,39 @@
+{
+  "node-geo-point": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-13ad216": {
+            "time": 11,
+            "tokensIn": 3401,
+            "tokensOut": 1402,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_00-14\\artifacts\\node-geo-point\\attempt_1\\fail_fail_on_original\\mutant-13ad216"
+          },
+          "mutant-7631766": {
+            "time": 12,
+            "tokensIn": 3408,
+            "tokensOut": 1344,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_00-14\\artifacts\\node-geo-point\\attempt_1\\fail_fail_on_original\\mutant-7631766"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-13ad216": {
+            "time": 29,
+            "tokensIn": 7612,
+            "tokensOut": 3352,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_00-14\\artifacts\\node-geo-point\\attempt_2\\successful\\mutant-13ad216"
+          },
+          "mutant-7631766": {
+            "time": 141,
+            "tokensIn": 7619,
+            "tokensOut": 23671,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_00-14\\artifacts\\node-geo-point\\attempt_2\\successful\\mutant-7631766"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "delta": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-f48934c": {
+            "time": 43,
+            "tokensIn": 4980,
+            "tokensOut": 8363,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-36\\artifacts\\delta\\attempt_1\\fail_fail_on_original\\mutant-f48934c"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-f48934c": {
+            "time": 174,
+            "tokensIn": 10715,
+            "tokensOut": 33692,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-36\\artifacts\\delta\\attempt_2\\successful\\mutant-f48934c"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

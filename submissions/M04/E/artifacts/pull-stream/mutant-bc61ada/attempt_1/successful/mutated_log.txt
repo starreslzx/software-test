@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\pull-stream\sinks\reduce.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\pull-stream\sinks\reduce.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_22-34/artifacts/pull-stream/attempt_1/pending_category/mutant-bc61ada/testCase.test.ts
+  reduce sink
+    × handles an immediate end and propagates errors (3 ms)
+
+  ● reduce sink › handles an immediate end and propagates errors
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: null
+    Received: true
+
+      15 |       normalEndAcc = acc;
+      16 |     })(normalSource);
+    > 17 |     expect(normalEndErr).toBe(null);
+         |                          ^
+      18 |     expect(normalEndAcc).toBeUndefined();
+      19 |
+      20 |     // Source that immediately fails with an error.
+
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_22-34/artifacts/pull-stream/attempt_1/pending_category/mutant-bc61ada/testCase.test.ts:17:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.638 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_22-34\artifacts\pull-stream\attempt_1\pending_category\mutant-bc61ada\testCase.test.ts".

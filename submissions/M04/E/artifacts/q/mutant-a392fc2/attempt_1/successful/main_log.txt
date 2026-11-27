@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-17/artifacts/q/attempt_1/pending_category/mutant-a392fc2/testCase.test.ts
+  Q promise finally
+    √ runs the finally callback and preserves the fulfillment value (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.576 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_23-17\artifacts\q\attempt_1\pending_category\mutant-a392fc2\testCase.test.ts".
