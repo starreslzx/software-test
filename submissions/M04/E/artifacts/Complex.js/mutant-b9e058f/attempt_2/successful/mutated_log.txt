@@ -1,0 +1,26 @@
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-53/artifacts/Complex.js/attempt_2/pending_category/mutant-b9e058f/testCase.test.ts
+  Complex.add
+    × adding a finite value to infinity yields infinity (6 ms)
+
+  ● Complex.add › adding a finite value to infinity yields infinity
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      18 |   test("adding a finite value to infinity yields infinity", () => {
+      19 |     const sum1 = Complex.INFINITY.add(42);
+    > 20 |     expect(sum1.isInfinite()).toBe(true);
+         |                               ^
+      21 |     expect(sum1.isNaN()).toBe(false);
+      22 |     expect(sum1.toString()).toBe("Infinity");
+      23 |
+
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_20-53/artifacts/Complex.js/attempt_2/pending_category/mutant-b9e058f/testCase.test.ts:20:31)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.172 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_20-53\artifacts\Complex.js\attempt_2\pending_category\mutant-b9e058f\testCase.test.ts".

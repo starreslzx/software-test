@@ -1,0 +1,3 @@
+Project Name,#Tested mutants,successful,fail_syntax_error,fail_forbidden_libraries,fail_fail_on_original,fail_pass_on_mutation,average time,average tokens_in,average tokens_out
+node-jsonfile,1,,,,1,,132.00,1256.00,16621.00
+Total,1,,,,1,,132.00,1256.00,16621.00

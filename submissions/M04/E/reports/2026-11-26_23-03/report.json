@@ -1,0 +1,27 @@
+{
+  "q": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-e0dce9c": {
+            "time": 32,
+            "tokensIn": 15496,
+            "tokensOut": 5722,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-03\\artifacts\\q\\attempt_1\\fail_fail_on_original\\mutant-e0dce9c"
+          }
+        },
+        "successful": {
+          "mutant-0a20137": {
+            "time": 17,
+            "tokensIn": 15502,
+            "tokensOut": 1215,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-03\\artifacts\\q\\attempt_1\\successful\\mutant-0a20137"
+          }
+        }
+      }
+    },
+    "errors": [
+      "mutant-e0dce9c: Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {\"count\":51,\"threshold\":50,\"scope\":\"turn\",\"targets\":[\"D:\\\\桌面\\\\软测小组报告\\\\repro\\\\official\\\\source-code\\\\generated_tests\\\\deepseek-flash\\\\temp_0.5\\\\withoutTests\\\\2026-11-26_23-03\\\\artifacts\\\\q\\\\attempt_1\\\\pending_category\"],\"targetCount\":1}"
+    ]
+  }
+}

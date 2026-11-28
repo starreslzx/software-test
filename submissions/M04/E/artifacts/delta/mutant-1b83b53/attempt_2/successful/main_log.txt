@@ -1,0 +1,20 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-43/artifacts/delta/attempt_2/pending_category/mutant-1b83b53/testCase.test.ts[0m:[93m35[0m:[93m5[0m - [91merror[0m[90m TS2347: [0mUntyped function calls may not accept type arguments.
+
+[7m 35[0m     Delta.registerEmbed<TestEmbed>('test-embed', {
+[7m   [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m 36[0m       compose: (a: TestEmbed, b: TestEmbed, keepNull: boolean): TestEmbed => {
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m 42[0m         priority ? a : b,
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m 43[0m     });
+[7m   [0m [91m~~~~~~[0m
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-43/artifacts/delta/attempt_2/pending_category/mutant-1b83b53/testCase.test.ts
+  Delta.compose embed composition
+    √ passes keepNull=true when composing two retained embeds (4 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.601 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_23-43\artifacts\delta\attempt_2\pending_category\mutant-1b83b53\testCase.test.ts".

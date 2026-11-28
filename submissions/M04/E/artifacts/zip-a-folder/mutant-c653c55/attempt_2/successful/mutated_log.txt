@@ -1,0 +1,40 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-20/artifacts/zip-a-folder/attempt_2/pending_category/mutant-c653c55/testCase.test.ts[0m:[93m4[0m:[93m40[0m - [91merror[0m[90m TS5097: [0mAn import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+
+[7m4[0m import { COMPRESSION_LEVEL, zip } from '../../../../../../../../../../../../subject_repositories/zip-a-folder/lib/ZipAFolder.ts';
+[7m [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mgenerated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-20/artifacts/zip-a-folder/attempt_2/pending_category/mutant-c653c55/testCase.test.ts[0m:[93m21[0m:[93m47[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Buffer' is not assignable to parameter of type 'string | number | Uint8Array<ArrayBufferLike>'.
+  Type 'Buffer' is not assignable to type 'Uint8Array<ArrayBufferLike>'.
+    The types of 'slice(...).buffer' are incompatible between these types.
+      Type 'ArrayBufferLike' is not assignable to type 'ArrayBuffer'.
+        Type 'SharedArrayBuffer' is not assignable to type 'ArrayBuffer'.
+          Types of property '[Symbol.toStringTag]' are incompatible.
+            Type '"SharedArrayBuffer"' is not assignable to type '"ArrayBuffer"'.
+
+[7m21[0m             const nameIndex = archive.indexOf(Buffer.from(fileName));
+[7m  [0m [91m                                              ~~~~~~~~~~~~~~~~~~~~~[0m
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-20/artifacts/zip-a-folder/attempt_2/pending_category/mutant-c653c55/testCase.test.ts
+  ZipAFolder.zip with uncompressed compression level
+    × stores the entries without deflate compression (29 ms)
+
+  ● ZipAFolder.zip with uncompressed compression level › stores the entries without deflate compression
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 8
+
+      26 |             const compressionMethod = archive.readUInt16LE(localHeaderOffset + 8);
+      27 |
+    > 28 |             expect(compressionMethod).toBe(0);
+         |                                       ^
+      29 |         } finally {
+      30 |             fs.rmSync(tmpDir, { recursive: true, force: true });
+      31 |         }
+
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-20/artifacts/zip-a-folder/attempt_2/pending_category/mutant-c653c55/testCase.test.ts:28:39)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.455 s, estimated 3 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-20\artifacts\zip-a-folder\attempt_2\pending_category\mutant-c653c55\testCase.test.ts".

@@ -1,0 +1,35 @@
+{
+  "crawler-url-parser": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-bc3e948": {
+            "time": 47,
+            "tokensIn": 2598,
+            "tokensOut": 10109,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-33\\artifacts\\crawler-url-parser\\attempt_1\\fail_fail_on_original\\mutant-bc3e948"
+          }
+        },
+        "successful": {
+          "mutant-497dce4": {
+            "time": 20,
+            "tokensIn": 2587,
+            "tokensOut": 2080,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-33\\artifacts\\crawler-url-parser\\attempt_1\\successful\\mutant-497dce4"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-bc3e948": {
+            "time": 138,
+            "tokensIn": 6073,
+            "tokensOut": 28459,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-33\\artifacts\\crawler-url-parser\\attempt_2\\successful\\mutant-bc3e948"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

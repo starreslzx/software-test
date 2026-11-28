@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-25/artifacts/q/attempt_2/pending_category/mutant-c125836/testCase.test.ts
+  Q.all when the native Array.prototype.reduce is unavailable
+    √ resolves every element in the input array, including the first one (54 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.429 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-25\artifacts\q\attempt_2\pending_category\mutant-c125836\testCase.test.ts".

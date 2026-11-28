@@ -1,0 +1,27 @@
+{
+  "Complex.js": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-374868f": {
+            "time": 30,
+            "tokensIn": 10371,
+            "tokensOut": 4734,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_21-38\\artifacts\\Complex.js\\attempt_1\\fail_fail_on_original\\mutant-374868f"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-374868f": {
+            "time": 95,
+            "tokensIn": 21524,
+            "tokensOut": 15458,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_21-38\\artifacts\\Complex.js\\attempt_2\\successful\\mutant-374868f"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

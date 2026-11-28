@@ -1,0 +1,19 @@
+{
+  "crawler-url-parser": {
+    "attempts": {
+      "attempt_1": {
+        "successful": {
+          "mutant-e99b7e5": {
+            "time": 67,
+            "tokensIn": 2603,
+            "tokensOut": 11506,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_21-52\\artifacts\\crawler-url-parser\\attempt_1\\successful\\mutant-e99b7e5"
+          }
+        }
+      }
+    },
+    "errors": [
+      "mutant-e99b7e5: Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {\"count\":50,\"threshold\":50,\"scope\":\"turn\",\"targets\":[\"D:\\\\桌面\\\\软测小组报告\\\\repro\\\\official\\\\source-code\\\\generated_tests\\\\deepseek-flash\\\\temp_0.5\\\\withoutTests\\\\2026-11-26_21-52\\\\artifacts\\\\crawler-url-parser\\\\attempt_1\\\\pending_category\"],\"targetCount\":1}"
+    ]
+  }
+}

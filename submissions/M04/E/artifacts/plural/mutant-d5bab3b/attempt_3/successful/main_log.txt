@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-33/artifacts/plural/attempt_3/pending_category/mutant-d5bab3b/testCase.test.ts
+  plural
+    √ does not apply the irregular man/woman rule to words that merely start with 'man' (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.434 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-33\artifacts\plural\attempt_3\pending_category\mutant-d5bab3b\testCase.test.ts".

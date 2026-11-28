@@ -1,0 +1,37 @@
+{
+  "delta": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 141,
+            "tokensIn": 4994,
+            "tokensOut": 29284,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-44\\artifacts\\delta\\attempt_1\\fail_fail_on_original\\mutant-7dadc4e"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-7dadc4e": {
+            "time": 205,
+            "tokensIn": 10866,
+            "tokensOut": 43324,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-44\\artifacts\\delta\\attempt_2\\fail_fail_on_original\\mutant-7dadc4e"
+          }
+        }
+      },
+      "attempt_3": {
+        "successful": {
+          "mutant-7dadc4e": {
+            "time": 355,
+            "tokensIn": 17505,
+            "tokensOut": 74929,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-44\\artifacts\\delta\\attempt_3\\successful\\mutant-7dadc4e"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

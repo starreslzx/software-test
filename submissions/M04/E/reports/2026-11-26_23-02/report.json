@@ -1,0 +1,19 @@
+{
+  "q": {
+    "attempts": {
+      "attempt_1": {
+        "successful": {
+          "mutant-7145248": {
+            "time": 43,
+            "tokensIn": 15499,
+            "tokensOut": 6370,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_23-02\\artifacts\\q\\attempt_1\\successful\\mutant-7145248"
+          }
+        }
+      }
+    },
+    "errors": [
+      "mutant-7145248: Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {\"count\":50,\"threshold\":50,\"scope\":\"turn\",\"targets\":[\"D:\\\\桌面\\\\软测小组报告\\\\repro\\\\official\\\\source-code\\\\generated_tests\\\\deepseek-flash\\\\temp_0.5\\\\withoutTests\\\\2026-11-26_23-02\\\\artifacts\\\\q\\\\attempt_1\\\\pending_category\"],\"targetCount\":1}"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "project": "node-geo-point",
+  "mutationShortId": "mutant-775e92b",
+  "attempt": 1,
+  "category": "successful",
+  "elapsedSeconds": 46,
+  "tokensIn": 3402,
+  "tokensOut": 8243,
+  "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_22-19\\artifacts\\node-geo-point\\attempt_1\\successful\\mutant-775e92b"
+}

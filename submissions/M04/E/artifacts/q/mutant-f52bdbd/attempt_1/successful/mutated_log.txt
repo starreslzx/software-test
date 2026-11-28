@@ -1,0 +1,42 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-00/artifacts/q/attempt_1/pending_category/mutant-f52bdbd/testCase.test.ts
+  unhandled rejection tracking
+    × records the stack trace of the reason for a rejected promise (10 ms)
+
+  ● unhandled rejection tracking › records the stack trace of the reason for a rejected promise
+
+    expect(received).toBe(expected) // Object.is equality
+
+    - Expected  - 14
+    + Received  +  1
+
+    - Error: unique-unhandled-rejection-reason
+    -     at Object.<anonymous> (D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-00\artifacts\q\attempt_1\pending_category\mutant-f52bdbd\testCase.test.ts:7:20)
+    -     at Promise.then.completed (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\utils.js:298:28)
+    -     at new Promise (<anonymous>)
+    -     at callAsyncCircusFn (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\utils.js:231:10)
+    -     at _callCircusTest (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\run.js:316:40)
+    -     at _runTest (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\run.js:252:3)
+    -     at _runTestsForDescribeBlock (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\run.js:126:9)
+    -     at _runTestsForDescribeBlock (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\run.js:121:9)
+    -     at run (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\run.js:71:3)
+    -     at runAndTransformResultsToJestFormat (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    -     at jestAdapter (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    -     at runTestInternal (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-runner\build\runTest.js:367:16)
+    -     at runTest (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-runner\build\runTest.js:444:34)
+    + (no stack) Error: unique-unhandled-rejection-reason
+
+      11 |
+      12 |     expect(reasons).toHaveLength(1);
+    > 13 |     expect(reasons[0]).toBe(reason.stack);
+         |                        ^
+      14 |   });
+      15 | });
+
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-00/artifacts/q/attempt_1/pending_category/mutant-f52bdbd/testCase.test.ts:13:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.931 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-00\artifacts\q\attempt_1\pending_category\mutant-f52bdbd\testCase.test.ts".

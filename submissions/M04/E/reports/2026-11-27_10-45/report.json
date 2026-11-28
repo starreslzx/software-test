@@ -1,0 +1,17 @@
+{
+  "q": {
+    "attempts": {
+      "attempt_1": {
+        "successful": {
+          "mutant-c854557": {
+            "time": 194,
+            "tokensIn": 15511,
+            "tokensOut": 29964,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_10-45\\artifacts\\q\\attempt_1\\successful\\mutant-c854557"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

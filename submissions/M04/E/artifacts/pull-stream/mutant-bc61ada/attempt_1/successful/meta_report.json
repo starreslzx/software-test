@@ -1,0 +1,10 @@
+{
+  "project": "pull-stream",
+  "mutationShortId": "mutant-bc61ada",
+  "attempt": 1,
+  "category": "successful",
+  "elapsedSeconds": 35,
+  "tokensIn": 855,
+  "tokensOut": 5615,
+  "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_22-34\\artifacts\\pull-stream\\attempt_1\\successful\\mutant-bc61ada"
+}

@@ -1,0 +1,32 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-21/artifacts/q/attempt_2/pending_category/mutant-c4ba1f4/testCase.test.ts
+  Q.nextTick scheduling outside of a Node process
+    × schedules and runs a queued task when setImmediate is the only available ticker (643 ms)
+
+  ● Q.nextTick scheduling outside of a Node process › schedules and runs a queued task when setImmediate is the only available ticker
+
+    expect(received).not.toThrow()
+
+    Error name:    "TypeError"
+    Error message: "requestTick is not a function"
+
+          178 |         if (!flushing) {
+          179 |             flushing = true;
+        > 180 |             requestTick();
+              |             ^
+          181 |         }
+          182 |     };
+          183 |
+
+      at Function.requestTick [as nextTick] (../../subject_repositories/q/q.js:180:13)
+      at nextTick (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-21/artifacts/q/attempt_2/pending_category/mutant-c4ba1f4/testCase.test.ts:59:22)
+      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:320:21)
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-21/artifacts/q/attempt_2/pending_category/mutant-c4ba1f4/testCase.test.ts:59:42)
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-21/artifacts/q/attempt_2/pending_category/mutant-c4ba1f4/testCase.test.ts:59:42)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.78 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-21\artifacts\q\attempt_2\pending_category\mutant-c4ba1f4\testCase.test.ts".

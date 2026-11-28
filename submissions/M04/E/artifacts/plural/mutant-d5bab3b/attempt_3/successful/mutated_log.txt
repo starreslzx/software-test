@@ -1,0 +1,26 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\plural\index.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\plural\index.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-33/artifacts/plural/attempt_3/pending_category/mutant-d5bab3b/testCase.test.ts
+  plural
+    × does not apply the irregular man/woman rule to words that merely start with 'man' (474 ms)
+
+  ● plural › does not apply the irregular man/woman rule to words that merely start with 'man'
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "manes"
+    Received: "mene"
+
+      22 |     const plural = require(locatePluralModule()) as (word: string, num?: number) => string;
+      23 |
+    > 24 |     expect(plural("mane")).toBe("manes");
+         |                            ^
+      25 |   });
+      26 | });
+
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-33/artifacts/plural/attempt_3/pending_category/mutant-d5bab3b/testCase.test.ts:24:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.53 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-33\artifacts\plural\attempt_3\pending_category\mutant-d5bab3b\testCase.test.ts".

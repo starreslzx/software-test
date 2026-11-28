@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-07/artifacts/q/attempt_2/pending_category/mutant-76329a3/testCase.test.ts
+  Q.fbind
+    √ combines pre-bound arguments with later call arguments and preserves the call-time this (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.363 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-07\artifacts\q\attempt_2\pending_category\mutant-76329a3\testCase.test.ts".

@@ -1,0 +1,24 @@
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-22/artifacts/node-jsonfile/attempt_4/pending_category/mutant-d9833fc/testCase.test.ts
+  jsonfile fallback to core fs
+    × reads JSON when graceful-fs cannot be required (13 ms)
+
+  ● jsonfile fallback to core fs › reads JSON when graceful-fs cannot be required
+
+    TypeError: C:\Users\CST\AppData\Local\Temp\jsonfile-fallback-cd5C9Y\data.json: Cannot read properties of undefined (reading 'readFileSync')
+
+      47 |
+      48 |   try {
+    > 49 |     let content = fs.readFileSync(file, options)
+         |                      ^
+      50 |     content = stripBom(content)
+      51 |     return JSON.parse(content, options.reviver)
+      52 |   } catch (err) {
+
+      at Object.readFileSync (../../subject_repositories/node-jsonfile/index.js:49:22)
+      at Object.readFileSync (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-22/artifacts/node-jsonfile/attempt_4/pending_category/mutant-d9833fc/testCase.test.ts:72:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.003 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-22\artifacts\node-jsonfile\attempt_4\pending_category\mutant-d9833fc\testCase.test.ts".

@@ -1,0 +1,37 @@
+{
+  "plural": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-d5bab3b": {
+            "time": 29,
+            "tokensIn": 1896,
+            "tokensOut": 5320,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-33\\artifacts\\plural\\attempt_1\\fail_fail_on_original\\mutant-d5bab3b"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-d5bab3b": {
+            "time": 60,
+            "tokensIn": 4434,
+            "tokensOut": 11898,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-33\\artifacts\\plural\\attempt_2\\fail_fail_on_original\\mutant-d5bab3b"
+          }
+        }
+      },
+      "attempt_3": {
+        "successful": {
+          "mutant-d5bab3b": {
+            "time": 111,
+            "tokensIn": 7622,
+            "tokensOut": 21405,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_11-33\\artifacts\\plural\\attempt_3\\successful\\mutant-d5bab3b"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

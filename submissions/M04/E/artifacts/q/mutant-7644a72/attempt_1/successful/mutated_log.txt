@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-32/artifacts/q/attempt_1/pending_category/mutant-7644a72/testCase.test.ts
+  Q.return with a global ReturnValue constructor
+    × throws an instance of the provided ReturnValue with the given value (2 ms)
+
+  ● Q.return with a global ReturnValue constructor › throws an instance of the provided ReturnValue with the given value
+
+    expect(received).toBeInstanceOf(expected)
+
+    Expected constructor: ReturnValue
+    Received constructor: QReturnValue
+
+      45 |         }
+      46 |
+    > 47 |         expect(error).toBeInstanceOf(ReturnValue);
+         |                       ^
+      48 |         expect(error.value).toBe("generator result");
+      49 |     });
+      50 | });
+
+      at Object.toBeInstanceOf (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-32/artifacts/q/attempt_1/pending_category/mutant-7644a72/testCase.test.ts:47:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.663 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-32\artifacts\q\attempt_1\pending_category\mutant-7644a72\testCase.test.ts".

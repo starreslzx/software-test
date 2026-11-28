@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\pull-stream\pull.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\pull-stream\pull.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-12/artifacts/pull-stream/attempt_2/pending_category/mutant-cfcbab6/testCase.test.ts
+  pull
+    × does not process arguments beyond the ones supplied (2 ms)
+
+  ● pull › does not process arguments beyond the ones supplied
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: [Function read]
+    Received: [Function replacement]
+
+      37 |     }
+      38 |
+    > 39 |     expect(result).toBe(read);
+         |                    ^
+      40 |   });
+      41 | });
+      42 |
+
+      at Object.toBe (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-12/artifacts/pull-stream/attempt_2/pending_category/mutant-cfcbab6/testCase.test.ts:39:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.374 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-12\artifacts\pull-stream\attempt_2\pending_category\mutant-cfcbab6\testCase.test.ts".

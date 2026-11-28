@@ -1,0 +1,30 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-25/artifacts/q/attempt_1/pending_category/mutant-c125836/testCase.test.ts (15.104 s)
+  Q progress notifications with the array reduce fallback
+    × notifies every registered progress listener (5 ms)
+
+  ● Q progress notifications with the array reduce fallback › notifies every registered progress listener
+
+    Cannot find module '../../../../../../../../../../subject_repositories/q/q.js' from 'generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-25/artifacts/q/attempt_1/pending_category/mutant-c125836/testCase.test.ts'
+
+       6 |     try {
+       7 |       delete (Array.prototype as any).reduce;
+    >  8 |       Q = require("../../../../../../../../../../subject_repositories/q/q.js");
+         |           ^
+       9 |     } finally {
+      10 |       (Array.prototype as any).reduce = originalReduce;
+      11 |     }
+
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/resolver.js:427:11)
+      at Object.require (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-25/artifacts/q/attempt_1/pending_category/mutant-c125836/testCase.test.ts:8:11)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        17.739 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-25\artifacts\q\attempt_1\pending_category\mutant-c125836\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

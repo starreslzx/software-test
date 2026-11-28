@@ -1,0 +1,91 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module './subject_repositories/q/q.js'
+Require stack:
+- D:\桌面\软测小组报告\repro\official\source-code\[eval]
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at [eval]:11:15
+    at runScriptInThisContext (node:internal/vm:209:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'D:\\桌面\\软测小组报告\\repro\\official\\source-code\\[eval]' ]
+}
+
+Node.js v22.22.2
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-21/artifacts/q/attempt_1/pending_category/mutant-c4ba1f4/testCase.test.ts
+  Q nextTick scheduling with setImmediate in a non-Node context
+    × queues and runs a task when process.nextTick is not detected but setImmediate exists (69 ms)
+
+  ● Q nextTick scheduling with setImmediate in a non-Node context › queues and runs a task when process.nextTick is not detected but setImmediate exists
+
+    expect(received).not.toThrow()
+
+    Error name:    "Error"
+    Error message: "Command failed: C:\\Users\\CST\\.workbuddy-ai\\binaries\\node\\versions\\22.22.2-6\\node.exe -e·
+          var realProcess = process;
+          global.process = new Proxy(realProcess, {
+            get: function (target, prop) {
+              if (prop === \"toString\") {
+                return function () { return \"[object Object]\"; };
+              }
+              return target[prop];
+            }
+          });
+          var Q = require(\"./subject_repositories/q/q.js\");
+          Q.nextTick(function () {
+            realProcess.exit(0);
+          });·····
+    node:internal/modules/cjs/loader:1386·
+      throw err;·
+      ^···
+    Error: Cannot find module './subject_repositories/q/q.js'·
+    Require stack:·
+    - D:\\桌面\\软测小组报告\\repro\\official\\source-code\\[eval]·
+
+      at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)·
+      at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)·
+      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)·
+      at Function._load (node:internal/modules/cjs/loader:1192:37)·
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)·
+      at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)·
+      at Module.require (node:internal/modules/cjs/loader:1463:12)·
+      at require (node:internal/modules/helpers:147:16)·
+      at [eval]:11:15·
+      at runScriptInThisContext (node:internal/vm:209:10) {·
+        code: 'MODULE_NOT_FOUND',·
+        requireStack: [ 'D:\\\\桌面\\\\软测小组报告\\\\repro\\\\official\\\\source-code\\\\[eval]' ]·
+      }···
+      Node.js v22.22.2·
+      "
+      at [eval]:11:15
+      at runScriptInThisContext (node:internal/vm:209:10) {
+              code: 'MODULE_NOT_FOUND',
+              requireStack: [ 'D:\\桌面\\软测小组报告\\repro\\official\\source-code\\[eval]' ]
+            }
+            
+            Node.js v22.22.2
+      at generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-21/artifacts/q/attempt_1/pending_category/mutant-c4ba1f4/testCase.test.ts:37:19
+      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:320:21)
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-21/artifacts/q/attempt_1/pending_category/mutant-c4ba1f4/testCase.test.ts:41:11)
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-21/artifacts/q/attempt_1/pending_category/mutant-c4ba1f4/testCase.test.ts:41:11)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.365 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-21\artifacts\q\attempt_1\pending_category\mutant-c4ba1f4\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

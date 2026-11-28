@@ -1,0 +1,18 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-45/artifacts/Complex.js/attempt_2/pending_category/mutant-b2ec3fb/testCase.test.ts[0m:[93m1[0m:[93m15[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'require'.
+
+[7m1[0m declare const require: any;
+[7m [0m [91m              ~~~~~~~[0m
+
+  [96mnode_modules/@types/node/module.d.ts[0m:[93m877[0m:[93m13[0m
+    [7m877[0m         var require: NodeJS.Require;
+    [7m   [0m [96m            ~~~~~~~[0m
+    'require' was also declared here.
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-45/artifacts/Complex.js/attempt_2/pending_category/mutant-b2ec3fb/testCase.test.ts
+  Complex.prototype.floor
+    √ floors the real and imaginary parts to the requested precision (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.811 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_21-45\artifacts\Complex.js\attempt_2\pending_category\mutant-b2ec3fb\testCase.test.ts".

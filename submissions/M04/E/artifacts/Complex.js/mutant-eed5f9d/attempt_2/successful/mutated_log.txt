@@ -1,0 +1,28 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\Complex.js\complex.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\Complex.js\complex.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-34/artifacts/Complex.js/attempt_2/pending_category/mutant-eed5f9d/testCase.test.ts
+  Complex.acsch fallback for a vanishing denominator
+    × evaluates the real component when the magnitude squared is zero (6 ms)
+
+  ● Complex.acsch fallback for a vanishing denominator › evaluates the real component when the magnitude squared is zero
+
+    expect(received).toThrow(expected)
+
+    Expected substring: "real component evaluated in fallback branch"
+
+    Received function did not throw
+
+      26 |     imaginaryTouched = false;
+      27 |
+    > 28 |     expect(() => (z as any).acsch()).toThrow(
+         |                                      ^
+      29 |       "real component evaluated in fallback branch"
+      30 |     );
+      31 |   });
+
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-34/artifacts/Complex.js/attempt_2/pending_category/mutant-eed5f9d/testCase.test.ts:28:38)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.252 s, estimated 3 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_21-34\artifacts\Complex.js\attempt_2\pending_category\mutant-eed5f9d\testCase.test.ts".

@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-21/artifacts/q/attempt_2/pending_category/mutant-c4ba1f4/testCase.test.ts
+  Q.nextTick scheduling outside of a Node process
+    √ schedules and runs a queued task when setImmediate is the only available ticker (37 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.423 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-21\artifacts\q\attempt_2\pending_category\mutant-c4ba1f4\testCase.test.ts".

@@ -1,0 +1,31 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\Complex.js\complex.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\Complex.js\complex.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-44/artifacts/Complex.js/attempt_2/pending_category/mutant-15a16cd/testCase.test.ts
+  Complex.ceil
+    × rounds each component up to the requested number of decimal places (3 ms)
+
+  ● Complex.ceil › rounds each component up to the requested number of decimal places
+
+    expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 1.24
+    Received: 2
+
+    Expected precision:    10
+    Expected difference: < 0.00000000005
+    Received difference:   0.76
+
+      23 |     const rounded = new Complex(1.234, 5.678).ceil(2);
+      24 |
+    > 25 |     expect(rounded.re).toBeCloseTo(1.24, 10);
+         |                        ^
+      26 |     expect(rounded.im).toBeCloseTo(5.68, 10);
+      27 |   });
+      28 | });
+
+      at Object.toBeCloseTo (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-44/artifacts/Complex.js/attempt_2/pending_category/mutant-15a16cd/testCase.test.ts:25:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.893 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_21-44\artifacts\Complex.js\attempt_2\pending_category\mutant-15a16cd\testCase.test.ts".

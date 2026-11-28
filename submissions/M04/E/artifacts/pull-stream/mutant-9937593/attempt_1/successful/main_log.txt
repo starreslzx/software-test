@@ -1,0 +1,44 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\pull-stream\sinks\drain.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\pull-stream\sinks\drain.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+  console.warn
+    Error: no done callback supplied
+        at drain (D:\桌面\软测小组报告\repro\subject_repositories\pull-stream\sinks\drain.js:9:22)
+        at Object.drain (D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_22-30\artifacts\pull-stream\attempt_1\pending_category\mutant-9937593\testCase.test.ts:23:18)
+        at Promise.then.completed (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\utils.js:298:28)
+        at new Promise (<anonymous>)
+        at callAsyncCircusFn (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\utils.js:231:10)
+        at _callCircusTest (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\run.js:316:40)
+        at _runTest (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\run.js:252:3)
+        at _runTestsForDescribeBlock (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\run.js:126:9)
+        at _runTestsForDescribeBlock (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\run.js:121:9)
+        at run (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\run.js:71:3)
+        at runAndTransformResultsToJestFormat (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+        at jestAdapter (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+        at runTestInternal (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-runner\build\runTest.js:367:16)
+        at runTest (D:\桌面\软测小组报告\repro\official\source-code\node_modules\jest-runner\build\runTest.js:444:34)
+
+      26 |               if(done) done(end === true ? null : end)
+      27 |               else if(end && end !== true) {
+    > 28 |                 console.warn(doneLackingErr)
+         |                         ^
+      29 |                 throw end
+      30 |               }
+      31 |             }
+
+      at warn (../../subject_repositories/pull-stream/sinks/drain.js:28:25)
+      at cb (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_22-30/artifacts/pull-stream/attempt_1/pending_category/mutant-9937593/testCase.test.ts:20:7)
+      at read (../../subject_repositories/pull-stream/sinks/drain.js:22:11)
+      at sink (../../subject_repositories/pull-stream/sinks/drain.js:45:8)
+      at sink (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_22-30/artifacts/pull-stream/attempt_1/pending_category/mutant-9937593/testCase.test.ts:25:18)
+      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:320:21)
+      at Object.toThrow (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_22-30/artifacts/pull-stream/attempt_1/pending_category/mutant-9937593/testCase.test.ts:25:32)
+
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_22-30/artifacts/pull-stream/attempt_1/pending_category/mutant-9937593/testCase.test.ts
+  drain
+    √ throws the source error when no done callback is supplied (25 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.051 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_22-30\artifacts\pull-stream\attempt_1\pending_category\mutant-9937593\testCase.test.ts".

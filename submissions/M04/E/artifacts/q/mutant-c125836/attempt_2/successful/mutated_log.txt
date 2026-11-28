@@ -1,0 +1,34 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-25/artifacts/q/attempt_2/pending_category/mutant-c125836/testCase.test.ts
+  Q.all when the native Array.prototype.reduce is unavailable
+    × resolves every element in the input array, including the first one (678 ms)
+
+  ● Q.all when the native Array.prototype.reduce is unavailable › resolves every element in the input array, including the first one
+
+    TypeError:
+
+      285 |                 }
+      286 |                 if (++index >= length) {
+    > 287 |                     throw new TypeError();
+          |                           ^
+      288 |                 }
+      289 |             } while (1);
+      290 |         }
+
+      at Array.<anonymous> (../../subject_repositories/q/q.js:287:27)
+      at apply (../../subject_repositories/q/q.js:263:21)
+      at array_reduce (../../subject_repositories/q/q.js:623:9)
+      at defer.become [as resolve] (../../subject_repositories/q/q.js:639:9)
+      at resolve (../../subject_repositories/q/q.js:1611:22)
+      at fulfilled (../../subject_repositories/q/q.js:855:54)
+      at _fulfilled (../../subject_repositories/q/q.js:884:30)
+      at Promise.resolve [as promiseDispatch] (../../subject_repositories/q/q.js:817:13)
+      at promiseDispatch (../../subject_repositories/q/q.js:878:14)
+      at task (../../subject_repositories/q/q.js:137:13)
+      at runSingle (../../subject_repositories/q/q.js:125:13)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.675 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-25\artifacts\q\attempt_2\pending_category\mutant-c125836\testCase.test.ts".

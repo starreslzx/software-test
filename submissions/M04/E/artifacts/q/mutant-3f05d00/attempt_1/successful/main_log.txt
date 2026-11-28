@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-13/artifacts/q/attempt_1/pending_category/mutant-3f05d00/testCase.test.ts
+  Q promise finally
+    √ exposes a finally method that runs cleanup and preserves the fulfillment value (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.509 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-13\artifacts\q\attempt_1\pending_category\mutant-3f05d00\testCase.test.ts".

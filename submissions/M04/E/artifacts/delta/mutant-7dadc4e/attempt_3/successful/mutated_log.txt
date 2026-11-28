@@ -1,0 +1,33 @@
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-44/artifacts/delta/attempt_3/pending_category/mutant-7dadc4e/testCase.test.ts
+  Delta transform
+    × uses the transformed length when the other retain is null (6 ms)
+
+  ● Delta transform › uses the transformed length when the other retain is null
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 5
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "retain": null,
+    +   },
+    + ]
+
+      19 |     try {
+      20 |       const transformed = thisDelta.transform(otherDelta);
+    > 21 |       expect(transformed.ops).toEqual([]);
+         |                               ^
+      22 |     } finally {
+      23 |       OpIterator.prototype.next = originalNext;
+      24 |     }
+
+      at Object.toEqual (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-44/artifacts/delta/attempt_3/pending_category/mutant-7dadc4e/testCase.test.ts:21:31)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.826 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_23-44\artifacts\delta\attempt_3\pending_category\mutant-7dadc4e\testCase.test.ts".

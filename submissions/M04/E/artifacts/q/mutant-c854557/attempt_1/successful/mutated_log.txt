@@ -1,0 +1,30 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-45/artifacts/q/attempt_1/pending_category/mutant-c854557/testCase.test.ts
+  Q long stack traces
+    × filters the library's own source frames out of a long stack trace (6 ms)
+
+  ● Q long stack traces › filters the library's own source frames out of a long stack trace
+
+    expect(received).not.toMatch(expected)
+
+    Expected pattern: not /q\.js:\d+:\d+/
+    Received string:      "Error: Q can't join: not the same: 1 2
+
+      747 |             return x;
+      748 |         } else {
+    > 749 |             throw new Error("Q can't join: not the same: " + x + " " + y);
+          |                   ^
+      750 |         }
+      751 |     });
+      752 | };
+
+      at ../../subject_repositories/q/q.js:749:19
+      From previous event:
+      at Object.then (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-45/artifacts/q/attempt_1/pending_category/mutant-c854557/testCase.test.ts:12:14)
+      at Object.toMatch (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-45/artifacts/q/attempt_1/pending_category/mutant-c854557/testCase.test.ts:21:33)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.771 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-45\artifacts\q\attempt_1\pending_category\mutant-c854557\testCase.test.ts".

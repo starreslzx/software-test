@@ -1,0 +1,29 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-22/artifacts/node-jsonfile/attempt_3/pending_category/mutant-d9833fc/testCase.test.ts
+  jsonfile when graceful-fs cannot be loaded
+    × falls back to the core fs module so readFileSync still parses JSON (3 ms)
+
+  ● jsonfile when graceful-fs cannot be loaded › falls back to the core fs module so readFileSync still parses JSON
+
+    TypeError: Cannot set property _load of #<Object> which has only a getter
+
+      59 |       expect(jsonfile.readFileSync(dataFile)).toEqual(contents);
+      60 |     } finally {
+    > 61 |       runtime._load = originalLoad;
+         |                    ^
+      62 |       fs.rmSync(workDir, { recursive: true, force: true });
+      63 |     }
+      64 |   });
+
+      at Object.<anonymous> (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-22/artifacts/node-jsonfile/attempt_3/pending_category/mutant-d9833fc/testCase.test.ts:61:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.395 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-22\artifacts\node-jsonfile\attempt_3\pending_category\mutant-d9833fc\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

@@ -1,0 +1,27 @@
+{
+  "node-geo-point": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-7f41d2f": {
+            "time": 93,
+            "tokensIn": 3390,
+            "tokensOut": 16558,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_09-35\\artifacts\\node-geo-point\\attempt_1\\fail_fail_on_original\\mutant-7f41d2f"
+          }
+        }
+      },
+      "attempt_2": {
+        "successful": {
+          "mutant-7f41d2f": {
+            "time": 151,
+            "tokensIn": 7674,
+            "tokensOut": 23149,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-27_09-35\\artifacts\\node-geo-point\\attempt_2\\successful\\mutant-7f41d2f"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

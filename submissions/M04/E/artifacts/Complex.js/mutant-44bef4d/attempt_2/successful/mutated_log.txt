@@ -1,0 +1,31 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\Complex.js\complex.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\Complex.js\complex.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-17/artifacts/Complex.js/attempt_2/pending_category/mutant-44bef4d/testCase.test.ts
+  Complex.acsc
+    × matches asin(1/z) for a complex number with non-zero imaginary part (3 ms)
+
+  ● Complex.acsc › matches asin(1/z) for a complex number with non-zero imaginary part
+
+    expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 0.15038560432786197
+    Received: 0.003943456623658892
+
+    Expected precision:    10
+    Expected difference: < 0.00000000005
+    Received difference:   0.14644214770420308
+
+      40 |     const expected = z.inverse().asin();
+      41 |
+    > 42 |     expect(actual.re).toBeCloseTo(expected.re, 10);
+         |                       ^
+      43 |     expect(actual.im).toBeCloseTo(expected.im, 10);
+      44 |   });
+      45 | });
+
+      at Object.toBeCloseTo (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_21-17/artifacts/Complex.js/attempt_2/pending_category/mutant-44bef4d/testCase.test.ts:42:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.005 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_21-17\artifacts\Complex.js\attempt_2\pending_category\mutant-44bef4d\testCase.test.ts".

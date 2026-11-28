@@ -1,0 +1,31 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'D:\桌面\软测小组报告\repro\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore D:\桌面\软测小组报告\repro\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-14/artifacts/q/attempt_2/pending_category/mutant-5212880/testCase.test.ts
+  Q.done
+    × invokes the fulfillment callback with the resolved value (647 ms)
+
+  ● Q.done › invokes the fulfillment callback with the resolved value
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 1
+
+    - Array [
+    -   42,
+    - ]
+    + Array []
+
+      23 |     await new Promise<void>((resolve) => setTimeout(resolve, 20));
+      24 |
+    > 25 |     expect(received).toEqual([42]);
+         |                      ^
+      26 |   });
+      27 | });
+
+      at Object.toEqual (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-14/artifacts/q/attempt_2/pending_category/mutant-5212880/testCase.test.ts:25:22)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.647 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-14\artifacts\q\attempt_2\pending_category\mutant-5212880\testCase.test.ts".

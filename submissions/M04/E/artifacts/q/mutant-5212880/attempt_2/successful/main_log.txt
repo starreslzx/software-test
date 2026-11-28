@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_11-14/artifacts/q/attempt_2/pending_category/mutant-5212880/testCase.test.ts
+  Q.done
+    √ invokes the fulfillment callback with the resolved value (64 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.42 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_11-14\artifacts\q\attempt_2\pending_category\mutant-5212880\testCase.test.ts".

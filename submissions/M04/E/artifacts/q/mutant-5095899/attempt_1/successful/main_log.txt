@@ -1,0 +1,9 @@
+PASS generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-27_10-18/artifacts/q/attempt_1/pending_category/mutant-5095899/testCase.test.ts
+  Q global script environment detection
+    √ exposes Q on self when only self is present (no window, no CommonJS) (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.52 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-27_10-18\artifacts\q\attempt_1\pending_category\mutant-5095899\testCase.test.ts".

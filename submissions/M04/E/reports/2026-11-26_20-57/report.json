@@ -1,0 +1,57 @@
+{
+  "Complex.js": {
+    "attempts": {
+      "attempt_1": {
+        "fail_fail_on_original": {
+          "mutant-fdf297b": {
+            "time": 50,
+            "tokensIn": 10394,
+            "tokensOut": 9687,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_20-57\\artifacts\\Complex.js\\attempt_1\\fail_fail_on_original\\mutant-fdf297b"
+          }
+        }
+      },
+      "attempt_2": {
+        "fail_fail_on_original": {
+          "mutant-fdf297b": {
+            "time": 178,
+            "tokensIn": 21569,
+            "tokensOut": 36821,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_20-57\\artifacts\\Complex.js\\attempt_2\\fail_fail_on_original\\mutant-fdf297b"
+          }
+        }
+      },
+      "attempt_3": {
+        "fail_fail_on_original": {
+          "mutant-fdf297b": {
+            "time": 318,
+            "tokensIn": 33347,
+            "tokensOut": 66946,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_20-57\\artifacts\\Complex.js\\attempt_3\\fail_fail_on_original\\mutant-fdf297b"
+          }
+        }
+      },
+      "attempt_4": {
+        "fail_fail_on_original": {
+          "mutant-fdf297b": {
+            "time": 335,
+            "tokensIn": 45861,
+            "tokensOut": 69229,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_20-57\\artifacts\\Complex.js\\attempt_4\\fail_fail_on_original\\mutant-fdf297b"
+          }
+        }
+      },
+      "attempt_5": {
+        "successful": {
+          "mutant-fdf297b": {
+            "time": 377,
+            "tokensIn": 59250,
+            "tokensOut": 75607,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_20-57\\artifacts\\Complex.js\\attempt_5\\successful\\mutant-fdf297b"
+          }
+        }
+      }
+    },
+    "errors": []
+  }
+}

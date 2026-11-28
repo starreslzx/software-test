@@ -1,0 +1,19 @@
+{
+  "node-geo-point": {
+    "attempts": {
+      "attempt_1": {
+        "successful": {
+          "mutant-775e92b": {
+            "time": 46,
+            "tokensIn": 3402,
+            "tokensOut": 8243,
+            "address": "generated_tests\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-26_22-19\\artifacts\\node-geo-point\\attempt_1\\successful\\mutant-775e92b"
+          }
+        }
+      }
+    },
+    "errors": [
+      "mutant-775e92b: Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {\"count\":50,\"threshold\":50,\"scope\":\"turn\",\"targets\":[\"D:\\\\桌面\\\\软测小组报告\\\\repro\\\\official\\\\source-code\\\\generated_tests\\\\deepseek-flash\\\\temp_0.5\\\\withoutTests\\\\2026-11-26_22-19\\\\artifacts\\\\node-geo-point\\\\attempt_1\\\\pending_category\"],\"targetCount\":1}"
+    ]
+  }
+}

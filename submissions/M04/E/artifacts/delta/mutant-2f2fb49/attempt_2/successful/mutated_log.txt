@@ -1,0 +1,25 @@
+FAIL generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-39/artifacts/delta/attempt_2/pending_category/mutant-2f2fb49/testCase.test.ts
+  AttributeMap.compose
+    × treats a non-object second argument as an empty attribute map (766 ms)
+
+  ● AttributeMap.compose › treats a non-object second argument as an empty attribute map
+
+    expect(received).toBeUndefined()
+
+    Received: {"0": "n", "1": "o", "10": "r", "11": "i", "12": "b", "13": "u", "14": "t", "15": "e", "16": "-", "17": "m", "18": "a", "19": "p", "2": "t", "3": "-", "4": "a", "5": "n", "6": "-", "7": "a", "8": "t", "9": "t"}
+
+      39 |   it("treats a non-object second argument as an empty attribute map", async () => {
+      40 |     const AttributeMap = await loadAttributeMap();
+    > 41 |     expect(AttributeMap.compose(undefined, "not-an-attribute-map")).toBeUndefined();
+         |                                                                     ^
+      42 |   });
+      43 | });
+
+      at toBeUndefined (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-39/artifacts/delta/attempt_2/pending_category/mutant-2f2fb49/testCase.test.ts:41:69)
+      at fulfilled (generated_tests/deepseek-flash/temp_0.5/withoutTests/2026-11-26_23-39/artifacts/delta/attempt_2/pending_category/mutant-2f2fb49/testCase.test.ts:12:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.815 s, estimated 2 s
+Ran all test suites within paths "D:\桌面\软测小组报告\repro\official\source-code\generated_tests\deepseek-flash\temp_0.5\withoutTests\2026-11-26_23-39\artifacts\delta\attempt_2\pending_category\mutant-2f2fb49\testCase.test.ts".

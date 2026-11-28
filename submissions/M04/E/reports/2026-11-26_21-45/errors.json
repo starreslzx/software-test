@@ -1,0 +1,5 @@
+{
+  "Complex.js": [
+    "mutant-b2ec3fb: Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {\"count\":50,\"threshold\":50,\"scope\":\"turn\",\"targets\":[\"D:\\\\桌面\\\\软测小组报告\\\\repro\\\\official\\\\source-code\\\\generated_tests\\\\deepseek-flash\\\\temp_0.5\\\\withoutTests\\\\2026-11-26_21-45\\\\artifacts\\\\Complex.js\\\\attempt_2\\\\pending_category\"],\"targetCount\":1}"
+  ]
+}
