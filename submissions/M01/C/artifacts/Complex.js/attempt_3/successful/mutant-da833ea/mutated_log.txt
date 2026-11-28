@@ -1,0 +1,31 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\Complex.js\complex.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\Complex.js\complex.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_3/pending_category/mutant-da833ea/testCase.test.ts
+  Complex asech
+    × computes asech for a complex number with non-unit magnitude (2 ms)
+
+  ● Complex asech › computes asech for a complex number with non-unit magnitude
+
+    expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 0.2548956
+    Received: 3.4668323818073437
+
+    Expected precision:    4
+    Expected difference: < 0.00005
+    Received difference:   3.211936781807344
+
+      16 |     // w + sqrt(...) ≈ 0.312379 - 1.251944i
+      17 |     // ln(...) ≈ 0.2548956 - 1.3262742i
+    > 18 |     expect(result.re).toBeCloseTo(0.2548956, 4);
+         |                       ^
+      19 |     expect(result.im).toBeCloseTo(-1.3262742, 4);
+      20 |
+      21 |     // Sanity check: cosh(asech(z)) should return conj(z)/|z|^2
+
+      at Object.toBeCloseTo (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_3/pending_category/mutant-da833ea/testCase.test.ts:18:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.711 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_3\pending_category\mutant-da833ea\testCase.test.ts".

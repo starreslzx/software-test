@@ -1,0 +1,28 @@
+(node:14792) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/crawler-url-parser/attempt_2/pending_category/mutant-b36f405/testCase.test.ts
+  crawler-url-parser parse query parameter handling
+    × removes utm_ query parameters when followed by a non-word character (7 ms)
+
+  ● crawler-url-parser parse query parameter handling › removes utm_ query parameters when followed by a non-word character
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "?id=42"
+    Received: "?utm-source=newsletter&id=42"
+
+       5 |     const result = parse("http://example.com/page?utm-source=newsletter&id=42");
+       6 |     expect(result).not.toBeNull();
+    >  7 |     expect(result!.search).toBe("?id=42");
+         |                            ^
+       8 |     expect(result!.querycount).toBe(1);
+       9 |   });
+      10 | });
+
+      at Object.toBe (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/crawler-url-parser/attempt_2/pending_category/mutant-b36f405/testCase.test.ts:7:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.675 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\crawler-url-parser\attempt_2\pending_category\mutant-b36f405\testCase.test.ts".

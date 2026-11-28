@@ -1,0 +1,30 @@
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_1/pending_category/mutant-374868f/testCase.test.ts
+  Complex asech
+    × computes the inverse hyperbolic secant of a non-zero complex number (4 ms)
+
+  ● Complex asech › computes the inverse hyperbolic secant of a non-zero complex number
+
+    expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 1.3169578969248166
+    Received: 5.551115123125783e-17
+
+    Expected precision:    10
+    Expected difference: < 0.00000000005
+    Received difference:   1.3169578969248166
+
+      17 |     // Sanity check against a known value: asech(2) = ln(2 + sqrt(3)) ≈ 1.3169578969248166
+      18 |     const realResult = new Complex(2, 0).asech();
+    > 19 |     expect(realResult.re).toBeCloseTo(1.3169578969248166, 10);
+         |                           ^
+      20 |     expect(realResult.im).toBeCloseTo(0, 10);
+      21 |   });
+      22 | });
+
+      at Object.toBeCloseTo (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_1/pending_category/mutant-374868f/testCase.test.ts:19:27)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.647 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_1\pending_category\mutant-374868f\testCase.test.ts".

@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\pull-stream\util\prop.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\pull-stream\util\prop.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-8303b1e/testCase.test.ts
+  prop
+    × should support RegExp keys by executing them against the data (6 ms)
+
+  ● prop › should support RegExp keys by executing them against the data
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "function"
+    Received: "object"
+
+       5 |     const getMatch = prop(/ab+c/);
+       6 |
+    >  7 |     expect(typeof getMatch).toBe("function");
+         |                             ^
+       8 |     expect(getMatch("xxabbbcyy")).toBe("abbbc");
+       9 |     expect(getMatch("no-match-here")).toBe(null);
+      10 |   });
+
+      at Object.toBe (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-8303b1e/testCase.test.ts:7:29)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.281 s, estimated 3 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\pull-stream\attempt_1\pending_category\mutant-8303b1e\testCase.test.ts".

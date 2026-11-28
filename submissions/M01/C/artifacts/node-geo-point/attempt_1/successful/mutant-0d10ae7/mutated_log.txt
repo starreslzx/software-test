@@ -1,0 +1,28 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-0d10ae7/testCase.test.ts[0m:[93m1[0m:[93m26[0m - [91merror[0m[90m TS5097: [0mAn import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+
+[7m1[0m import { GeoPoint } from "../../../../../../../../../../../subject_repositories/node-geo-point/src/geo-point.ts";
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-0d10ae7/testCase.test.ts
+  GeoPoint constructor longitude boundary
+    × accepts longitude of -180 as a valid coordinate (1 ms)
+
+  ● GeoPoint constructor longitude boundary › accepts longitude of -180 as a valid coordinate
+
+    RangeError: bad longitude value
+
+      46 |        if (longitude <= -180 || longitude > 180) {
+      47 |
+    > 48 |       throw new RangeError('bad longitude value');
+         |             ^
+      49 |     }
+      50 |
+      51 |     this.latitude = latitude;
+
+      at new GeoPoint (../subject_repositories/node-geo-point/src/geo-point.ts:48:13)
+      at Object.<anonymous> (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-0d10ae7/testCase.test.ts:5:19)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.687 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\node-geo-point\attempt_1\pending_category\mutant-0d10ae7\testCase.test.ts".

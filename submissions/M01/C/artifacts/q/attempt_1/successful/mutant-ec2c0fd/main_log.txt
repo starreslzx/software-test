@@ -1,0 +1,17 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-ec2c0fd/testCase.test.ts[0m:[93m6[0m:[93m17[0m - [91merror[0m[90m TS7057: [0m'yield' expression implicitly results in an 'any' type because its containing generator lacks a return-type annotation.
+
+[7m6[0m       const a = yield Q(1);
+[7m [0m [91m                ~~~~~[0m
+[96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-ec2c0fd/testCase.test.ts[0m:[93m7[0m:[93m17[0m - [91merror[0m[90m TS7057: [0m'yield' expression implicitly results in an 'any' type because its containing generator lacks a return-type annotation.
+
+[7m7[0m       const b = yield Q(2);
+[7m [0m [91m                ~~~~~[0m
+PASS generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-ec2c0fd/testCase.test.ts
+  Q.async
+    √ resolves the return value of an ES6 generator function (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.621 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-ec2c0fd\testCase.test.ts".

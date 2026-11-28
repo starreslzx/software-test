@@ -1,0 +1,32 @@
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-786e276/testCase.test.ts
+  pull with a source object
+    × unwraps a source object that has a source function (5 ms)
+
+  ● pull with a source object › unwraps a source object that has a source function
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 1
+
+      Array [
+    +   [Function anonymous],
+        1,
+    -   2,
+    -   3,
+      ]
+
+      47 |     drain()
+      48 |
+    > 49 |     expect(collected).toEqual([1, 2, 3])
+         |                       ^
+      50 |   })
+      51 | })
+
+      at Object.toEqual (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-786e276/testCase.test.ts:49:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.154 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\pull-stream\attempt_1\pending_category\mutant-786e276\testCase.test.ts".

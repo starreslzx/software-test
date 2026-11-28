@@ -1,0 +1,36 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-7631766/testCase.test.ts[0m:[93m1[0m:[93m26[0m - [91merror[0m[90m TS5097: [0mAn import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+
+[7m1[0m import { GeoPoint } from "../../../../../../../../../../../subject_repositories/node-geo-point/src/geo-point.ts";
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-7631766/testCase.test.ts
+  GeoPoint.fromObject
+    × throws a TypeError when the object is missing latitude or longitude (23 ms)
+
+  ● GeoPoint.fromObject › throws a TypeError when the object is missing latitude or longitude
+
+    expect(received).toThrow(expected)
+
+    Expected message: "Object must have latitude and longitude"
+    Received message: "Bad geo point arguments"
+
+          37 |   constructor(latitude: number, longitude: number) {
+          38 |     if (typeof latitude !== 'number' || typeof longitude !== 'number') {
+        > 39 |       throw new RangeError('Bad geo point arguments');
+             |             ^
+          40 |     }
+          41 |
+          42 |     if (latitude < -90 || latitude > 90) {
+
+      at new GeoPoint (../subject_repositories/node-geo-point/src/geo-point.ts:39:13)
+      at GeoPoint.fromObject (../subject_repositories/node-geo-point/src/geo-point.ts:94:12)
+      at fromObject (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-7631766/testCase.test.ts:5:27)
+      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:320:21)
+      at Object.toThrow (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-7631766/testCase.test.ts:5:65)
+      at Object.toThrow (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-7631766/testCase.test.ts:5:65)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.735 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\node-geo-point\attempt_1\pending_category\mutant-7631766\testCase.test.ts".

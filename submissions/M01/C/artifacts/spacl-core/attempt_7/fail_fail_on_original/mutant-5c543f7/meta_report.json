@@ -1,0 +1,10 @@
+{
+  "project": "spacl-core",
+  "mutationShortId": "mutant-5c543f7",
+  "attempt": 7,
+  "category": "fail_fail_on_original",
+  "elapsedSeconds": 165,
+  "tokensIn": 23514,
+  "tokensOut": 868,
+  "address": "generated_tests_M01_C_part3\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-46\\artifacts\\spacl-core\\attempt_7\\fail_fail_on_original\\mutant-5c543f7"
+}

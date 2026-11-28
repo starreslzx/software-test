@@ -1,0 +1,25 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_3/pending_category/mutant-e0dce9c/testCase.test.ts
+  Q promise valueOf on rejected promise
+    × throws the rejection reason when valueOf is called on a rejected promise (4 ms)
+
+  ● Q promise valueOf on rejected promise › throws the rejection reason when valueOf is called on a rejected promise
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: [Error: rejected reason]
+    Received: undefined
+
+      15 |         }
+      16 |
+    > 17 |         expect(thrown).toBe(reason);
+         |                        ^
+      18 |     });
+      19 | });
+
+      at Object.toBe (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_3/pending_category/mutant-e0dce9c/testCase.test.ts:17:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.656 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_3\pending_category\mutant-e0dce9c\testCase.test.ts".

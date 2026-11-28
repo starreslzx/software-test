@@ -1,0 +1,51 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-c369491/testCase.test.ts (6.706 s)
+  Q progress notifications
+    × delivers progress notifications to a progress listener registered via then (5003 ms)
+
+  ● Q progress notifications › delivers progress notifications to a progress listener registered via then
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 4
+    + Received  + 1
+
+    - Array [
+    -   1,
+    -   2,
+    - ]
+    + Array []
+
+      23 |         Q.nextTick(() => {
+      24 |             Q.nextTick(() => {
+    > 25 |                 expect(progressValues).toEqual([1, 2]);
+         |                                        ^
+      26 |                 done();
+      27 |             });
+      28 |         });
+
+      at toEqual (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-c369491/testCase.test.ts:25:40)
+      at task (../subject_repositories/q/q.js:137:13)
+      at runSingle (../subject_repositories/q/q.js:125:13)
+
+  ● Q progress notifications › delivers progress notifications to a progress listener registered via then
+
+    thrown: "Exceeded timeout of 5000 ms for a test while waiting for `done()` to be called.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      2 |
+      3 | describe("Q progress notifications", () => {
+    > 4 |     it("delivers progress notifications to a progress listener registered via then", (done) => {
+        |     ^
+      5 |         const deferred = Q.defer();
+      6 |         const progressValues: number[] = [];
+      7 |
+
+      at it (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-c369491/testCase.test.ts:4:5)
+      at Object.describe (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-c369491/testCase.test.ts:3:1)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.873 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-c369491\testCase.test.ts".

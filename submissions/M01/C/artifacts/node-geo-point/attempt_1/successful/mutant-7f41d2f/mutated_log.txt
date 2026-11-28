@@ -1,0 +1,33 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-7f41d2f/testCase.test.ts[0m:[93m1[0m:[93m26[0m - [91merror[0m[90m TS5097: [0mAn import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+
+[7m1[0m import { GeoPoint } from "../../../../../../../../../../../subject_repositories/node-geo-point/src/geo-point.ts";
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-7f41d2f/testCase.test.ts
+  GeoPoint.calculateDestination
+    × computes the correct destination longitude when moving east from a mid-latitude point (3 ms)
+
+  ● GeoPoint.calculateDestination › computes the correct destination longitude when moving east from a mid-latitude point
+
+    expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 1.2715
+    Received: 0.42397135115584206
+
+    Expected precision:    2
+    Expected difference: < 0.005
+    Received difference:   0.847528648844158
+
+      10 |     // noticeably different longitude.
+      11 |     expect(destination.latitude).toBeCloseTo(45, 1);
+    > 12 |     expect(destination.longitude).toBeCloseTo(1.2715, 2);
+         |                                   ^
+      13 |   });
+      14 | });
+
+      at Object.toBeCloseTo (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_1/pending_category/mutant-7f41d2f/testCase.test.ts:12:35)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.773 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\node-geo-point\attempt_1\pending_category\mutant-7f41d2f\testCase.test.ts".

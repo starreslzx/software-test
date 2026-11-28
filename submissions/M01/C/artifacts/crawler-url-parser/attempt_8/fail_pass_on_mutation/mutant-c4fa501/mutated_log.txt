@@ -1,0 +1,11 @@
+(node:28256) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PASS generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/crawler-url-parser/attempt_8/pending_category/mutant-c4fa501/testCase.test.ts
+  crawler-url-parser extract
+    √ extracts links from a page with a directory index href (14 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.836 s, estimated 3 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\crawler-url-parser\attempt_8\pending_category\mutant-c4fa501\testCase.test.ts".

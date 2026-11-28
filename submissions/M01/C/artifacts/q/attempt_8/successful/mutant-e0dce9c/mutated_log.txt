@@ -1,0 +1,26 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_8/pending_category/mutant-e0dce9c/testCase.test.ts
+  Q promise valueOf on fulfilled promise
+    × returns the fulfillment value when valueOf is called on a fulfilled promise (2 ms)
+
+  ● Q promise valueOf on fulfilled promise › returns the fulfillment value when valueOf is called on a fulfilled promise
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 42
+    Received: {"inspect": [Function inspect], "promiseDispatch": [Function anonymous], "valueOf": [Function anonymous]}
+
+       6 |
+       7 |         expect(fulfilled.inspect().state).toBe("fulfilled");
+    >  8 |         expect(fulfilled.valueOf()).toBe(42);
+         |                                     ^
+       9 |     });
+      10 | });
+
+      at Object.toBe (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_8/pending_category/mutant-e0dce9c/testCase.test.ts:8:37)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.823 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_8\pending_category\mutant-e0dce9c\testCase.test.ts".

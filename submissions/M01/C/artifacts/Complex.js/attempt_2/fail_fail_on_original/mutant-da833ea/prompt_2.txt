@@ -1,0 +1,36 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_1/pending_category/mutant-da833ea/testCase.test.ts
+  Complex asech
+    × computes asech for a complex number with non-unit magnitude (2 ms)
+
+  ● Complex asech › computes asech for a complex number with non-unit magnitude
+
+    expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 0.254841
+    Received: 0.25489557334055074
+
+    Expected precision:    4
+    Expected difference: < 0.00005
+    Received difference:   0.000054573340550756466
+
+      22 |     // So acosh(0.25 - 0.25i) ≈ 0.254841 - 1.326213i
+      23 |
+    > 24 |     expect(result.re).toBeCloseTo(0.254841, 4);
+         |                       ^
+      25 |     expect(result.im).toBeCloseTo(-1.326213, 4);
+      26 |   });
+      27 | });
+
+      at Object.toBeCloseTo (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_1/pending_category/mutant-da833ea/testCase.test.ts:24:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.65 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_1\pending_category\mutant-da833ea\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

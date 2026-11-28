@@ -1,0 +1,9 @@
+PASS generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/node-dirty/attempt_3/pending_category/mutant-9a3bb96/testCase.test.ts
+  Dirty close behavior with pending writes
+    √ defers closing until pending writes are flushed and drained (228 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.366 s, estimated 3 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part3\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-46\artifacts\node-dirty\attempt_3\pending_category\mutant-9a3bb96\testCase.test.ts".

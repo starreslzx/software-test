@@ -1,0 +1,31 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\Complex.js\complex.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\Complex.js\complex.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_2/pending_category/mutant-15a16cd/testCase.test.ts
+  Complex.ceil with places argument
+    × should round up to the specified number of decimal places (2 ms)
+
+  ● Complex.ceil with places argument › should round up to the specified number of decimal places
+
+    expect(received).toBeCloseTo(expected, precision)
+
+    Expected: 1.24
+    Received: 2
+
+    Expected precision:    10
+    Expected difference: < 0.00000000005
+    Received difference:   0.76
+
+       5 |     const c = new Complex(1.234, 5.678);
+       6 |     const result = c.ceil(2);
+    >  7 |     expect(result.re).toBeCloseTo(1.24, 10);
+         |                       ^
+       8 |     expect(result.im).toBeCloseTo(5.68, 10);
+       9 |   });
+      10 | });
+
+      at Object.toBeCloseTo (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_2/pending_category/mutant-15a16cd/testCase.test.ts:7:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.722 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_2\pending_category\mutant-15a16cd\testCase.test.ts".

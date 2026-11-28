@@ -1,0 +1,25 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_9/pending_category/mutant-7644a72/testCase.test.ts
+  Q return value handling
+    × should let Q.async resolve with Q.return value in ES6 generators (33 ms)
+
+  ● Q return value handling › should let Q.async resolve with Q.return value in ES6 generators
+
+    expect(received).toBeUndefined()
+
+    Received: {"value": 3}
+
+      28 |         }
+      29 |
+    > 30 |         expect(rejectedReason).toBeUndefined();
+         |                                ^
+      31 |         expect(resolvedValue).toBe(3);
+      32 |     });
+      33 | });
+
+      at Object.toBeUndefined (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_9/pending_category/mutant-7644a72/testCase.test.ts:30:32)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.627 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_9\pending_category\mutant-7644a72\testCase.test.ts".

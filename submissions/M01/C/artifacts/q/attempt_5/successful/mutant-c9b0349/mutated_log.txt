@@ -1,0 +1,21 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_5/pending_category/mutant-c9b0349/testCase.test.ts
+  Q long stack trace filtering
+    × keeps user frames and drops internal q.js frames from long stack traces (71 ms)
+
+  ● Q long stack trace filtering › keeps user frames and drops internal q.js frames from long stack traces
+
+    expect(received).toContain(expected) // indexOf
+
+    Expected substring: "earlyQFrame"
+    Received string:    "Error: boom
+
+      at userFunction (../../../../../../some/user/file.js:10:5)
+      From previous event:
+      at Object.defer (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_5/pending_category/mutant-c9b0349/testCase.test.ts:21:28)
+      at Timeout.toContain [as _onTimeout] (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_5/pending_category/mutant-c9b0349/testCase.test.ts:37:40)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.745 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_5\pending_category\mutant-c9b0349\testCase.test.ts".

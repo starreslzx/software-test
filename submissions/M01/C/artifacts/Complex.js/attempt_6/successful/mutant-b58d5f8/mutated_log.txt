@@ -1,0 +1,25 @@
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_6/pending_category/mutant-b58d5f8/testCase.test.ts
+  Complex parsing of invalid string input
+    × throws a SyntaxError when the string produces no tokens (4 ms)
+
+  ● Complex parsing of invalid string input › throws a SyntaxError when the string produces no tokens
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "SyntaxError"
+    Received: "TypeError"
+
+      10 |     }
+      11 |     expect(error).not.toBeNull();
+    > 12 |     expect((error as Error).name).toBe("SyntaxError");
+         |                                   ^
+      13 |   });
+      14 | });
+
+      at Object.toBe (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_6/pending_category/mutant-b58d5f8/testCase.test.ts:12:35)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.219 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_6\pending_category\mutant-b58d5f8\testCase.test.ts".

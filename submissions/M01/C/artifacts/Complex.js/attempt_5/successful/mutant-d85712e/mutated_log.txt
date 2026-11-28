@@ -1,0 +1,25 @@
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_5/pending_category/mutant-d85712e/testCase.test.ts
+  Complex string parsing with imaginary unit
+    × parses '+i3' as 3i (2 ms)
+
+  ● Complex string parsing with imaginary unit › parses '+i3' as 3i
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "3i"
+    Received: "NaN"
+
+      4 |   it("parses '+i3' as 3i", () => {
+      5 |     const z = new Complex("+i3");
+    > 6 |     expect(z.toString()).toBe("3i");
+        |                          ^
+      7 |   });
+      8 | });
+
+      at Object.toBe (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_5/pending_category/mutant-d85712e/testCase.test.ts:6:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.213 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_5\pending_category\mutant-d85712e\testCase.test.ts".

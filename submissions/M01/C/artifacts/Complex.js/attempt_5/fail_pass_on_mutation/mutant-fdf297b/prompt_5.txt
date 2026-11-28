@@ -1,0 +1,32 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_4/pending_category/mutant-fdf297b/testCase.test.ts
+  Complex subtraction with infinity
+    × returns NaN when subtracting a finite number from infinity (3 ms)
+
+  ● Complex subtraction with infinity › returns NaN when subtracting a finite number from infinity
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+       9 |     //          to second check and returns INFINITY
+      10 |     const result = inf.sub(new Complex(1, 2));
+    > 11 |     expect(result.isNaN()).toBe(true);
+         |                            ^
+      12 |     expect(result.isInfinite()).toBe(false);
+      13 |   });
+      14 | });
+
+      at Object.toBe (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_4/pending_category/mutant-fdf297b/testCase.test.ts:11:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.672 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_4\pending_category\mutant-fdf297b\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

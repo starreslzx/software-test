@@ -1,0 +1,43 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-ab94fe2/testCase.test.ts
+  Q.done unhandled error
+    × throws unhandled errors from done callbacks on a future tick (106 ms)
+
+  ● Q.done unhandled error › throws unhandled errors from done callbacks on a future tick
+
+    boom
+
+      3 | describe("Q.done unhandled error", () => {
+      4 |   it("throws unhandled errors from done callbacks on a future tick", (done) => {
+    > 5 |     const error = new Error("boom");
+        |                   ^
+      6 |     let caught: any = null;
+      7 |
+      8 |     function onUncaughtException(err: any) {
+
+      at Object.<anonymous> (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-ab94fe2/testCase.test.ts:5:19)
+
+  ● Q.done unhandled error › throws unhandled errors from done callbacks on a future tick
+
+    Expected uncaught exception was not thrown
+
+      24 |       process.removeListener("uncaughtException", onUncaughtException);
+      25 |       if (caught === null) {
+    > 26 |         done(new Error("Expected uncaught exception was not thrown"));
+         |              ^
+      27 |       }
+      28 |     }, 100);
+      29 |   });
+
+      at Timeout._onTimeout (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-ab94fe2/testCase.test.ts:26:14)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.771 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-ab94fe2\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

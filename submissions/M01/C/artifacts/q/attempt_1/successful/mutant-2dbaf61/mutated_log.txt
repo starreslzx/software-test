@@ -1,0 +1,27 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-2dbaf61/testCase.test.ts
+  Q long stack traces
+    × includes the source promise's stack in the rejection stack when longStackSupport is enabled (10 ms)
+
+  ● Q long stack traces › includes the source promise's stack in the rejection stack when longStackSupport is enabled
+
+    expect(received).toContain(expected) // indexOf
+
+    Expected substring: "From previous event:"
+    Received string:    "Error: boom
+
+       5 |     Q.longStackSupport = true;
+       6 |     try {
+    >  7 |       const error = await Q.reject(new Error("boom"))
+         |                                    ^
+       8 |         .then(() => {
+       9 |           throw new Error("should not happen");
+      10 |         })
+
+      at Object.<anonymous> (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-2dbaf61/testCase.test.ts:7:36)
+      at Object.toContain (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-2dbaf61/testCase.test.ts:16:27)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.64 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-2dbaf61\testCase.test.ts".

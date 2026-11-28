@@ -1,0 +1,9 @@
+PASS generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_3/pending_category/mutant-f7d009c/testCase.test.ts
+  Complex hypot boundary behavior
+    √ computes abs with a component exactly at the 3000 threshold (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.761 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_3\pending_category\mutant-f7d009c\testCase.test.ts".

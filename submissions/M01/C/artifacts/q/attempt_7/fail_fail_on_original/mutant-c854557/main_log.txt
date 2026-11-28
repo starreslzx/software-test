@@ -1,0 +1,23 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_7/pending_category/mutant-c854557/testCase.test.ts
+  Q stack trace filtering
+    × should preserve multi-digit line numbers when filtering stack traces (1 ms)
+
+  ● Q stack trace filtering › should preserve multi-digit line numbers when filtering stack traces
+
+    TypeError: Cannot set property longStackSupport of #<Object> which has only a getter
+
+      4 |     it("should preserve multi-digit line numbers when filtering stack traces", () => {
+      5 |         // Enable long stack support via the module's exported setter.
+    > 6 |         (Q as any).longStackSupport = true;
+        |                                    ^
+      7 |
+      8 |         const deferred = (Q as any).defer();
+      9 |
+
+      at Object.<anonymous> (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_7/pending_category/mutant-c854557/testCase.test.ts:6:36)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.666 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_7\pending_category\mutant-c854557\testCase.test.ts".

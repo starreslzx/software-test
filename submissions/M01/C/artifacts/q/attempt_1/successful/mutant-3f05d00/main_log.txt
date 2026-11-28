@@ -1,0 +1,18 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-3f05d00/testCase.test.ts[0m:[93m5[0m:[93m42[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m5[0m         const callback = jest.fn(() => Q.resolve());
+[7m [0m [91m                                         ~~~~~~~[0m
+
+  [96m../subject_repositories/q/q.js[0m:[93m497[0m:[93m12[0m
+    [7m497[0m function Q(value) {
+    [7m   [0m [96m           ~~~~~[0m
+    An argument for 'value' was not provided.
+PASS generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-3f05d00/testCase.test.ts
+  Q promise finally
+    √ invokes the finally callback and preserves the fulfillment value (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.705 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-3f05d00\testCase.test.ts".

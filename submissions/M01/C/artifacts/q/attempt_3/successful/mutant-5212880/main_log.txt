@@ -1,0 +1,18 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_3/pending_category/mutant-5212880/testCase.test.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 2.
+
+[7m5[0m     Q.done(
+[7m [0m [91m      ~~~~[0m
+
+  [96m../subject_repositories/q/q.js[0m:[93m1799[0m:[93m39[0m
+    [7m1799[0m Q.done = function (object, fulfilled, rejected, progress) {
+    [7m    [0m [96m                                      ~~~~~~~~[0m
+    An argument for 'rejected' was not provided.
+PASS generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_3/pending_category/mutant-5212880/testCase.test.ts
+  Q.done
+    √ should invoke the fulfillment callback when given a promise and a callback (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.687 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_3\pending_category\mutant-5212880\testCase.test.ts".

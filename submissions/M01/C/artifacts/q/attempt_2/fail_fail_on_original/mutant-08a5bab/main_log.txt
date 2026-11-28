@@ -1,0 +1,23 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_2/pending_category/mutant-08a5bab/testCase.test.ts
+  Q stack trace filtering
+    × should filter out internal Q frames from long stack traces (1 ms)
+
+  ● Q stack trace filtering › should filter out internal Q frames from long stack traces
+
+    TypeError: Cannot set property longStackSupport of #<Object> which has only a getter
+
+       5 |     it("should filter out internal Q frames from long stack traces", async () => {
+       6 |         const q = Q as any;
+    >  7 |         q.longStackSupport = true;
+         |                           ^
+       8 |
+       9 |         try {
+      10 |             const error = await q.reject(new Error("boom"))
+
+      at Object.<anonymous> (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_2/pending_category/mutant-08a5bab/testCase.test.ts:7:27)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.647 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_2\pending_category\mutant-08a5bab\testCase.test.ts".

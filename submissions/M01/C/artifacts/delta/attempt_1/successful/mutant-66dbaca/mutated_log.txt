@@ -1,0 +1,26 @@
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/delta/attempt_1/pending_category/mutant-66dbaca/testCase.test.ts
+  Delta module exports
+    × exports Delta as the CommonJS module export (5 ms)
+
+  ● Delta module exports › exports Delta as the CommonJS module export
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "function"
+    Received: "object"
+
+      11 |
+      12 |     // The module export itself should be the Delta constructor
+    > 13 |     expect(typeof required).toBe("function");
+         |                             ^
+      14 |     expect(required).toBe(RequiredDelta);
+      15 |     expect(required.default).toBe(RequiredDelta);
+      16 |
+
+      at Object.toBe (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/delta/attempt_1/pending_category/mutant-66dbaca/testCase.test.ts:13:29)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.465 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\delta\attempt_1\pending_category\mutant-66dbaca\testCase.test.ts".

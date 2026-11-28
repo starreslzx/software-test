@@ -1,0 +1,45 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-f52bdbd/testCase.test.ts (6.735 s)
+  Q unhandled rejection tracking
+    × records the stack of a rejected promise's reason (5007 ms)
+
+  ● Q unhandled rejection tracking › records the stack of a rejected promise's reason
+
+    expect(received).not.toContain(expected) // indexOf
+
+    Expected substring: not "(no stack)"
+    Received string:        "(no stack) Error: boom"
+
+      13 |             expect(reasons[0]).toContain("boom");
+      14 |             expect(reasons[0]).toContain("Error");
+    > 15 |             expect(reasons[0]).not.toContain("(no stack)");
+         |                                    ^
+      16 |             done();
+      17 |         });
+      18 |     });
+
+      at toContain (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-f52bdbd/testCase.test.ts:15:36)
+      at task (../subject_repositories/q/q.js:137:13)
+      at runSingle (../subject_repositories/q/q.js:130:13)
+
+  ● Q unhandled rejection tracking › records the stack of a rejected promise's reason
+
+    thrown: "Exceeded timeout of 5000 ms for a test while waiting for `done()` to be called.
+    Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+
+      2 |
+      3 | describe("Q unhandled rejection tracking", () => {
+    > 4 |     it("records the stack of a rejected promise's reason", (done) => {
+        |     ^
+      5 |         Q.resetUnhandledRejections();
+      6 |
+      7 |         const error = new Error("boom");
+
+      at it (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-f52bdbd/testCase.test.ts:4:5)
+      at Object.describe (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-f52bdbd/testCase.test.ts:3:1)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.903 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-f52bdbd\testCase.test.ts".

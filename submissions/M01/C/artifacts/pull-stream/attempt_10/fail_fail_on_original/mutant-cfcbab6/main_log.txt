@@ -1,0 +1,25 @@
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_10/pending_category/mutant-cfcbab6/testCase.test.ts
+  pull
+    × should not invoke a sink-like object at index equal to arguments.length (3 ms)
+
+  ● pull › should not invoke a sink-like object at index equal to arguments.length
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 2
+
+      33 |     pull.apply(null, sparse)
+      34 |
+    > 35 |     expect(extraSinkCalls).toBe(1)
+         |                            ^
+      36 |   })
+      37 | })
+
+      at Object.toBe (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_10/pending_category/mutant-cfcbab6/testCase.test.ts:35:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.127 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\pull-stream\attempt_10\pending_category\mutant-cfcbab6\testCase.test.ts".

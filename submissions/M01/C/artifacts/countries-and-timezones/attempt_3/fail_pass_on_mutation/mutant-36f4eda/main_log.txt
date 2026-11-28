@@ -1,0 +1,13 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/countries-and-timezones/attempt_3/pending_category/mutant-36f4eda/testCase.test.ts[0m:[93m7[0m:[93m26[0m - [91merror[0m[90m TS7006: [0mParameter 'tz' implicitly has an 'any' type.
+
+[7m7[0m     expect(result!.some((tz) => tz && tz.name === "Stryker was here")).toBe(false);
+[7m [0m [91m                         ~~[0m
+PASS generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/countries-and-timezones/attempt_3/pending_category/mutant-36f4eda/testCase.test.ts
+  getTimezonesForCountry
+    √ does not return a placeholder timezone for a country with timezones (4 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.321 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part3\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-46\artifacts\countries-and-timezones\attempt_3\pending_category\mutant-36f4eda\testCase.test.ts".

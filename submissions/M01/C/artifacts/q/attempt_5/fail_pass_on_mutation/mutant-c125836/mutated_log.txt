@@ -1,0 +1,9 @@
+PASS generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_5/pending_category/mutant-c125836/testCase.test.ts
+  Q.all with a pre-fulfilled promise array
+    √ resolves with the original values when all entries are already fulfilled (3 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.706 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_5\pending_category\mutant-c125836\testCase.test.ts".

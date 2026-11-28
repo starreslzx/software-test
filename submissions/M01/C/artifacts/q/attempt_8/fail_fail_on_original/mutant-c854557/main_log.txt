@@ -1,0 +1,23 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_8/pending_category/mutant-c854557/testCase.test.ts
+  Q stack trace filtering
+    × should preserve multi-digit line numbers when filtering stack traces (1 ms)
+
+  ● Q stack trace filtering › should preserve multi-digit line numbers when filtering stack traces
+
+    TypeError: Cannot read properties of undefined (reading 'call')
+
+       5 |         // Enable long stack support by invoking the exported setter directly.
+       6 |         const descriptor = Object.getOwnPropertyDescriptor(Q, "longStackSupport")!;
+    >  7 |         descriptor.set!.call(Q, true);
+         |                         ^
+       8 |
+       9 |         const deferred = (Q as any).defer();
+      10 |
+
+      at Object.call (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_8/pending_category/mutant-c854557/testCase.test.ts:7:25)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.66 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_8\pending_category\mutant-c854557\testCase.test.ts".

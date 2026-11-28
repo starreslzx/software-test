@@ -1,0 +1,26 @@
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/crawler-url-parser/attempt_3/pending_category/mutant-af25bdc/testCase.test.ts
+  crawler-url-parser
+    × should log 'for testing purpose' when the module is loaded (362 ms)
+
+  ● crawler-url-parser › should log 'for testing purpose' when the module is loaded
+
+    expect(received).toContain(expected) // indexOf
+
+    Expected value: "for testing purpose"
+    Received array: [""]
+
+      17 |
+      18 |       const loggedMessages = logSpy.mock.calls.map((call) => call[0]);
+    > 19 |       expect(loggedMessages).toContain("for testing purpose");
+         |                              ^
+      20 |     } finally {
+      21 |       logSpy.mockRestore();
+      22 |     }
+
+      at Object.toContain (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/crawler-url-parser/attempt_3/pending_category/mutant-af25bdc/testCase.test.ts:19:30)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.877 s, estimated 3 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\crawler-url-parser\attempt_3\pending_category\mutant-af25bdc\testCase.test.ts".

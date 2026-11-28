@@ -1,0 +1,10 @@
+{
+  "project": "node-dirty",
+  "mutationShortId": "mutant-7491a14",
+  "attempt": 5,
+  "category": "fail_pass_on_mutation",
+  "elapsedSeconds": 100,
+  "tokensIn": 15508,
+  "tokensOut": 2300,
+  "address": "generated_tests_M01_C_part3\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-46\\artifacts\\node-dirty\\attempt_5\\fail_pass_on_mutation\\mutant-7491a14"
+}

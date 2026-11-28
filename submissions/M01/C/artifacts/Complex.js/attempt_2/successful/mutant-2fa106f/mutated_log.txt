@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\Complex.js\complex.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\Complex.js\complex.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_2/pending_category/mutant-2fa106f/testCase.test.ts
+  Complex atan edge case
+    × returns (0, Infinity) for atan(0 + 1i) (2 ms)
+
+  ● Complex atan edge case › returns (0, Infinity) for atan(0 + 1i)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: NaN
+
+      4 |   it("returns (0, Infinity) for atan(0 + 1i)", () => {
+      5 |     const result = new Complex(0, 1).atan();
+    > 6 |     expect(result.re).toBe(0);
+        |                       ^
+      7 |     expect(result.im).toBe(Infinity);
+      8 |   });
+      9 | });
+
+      at Object.toBe (generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_2/pending_category/mutant-2fa106f/testCase.test.ts:6:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.66 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_2\pending_category\mutant-2fa106f\testCase.test.ts".

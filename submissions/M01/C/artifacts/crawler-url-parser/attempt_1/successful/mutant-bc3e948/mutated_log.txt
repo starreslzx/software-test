@@ -1,0 +1,29 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\crawler-url-parser\crawler-url-parser.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\crawler-url-parser\crawler-url-parser.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+(node:30624) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/crawler-url-parser/attempt_1/pending_category/mutant-bc3e948/testCase.test.ts
+  extract
+    × preserves the anchor text for extracted links (12 ms)
+
+  ● extract › preserves the anchor text for extracted links
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: ArrayContaining [ObjectContaining {"text": "First Link", "url": "http://www.example.com/page1"}, ObjectContaining {"text": "Second Link", "url": "http://www.example.com/page2"}]
+    Received: [{"text": "", "type": "sublevel", "url": "http://www.example.com/page1"}, {"text": "", "type": "sublevel", "url": "http://www.example.com/page2"}]
+
+      15 |     const result = extract(html, sourceUrl);
+      16 |
+    > 17 |     expect(result).toEqual(
+         |                    ^
+      18 |       expect.arrayContaining([
+      19 |         expect.objectContaining({
+      20 |           url: "http://www.example.com/page1",
+
+      at Object.toEqual (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/crawler-url-parser/attempt_1/pending_category/mutant-bc3e948/testCase.test.ts:17:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.892 s, estimated 3 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\crawler-url-parser\attempt_1\pending_category\mutant-bc3e948\testCase.test.ts".

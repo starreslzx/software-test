@@ -1,0 +1,30 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\pull-stream\sinks\reduce.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\pull-stream\sinks\reduce.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-bc61ada/testCase.test.ts
+  reduce sink
+    × calls back with null error when source ends immediately without initial accumulator (2 ms)
+
+  ● reduce sink › calls back with null error when source ends immediately without initial accumulator
+
+    expect(received).toBeNull()
+
+    Received: undefined
+
+      11 |     const sink = reduce(reducer, (err: any, acc: any) => {
+      12 |       expect(err).toBeNull()
+    > 13 |       expect(acc).toBeNull()
+         |                   ^
+      14 |       done()
+      15 |     })
+      16 |
+
+      at toBeNull (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-bc61ada/testCase.test.ts:13:19)
+      at cb (../subject_repositories/pull-stream/sinks/reduce.js:16:24)
+      at cb (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-bc61ada/testCase.test.ts:8:7)
+      at source (../subject_repositories/pull-stream/sinks/reduce.js:14:7)
+      at Object.sink (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-bc61ada/testCase.test.ts:17:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.257 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\pull-stream\attempt_1\pending_category\mutant-bc61ada\testCase.test.ts".

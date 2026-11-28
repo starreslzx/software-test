@@ -1,0 +1,27 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_2/pending_category/mutant-ab94fe2/testCase.test.ts
+  Q.done unhandled error
+    × invokes Q.onerror with the rejection reason when a done chain rejects (117 ms)
+
+  ● Q.done unhandled error › invokes Q.onerror with the rejection reason when a done chain rejects
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: [Error: boom]
+    Received: null
+
+      16 |       (Q as any).onerror = previousOnError;
+      17 |       try {
+    > 18 |         expect(received).toBe(error);
+         |                          ^
+      19 |         done();
+      20 |       } catch (e) {
+      21 |         done(e);
+
+      at Timeout.toBe [as _onTimeout] (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_2/pending_category/mutant-ab94fe2/testCase.test.ts:18:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.932 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_2\pending_category\mutant-ab94fe2\testCase.test.ts".

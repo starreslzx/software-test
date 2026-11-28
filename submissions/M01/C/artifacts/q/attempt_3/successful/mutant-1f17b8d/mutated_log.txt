@@ -1,0 +1,26 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_3/pending_category/mutant-1f17b8d/testCase.test.ts
+  Q.all with pending promises
+    × resolves only after all pending promises are fulfilled (39 ms)
+
+  ● Q.all with pending promises › resolves only after all pending promises are fulfilled
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      19 |
+      20 |         // The all() promise must not be resolved yet because d2 is still pending.
+    > 21 |         expect(resolved).toBe(false);
+         |                          ^
+      22 |
+      23 |         d2.resolve("b");
+      24 |
+
+      at Object.toBe (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_3/pending_category/mutant-1f17b8d/testCase.test.ts:21:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.742 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_3\pending_category\mutant-1f17b8d\testCase.test.ts".

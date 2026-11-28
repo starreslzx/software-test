@@ -1,0 +1,9 @@
+PASS generated_tests_M01_C_part1a/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-21/artifacts/Complex.js/attempt_6/pending_category/mutant-eed5f9d/testCase.test.ts
+  Complex.acsch
+    √ computes acsch for a tiny complex input where the squared magnitude underflows to zero (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.593 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1a\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-21\artifacts\Complex.js\attempt_6\pending_category\mutant-eed5f9d\testCase.test.ts".

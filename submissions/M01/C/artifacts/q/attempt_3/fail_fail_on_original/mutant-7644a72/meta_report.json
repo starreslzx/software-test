@@ -1,0 +1,10 @@
+{
+  "project": "q",
+  "mutationShortId": "mutant-7644a72",
+  "attempt": 3,
+  "category": "fail_fail_on_original",
+  "elapsedSeconds": 17,
+  "tokensIn": 47990,
+  "tokensOut": 497,
+  "address": "generated_tests_M01_C_part1b\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-11_23-42\\artifacts\\q\\attempt_3\\fail_fail_on_original\\mutant-7644a72"
+}

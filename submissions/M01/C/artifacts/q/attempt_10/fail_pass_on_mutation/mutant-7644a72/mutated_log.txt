@@ -1,0 +1,9 @@
+PASS generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_10/pending_category/mutant-7644a72/testCase.test.ts
+  Q return value handling
+    √ should expose a QReturnValue constructor so Q.return throws a StopIteration-like value (26 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.186 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_10\pending_category\mutant-7644a72\testCase.test.ts".

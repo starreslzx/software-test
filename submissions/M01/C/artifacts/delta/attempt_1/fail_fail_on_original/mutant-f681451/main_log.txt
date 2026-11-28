@@ -1,0 +1,36 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/delta/attempt_1/pending_category/mutant-f681451/testCase.test.ts[0m:[93m1[0m:[93m19[0m - [91merror[0m[90m TS5097: [0mAn import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+
+[7m1[0m import Delta from "../../../../../../../../../../../subject_repositories/delta/src/Delta.ts";
+[7m [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/delta/attempt_1/pending_category/mutant-f681451/testCase.test.ts
+  Delta transform
+    × does not emit a retain when this delta deletes at the same position as other retains (7 ms)
+
+  ● Delta transform › does not emit a retain when this delta deletes at the same position as other retains
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 5
+    + Received  + 1
+
+    - Array [
+    -   Object {
+    -     "retain": 2,
+    -   },
+    - ]
+    + Array []
+
+       8 |     const result = thisDelta.transform(otherDelta, false);
+       9 |
+    > 10 |     expect(result.ops).toEqual([{ retain: 2 }]);
+         |                        ^
+      11 |   });
+      12 | });
+
+      at Object.toEqual (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/delta/attempt_1/pending_category/mutant-f681451/testCase.test.ts:10:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.312 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\delta\attempt_1\pending_category\mutant-f681451\testCase.test.ts".

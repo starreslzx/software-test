@@ -1,0 +1,26 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-e0dce9c/testCase.test.ts
+  Q promise valueOf on rejected promise
+    × throws the rejection reason when valueOf is called on a rejected promise (4 ms)
+
+  ● Q promise valueOf on rejected promise › throws the rejection reason when valueOf is called on a rejected promise
+
+    expect(received).toThrow(expected)
+
+    Expected message: "rejected reason"
+
+    Received function did not throw
+
+       6 |         const rejected = Q.reject(reason);
+       7 |
+    >  8 |         expect(() => rejected.valueOf()).toThrow(reason);
+         |                                          ^
+       9 |     });
+      10 | });
+
+      at Object.toThrow (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-e0dce9c/testCase.test.ts:8:42)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.628 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-e0dce9c\testCase.test.ts".

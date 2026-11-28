@@ -1,0 +1,32 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_9/pending_category/mutant-c4ba1f4/testCase.test.ts
+  Q nextTick with setImmediate
+    × should use setImmediate for scheduling when setImmediate is available and process.nextTick is not (82 ms)
+
+  ● Q nextTick with setImmediate › should use setImmediate for scheduling when setImmediate is available and process.nextTick is not
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      92 |                 // MessageChannel branch is used instead and setImmediate
+      93 |                 // is never called.
+    > 94 |                 expect(setImmediateUsed).toBe(true);
+         |                                          ^
+      95 |                 expect(called).toBe(true);
+      96 |                 done();
+      97 |             } catch (e) {
+
+      at Timeout.toBe [as _onTimeout] (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_9/pending_category/mutant-c4ba1f4/testCase.test.ts:94:42)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.778 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_9\pending_category\mutant-c4ba1f4\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

@@ -1,0 +1,31 @@
+This test case doesn't meet the criteria (Reminder: The criteria is that the test case must pass on the original code,and fail on the mutated code.)
+ 
+This test case fails on the original code with the following log:
+FAIL generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/countries-and-timezones/attempt_6/pending_category/mutant-36f4eda/testCase.test.ts
+  getTimezonesForCountry
+    × returns null for a country whose timezones list is empty (5 ms)
+
+  ● getTimezonesForCountry › returns null for a country whose timezones list is empty
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      12 |       return c && Array.isArray(c.timezones) && c.timezones.length === 0;
+      13 |     });
+    > 14 |     expect(emptyId).toBeDefined();
+         |                     ^
+      15 |     expect(getTimezonesForCountry(emptyId as string)).toEqual([]);
+      16 |   });
+      17 | });
+
+      at Object.toBeDefined (generated_tests_M01_C_part3/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-46/artifacts/countries-and-timezones/attempt_6/pending_category/mutant-36f4eda/testCase.test.ts:14:21)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.314 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part3\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-46\artifacts\countries-and-timezones\attempt_6\pending_category\mutant-36f4eda\testCase.test.ts".
+
+---
+Please try again and give me a new test case.

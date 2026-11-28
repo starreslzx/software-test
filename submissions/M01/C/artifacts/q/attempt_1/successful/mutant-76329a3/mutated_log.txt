@@ -1,0 +1,30 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-76329a3/testCase.test.ts[0m:[93m8[0m:[93m38[0m - [91merror[0m[90m TS2554: [0mExpected 0 arguments, but got 1.
+
+[7m8[0m         const result = await addFive(3);
+[7m [0m [91m                                     ~[0m
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\q\q.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-76329a3/testCase.test.ts
+  Q.fbind
+    × returns a bound function that applies the original function with the bound arguments (2 ms)
+
+  ● Q.fbind › returns a bound function that applies the original function with the bound arguments
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 8
+    Received: undefined
+
+       8 |         const result = await addFive(3);
+       9 |
+    > 10 |         expect(result).toBe(8);
+         |                        ^
+      11 |     });
+      12 | });
+
+      at Object.toBe (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_1/pending_category/mutant-76329a3/testCase.test.ts:10:24)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.874 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_1\pending_category\mutant-76329a3\testCase.test.ts".

@@ -1,0 +1,24 @@
+ts-jest[ts-compiler] (WARN) Unable to process 'C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\pull-stream\sinks\find.js', falling back to original file content. You can also configure Jest config option `transformIgnorePatterns` to ignore C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\subject_repositories\pull-stream\sinks\find.js from transformation or make sure that `outDir` in your tsconfig is neither `''` or `'.'`
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-9c883ef/testCase.test.ts
+  find sink
+    × should call the callback with the first matching value when only a test function is provided (2 ms)
+
+  ● find sink › should call the callback with the first matching value when only a test function is provided
+
+    TypeError: sink(...) is not a function
+
+      18 |     })
+      19 |
+    > 20 |     sink(source)(null, (end: any) => {
+         |                 ^
+      21 |       expect(results).toEqual([[null, 3]])
+      22 |       done()
+      23 |     })
+
+      at Object.<anonymous> (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/pull-stream/attempt_1/pending_category/mutant-9c883ef/testCase.test.ts:20:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.206 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\pull-stream\attempt_1\pending_category\mutant-9c883ef\testCase.test.ts".

@@ -1,0 +1,25 @@
+FAIL generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_4/pending_category/mutant-5095899/testCase.test.ts
+  q.js global export branch
+    × exposes Q as a global when loaded as a script in a window-only context (7 ms)
+
+  ● q.js global export branch › exposes Q as a global when loaded as a script in a window-only context
+
+    expect(received).toBeNull()
+
+    Received: [Error: This environment was not anticipated by Q. Please file a bug.]
+
+      45 |     }
+      46 |
+    > 47 |     expect(error).toBeNull();
+         |                   ^
+      48 |     expect(sandbox.self.Q).toBeDefined();
+      49 |     expect(typeof sandbox.self.Q).toBe("function");
+      50 |     expect(typeof sandbox.self.Q.noConflict).toBe("function");
+
+      at Object.toBeNull (generated_tests_M01_C_part1b/deepseek-flash/temp_0.5/withoutTests/2026-11-11_23-42/artifacts/q/attempt_4/pending_category/mutant-5095899/testCase.test.ts:47:19)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.201 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part1b\deepseek-flash\temp_0.5\withoutTests\2026-11-11_23-42\artifacts\q\attempt_4\pending_category\mutant-5095899\testCase.test.ts".

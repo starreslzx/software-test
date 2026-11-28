@@ -1,0 +1,35 @@
+ts-jest[ts-compiler] (WARN) [96mgenerated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_3/pending_category/mutant-775e92b/testCase.test.ts[0m:[93m1[0m:[93m26[0m - [91merror[0m[90m TS5097: [0mAn import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+
+[7m1[0m import { GeoPoint } from "../../../../../../../../../../../subject_repositories/node-geo-point/src/geo-point.ts";
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+FAIL generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_3/pending_category/mutant-775e92b/testCase.test.ts
+  GeoPoint.fromObject
+    × throws a specific TypeError message when passed a primitive number (20 ms)
+
+  ● GeoPoint.fromObject › throws a specific TypeError message when passed a primitive number
+
+    expect(received).toThrow(expected)
+
+    Expected substring: "GeoPoint: Argument must be an object"
+    Received message:   "Object must have latitude and longitude"
+
+          89 |
+          90 |     if (!object.hasOwnProperty('latitude') || !object.hasOwnProperty('longitude')) {
+        > 91 |       throw new TypeError('Object must have latitude and longitude');
+             |             ^
+          92 |     }
+          93 |
+          94 |     return new GeoPoint(object.latitude, object.longitude);
+
+      at GeoPoint.fromObject (../subject_repositories/node-geo-point/src/geo-point.ts:91:13)
+      at fromObject (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_3/pending_category/mutant-775e92b/testCase.test.ts:5:27)
+      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:74:11)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:320:21)
+      at Object.toThrow (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_3/pending_category/mutant-775e92b/testCase.test.ts:5:50)
+      at Object.toThrow (generated_tests_M01_C_part2/deepseek-flash/temp_0.5/withoutTests/2026-11-12_14-06/artifacts/node-geo-point/attempt_3/pending_category/mutant-775e92b/testCase.test.ts:5:50)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.666 s, estimated 2 s
+Ran all test suites within paths "C:\Users\lenovo\Desktop\ds\LLMutantKiller___Artifact\source-code\generated_tests_M01_C_part2\deepseek-flash\temp_0.5\withoutTests\2026-11-12_14-06\artifacts\node-geo-point\attempt_3\pending_category\mutant-775e92b\testCase.test.ts".

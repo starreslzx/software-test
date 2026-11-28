@@ -1,0 +1,9 @@
+Project Name,#Tested mutants,successful,fail_syntax_error,fail_forbidden_libraries,fail_fail_on_original,fail_pass_on_mutation,average time,average tokens_in,average tokens_out
+node-dirty,4,,,,2,2,79.50,8631.50,1378.25
+plural,1,,,,1,,35.00,6819.00,246.00
+spacl-core,1,,,,1,,119.00,6315.00,368.00
+countries-and-timezones,1,,,,,1,266.00,4602.00,314.00
+image-downloader,0,,,,,,,,
+node-jsonfile,1,,,,,1,86.00,4830.00,913.00
+zip-a-folder,0,,,,,,,,
+Total,8,,,,4,4,103.00,7136.50,919.25

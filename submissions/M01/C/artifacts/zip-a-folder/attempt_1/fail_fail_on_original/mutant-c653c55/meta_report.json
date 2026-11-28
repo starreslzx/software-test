@@ -1,0 +1,10 @@
+{
+  "project": "zip-a-folder",
+  "mutationShortId": "mutant-c653c55",
+  "attempt": 1,
+  "category": "fail_fail_on_original",
+  "elapsedSeconds": 62,
+  "tokensIn": 1810,
+  "tokensOut": 470,
+  "address": "generated_tests_M01_C_part3\\deepseek-flash\\temp_0.5\\withoutTests\\2026-11-12_14-46\\artifacts\\zip-a-folder\\attempt_1\\fail_fail_on_original\\mutant-c653c55"
+}
